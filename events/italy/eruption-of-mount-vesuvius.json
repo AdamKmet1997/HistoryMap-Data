@@ -1,0 +1,19 @@
+{
+  "id": "12",
+  "title": "Eruption of Mount Vesuvius",
+  "description": "On August 24, 79 AD, **Mount Vesuvius** erupted catastrophically, burying the Roman cities of Pompeii and Herculaneum under volcanic ash and pumice.\n\nThe eruption ejected a cloud of stones, ash, and volcanic gases to a height of 33 kilometers. An estimated 16,000 people died from the eruption, primarily from thermal shock and asphyxiation.\n\nThe buried cities were rediscovered in the 18th century, providing an extraordinary detailed insight into life in the Roman Empire.",
+  "startDate": "1979-08-23",
+  "location": {
+    "latitude": 40.821,
+    "longitude": 14.426,
+    "country": "Italy",
+    "city": "Pompeii"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+  ],
+  "createdAt": "2024-01-12",
+  "updatedAt": "2024-01-12"
+}

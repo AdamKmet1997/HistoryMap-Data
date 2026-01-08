@@ -1,0 +1,144 @@
+name: Submit a Historical Event
+description: Suggest a new historical event to add to HistoryMap
+title: "[EVENT]: "
+labels: ["event-submission", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit a Historical Event
+
+        Thank you for contributing to HistoryMap! Please fill out the information below to submit a historical event.
+
+        **Note**: This form is for non-technical users. If you're comfortable with JSON and Git, consider [submitting a Pull Request](../../blob/main/CONTRIBUTING.md) instead.
+
+  - type: input
+    id: event-title
+    attributes:
+      label: Event Title
+      description: The name of the historical event
+      placeholder: "e.g., Battle of Hastings"
+    validations:
+      required: true
+
+  - type: textarea
+    id: event-description
+    attributes:
+      label: Event Description
+      description: Detailed description of the event (minimum 50 characters)
+      placeholder: |
+        The Battle of Hastings was fought on October 14, 1066...
+
+        Include:
+        - What happened
+        - Historical context
+        - Key figures involved
+        - Why it's historically significant
+    validations:
+      required: true
+
+  - type: input
+    id: event-date
+    attributes:
+      label: Event Date
+      description: When did the event occur? (Format: YYYY-MM-DD)
+      placeholder: "1066-10-14"
+    validations:
+      required: true
+
+  - type: input
+    id: end-date
+    attributes:
+      label: End Date (Optional)
+      description: If the event lasted multiple days
+      placeholder: "1066-10-20"
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: In which country did this event take place?
+      placeholder: "United Kingdom"
+    validations:
+      required: true
+
+  - type: input
+    id: city
+    attributes:
+      label: City (Optional)
+      description: In which city did this event take place?
+      placeholder: "Battle, East Sussex"
+
+  - type: input
+    id: latitude
+    attributes:
+      label: Latitude
+      description: Geographic coordinate (you can get this from Google Maps)
+      placeholder: "50.9117"
+    validations:
+      required: true
+
+  - type: input
+    id: longitude
+    attributes:
+      label: Longitude
+      description: Geographic coordinate (you can get this from Google Maps)
+      placeholder: "0.4916"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of event is this?
+      options:
+        - politics
+        - war
+        - culture
+        - science
+        - disaster
+        - religion
+        - exploration
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Provide at least one reliable source (one URL per line)
+      placeholder: |
+        https://en.wikipedia.org/wiki/Battle_of_Hastings
+        https://www.britannica.com/event/Battle-of-Hastings-English-history
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Guidelines
+      description: Please confirm you've read and agree to our guidelines
+      options:
+        - label: I have read the [Contributing Guidelines](../../blob/main/CONTRIBUTING.md)
+          required: true
+        - label: This event is historically accurate and well-documented
+          required: true
+        - label: I have provided at least one reliable source
+          required: true
+        - label: This event is not already in the database
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## What Happens Next?
+
+        1. A maintainer will review your submission
+        2. They may ask for clarifications or additional sources
+        3. Once approved, the event will be added to the database
+        4. It will appear on HistoryMap within minutes!
+
+        Thank you for contributing to HistoryMap! 🎉

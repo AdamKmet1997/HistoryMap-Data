@@ -1,0 +1,21 @@
+{
+  "id": "42",
+  "title": "Establishment of Navan as a Market Town",
+  "description": "**Navan** was officially established as a market town in 1172 following the Norman invasion of Ireland, when Hugh de Lacy was granted the Lordship of Meath by King Henry II of England.\n\nThe Normans recognized Navan's strategic importance at the confluence of the Boyne and Blackwater rivers and established it as an administrative center. A castle was built, and the town received a charter to hold regular markets, which became central to its development.\n\nThe town's Irish name, \"An Uaimh\" (meaning \"the cave\"), may refer to underground chambers or souterrains in the area. Throughout the medieval period, Navan grew as a prosperous market town, trading in agricultural produce, livestock, and goods from the surrounding fertile lands of the Boyne valley. The town remained an important center of commerce and administration in County Meath for centuries.",
+  "startDate": "1172-10-15",
+  "location": {
+    "latitude": 53.6525,
+    "longitude": -6.6813,
+    "country": "Ireland",
+    "city": "Navan",
+    "region": "County Meath"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Navan",
+    "https://en.wikipedia.org/wiki/Hugh_de_Lacy,_Lord_of_Meath"
+  ],
+  "createdAt": "2024-02-11",
+  "updatedAt": "2024-02-11"
+}

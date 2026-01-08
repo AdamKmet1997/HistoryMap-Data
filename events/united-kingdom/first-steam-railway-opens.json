@@ -1,0 +1,19 @@
+{
+  "id": "16",
+  "title": "First Steam Railway Opens",
+  "description": "The **Stockton and Darlington Railway** opened on September 27, 1825, in northeast England. It was the world's first public railway to use steam locomotives.\n\nThe railway was primarily built to transport coal from mines to the port, but it also carried passengers. George Stephenson's locomotive \"Locomotion No. 1\" pulled the first train.\n\nThis event marked the beginning of the railway age, which would revolutionize transportation and industry worldwide.",
+  "startDate": "1825-09-27",
+  "location": {
+    "latitude": 54.56,
+    "longitude": -1.32,
+    "country": "United Kingdom",
+    "city": "Darlington"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Stockton_and_Darlington_Railway"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

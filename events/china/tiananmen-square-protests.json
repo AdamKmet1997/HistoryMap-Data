@@ -1,0 +1,20 @@
+{
+  "id": "11",
+  "title": "Tiananmen Square Protests",
+  "description": "The **Tiananmen Square protests** were student-led demonstrations in Beijing in the spring of 1989, calling for democracy, free speech, and freedom of the press.\n\nThe protests grew to involve millions across China. On June 4, 1989, the Chinese government declared martial law and sent military troops and tanks to occupy central Beijing, forcibly clearing the square.\n\nThe violent suppression of the protests resulted in hundreds to thousands of deaths, and the event remains a sensitive and censored topic in China today.",
+  "startDate": "1989-04-15",
+  "endDate": "1989-06-04",
+  "location": {
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "country": "China",
+    "city": "Beijing"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
+  ],
+  "createdAt": "2024-01-11",
+  "updatedAt": "2024-01-11"
+}

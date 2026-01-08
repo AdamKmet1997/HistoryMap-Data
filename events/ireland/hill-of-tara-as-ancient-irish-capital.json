@@ -1,0 +1,22 @@
+{
+  "id": "41",
+  "title": "Hill of Tara as Ancient Irish Capital",
+  "description": "The **Hill of Tara**, located just 10 kilometers south of Navan, served as the ceremonial and political center of ancient Ireland and the seat of the High Kings of Ireland for centuries until the 11th century.\n\nTara was the symbolic center of royal and spiritual power in Gaelic Ireland. According to tradition, the Lia Fáil (Stone of Destiny) at Tara would roar when touched by the rightful High King. The site contains numerous archaeological monuments including the Mound of the Hostages, a Neolithic passage tomb dating to around 3000 BC.\n\nThe last known High King to be inaugurated at Tara was Máel Sechnaill mac Domnaill in 980 AD. The hill's proximity to Navan meant the town benefited from Tara's importance as a gathering place for political assemblies, religious ceremonies, and festivals. Today, Tara remains one of Ireland's most important archaeological and mythological sites.",
+  "startDate": "0500-01-01",
+  "endDate": "1022-12-31",
+  "location": {
+    "latitude": 53.579,
+    "longitude": -6.6117,
+    "country": "Ireland",
+    "city": "Tara",
+    "region": "County Meath"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hill_of_Tara",
+    "https://en.wikipedia.org/wiki/High_King_of_Ireland"
+  ],
+  "createdAt": "2024-02-10",
+  "updatedAt": "2024-02-10"
+}

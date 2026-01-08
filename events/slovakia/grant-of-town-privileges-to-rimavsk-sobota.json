@@ -1,0 +1,19 @@
+{
+  "id": "37",
+  "title": "Grant of Town Privileges to Rimavská Sobota",
+  "description": "**Rimavská Sobota** received town privileges in 1334 from King Charles I of Hungary, marking its official recognition as a market town.\n\nThe town, located in the Gemer-Malohont region of southern Slovakia, became an important trading center along medieval trade routes. Its strategic location made it a significant hub for commerce between Hungary and the northern territories.\n\nThe town's name derives from the Slovak word \"sobota\" meaning Saturday, referring to the weekly market held on Saturdays. Throughout the centuries, Rimavská Sobota developed as a multicultural center with Hungarian, Slovak, and German communities, and became known for its crafts, particularly pottery and textiles.",
+  "startDate": "1334-06-15",
+  "location": {
+    "latitude": 48.3833,
+    "longitude": 20.0167,
+    "country": "Slovakia",
+    "city": "Rimavská Sobota"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rimavsk%C3%A1_Sobota"
+  ],
+  "createdAt": "2024-02-06",
+  "updatedAt": "2024-02-06"
+}

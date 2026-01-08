@@ -1,0 +1,19 @@
+{
+  "id": "4",
+  "title": "French Revolution Begins",
+  "description": "The **French Revolution** began with the Storming of the Bastille on July 14, 1789. This medieval fortress and prison in Paris represented royal authority in the center of the city.\n\nThe revolutionaries seized the Bastille, freeing the prisoners and acquiring weapons. This event became a symbol of the overthrow of the old regime and is celebrated annually as Bastille Day, France's national holiday.\n\nThe revolution fundamentally changed the course of French and world history, leading to the end of monarchy in France and the rise of democracy and nationalism.",
+  "startDate": "1789-07-14",
+  "location": {
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "country": "France",
+    "city": "Paris"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Storming_of_the_Bastille"
+  ],
+  "createdAt": "2024-01-04",
+  "updatedAt": "2024-01-04"
+}

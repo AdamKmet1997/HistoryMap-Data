@@ -1,0 +1,19 @@
+{
+  "id": "21",
+  "title": "Construction of the Taj Mahal Completed",
+  "description": "The **Taj Mahal** was completed in 1653 after 22 years of construction. It was commissioned by Mughal Emperor Shah Jahan as a mausoleum for his beloved wife, Mumtaz Mahal.\n\nThis ivory-white marble mausoleum is considered one of the finest examples of Mughal architecture, combining elements from Islamic, Persian, Ottoman Turkish, and Indian architectural styles.\n\nThe Taj Mahal is now one of the most recognized structures in the world and a UNESCO World Heritage Site.",
+  "startDate": "1653-01-01",
+  "location": {
+    "latitude": 27.1751,
+    "longitude": 78.0421,
+    "country": "India",
+    "city": "Agra"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taj_Mahal"
+  ],
+  "createdAt": "2024-01-21",
+  "updatedAt": "2024-01-21"
+}

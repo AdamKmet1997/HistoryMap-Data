@@ -1,0 +1,21 @@
+{
+  "id": "24",
+  "title": "Woodstock Music Festival",
+  "description": "The **Woodstock Music & Art Fair** took place from August 15-18, 1969, on a dairy farm in Bethel, New York. It attracted an audience of over 400,000 people.\n\nThe festival featured iconic performances by Jimi Hendrix, Janis Joplin, The Who, and many others. It became a defining moment of the counterculture movement and the \"hippie\" era.\n\nDespite logistical challenges including shortages of food and medical supplies, the festival is remembered as a peaceful celebration of music and youth culture.",
+  "startDate": "1969-08-15",
+  "endDate": "1969-08-18",
+  "location": {
+    "latitude": 41.7012,
+    "longitude": -74.8802,
+    "country": "United States",
+    "city": "Bethel",
+    "region": "New York"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Woodstock"
+  ],
+  "createdAt": "2024-01-24",
+  "updatedAt": "2024-01-24"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "8",
+  "title": "Signing of the Magna Carta",
+  "description": "The **Magna Carta** (\"Great Charter\") was signed by King John of England at Runnymede, near Windsor, on June 15, 1215.\n\nThis historic document was created to make peace between the unpopular king and a group of rebel barons. It promised the protection of church rights, protection from illegal imprisonment, access to swift justice, and limitations on feudal payments to the Crown.\n\nThe Magna Carta is considered one of the most important legal documents in the development of modern democracy. It influenced the development of common law and constitutional law, including the United States Constitution.",
+  "startDate": "1215-06-15",
+  "location": {
+    "latitude": 51.437,
+    "longitude": -0.5654,
+    "country": "United Kingdom",
+    "city": "Runnymede",
+    "region": "Surrey"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Magna_Carta"
+  ],
+  "createdAt": "2024-01-08",
+  "updatedAt": "2024-01-08"
+}

@@ -1,0 +1,142 @@
+name: Sync to Supabase
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'events/**/*.json'
+
+jobs:
+  sync:
+    name: Sync Events to Supabase
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install @supabase/supabase-js glob
+
+      - name: Create sync script
+        run: |
+          cat > sync.js << 'EOF'
+          const { createClient } = require('@supabase/supabase-js');
+          const fs = require('fs');
+          const glob = require('glob');
+
+          const supabaseUrl = process.env.SUPABASE_URL;
+          const supabaseServiceKey = process.env.SUPABASE_SERVICE_KEY;
+
+          if (!supabaseUrl || !supabaseServiceKey) {
+            console.error('❌ Missing Supabase credentials');
+            process.exit(1);
+          }
+
+          const supabase = createClient(supabaseUrl, supabaseServiceKey);
+
+          async function syncEvents() {
+            console.log('🔄 Starting sync to Supabase...\n');
+
+            const eventFiles = glob.sync('events/**/*.json');
+            console.log(`📦 Found ${eventFiles.length} event files\n`);
+
+            let insertedCount = 0;
+            let updatedCount = 0;
+            let errorCount = 0;
+
+            for (const file of eventFiles) {
+              try {
+                const eventData = JSON.parse(fs.readFileSync(file, 'utf-8'));
+
+                // Transform to database format
+                const dbEvent = {
+                  id: eventData.id,
+                  title: eventData.title,
+                  description: eventData.description,
+                  start_date: eventData.startDate,
+                  end_date: eventData.endDate || null,
+                  latitude: eventData.location.latitude,
+                  longitude: eventData.location.longitude,
+                  country: eventData.location.country,
+                  city: eventData.location.city || null,
+                  region: eventData.location.region || null,
+                  category: eventData.category,
+                  status: eventData.status,
+                  sources: eventData.sources || [],
+                  created_by: 'github-actions',
+                };
+
+                // Upsert (insert or update)
+                const { error } = await supabase
+                  .from('events')
+                  .upsert(dbEvent, {
+                    onConflict: 'id',
+                  });
+
+                if (error) {
+                  console.error(`❌ ${file}: ${error.message}`);
+                  errorCount++;
+                } else {
+                  console.log(`✅ ${file}`);
+                  insertedCount++;
+                }
+              } catch (error) {
+                console.error(`❌ ${file}: ${error.message}`);
+                errorCount++;
+              }
+            }
+
+            console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+            console.log(`📊 Sync Summary:`);
+            console.log(`   ✅ Synced: ${insertedCount}`);
+            console.log(`   ❌ Failed: ${errorCount}`);
+            console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
+
+            if (errorCount > 0) {
+              console.error('⚠️  Some events failed to sync');
+              process.exit(1);
+            } else {
+              console.log('✨ All events synced successfully!');
+            }
+          }
+
+          syncEvents();
+          EOF
+
+      - name: Sync to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: node sync.js
+
+      - name: Trigger Vercel rebuild
+        if: success()
+        env:
+          VERCEL_WEBHOOK_URL: ${{ secrets.VERCEL_WEBHOOK_URL }}
+        run: |
+          if [ ! -z "$VERCEL_WEBHOOK_URL" ]; then
+            echo "🔄 Triggering Vercel rebuild..."
+            curl -X POST "$VERCEL_WEBHOOK_URL"
+            echo "✅ Rebuild triggered!"
+          else
+            echo "⚠️  VERCEL_WEBHOOK_URL not set, skipping rebuild trigger"
+          fi
+
+      - name: Sync complete
+        if: success()
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "🎉 Sync complete!"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+          echo "✅ Events synced to Supabase"
+          echo "✅ Vercel rebuild triggered"
+          echo "🌐 Changes will be live within 2-3 minutes"
+          echo ""

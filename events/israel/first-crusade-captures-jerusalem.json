@@ -1,0 +1,19 @@
+{
+  "id": "23",
+  "title": "First Crusade Captures Jerusalem",
+  "description": "On July 15, 1099, the **First Crusade** culminated in the capture of Jerusalem from Muslim rule. After a brutal siege, Crusader forces breached the city walls.\n\nThe capture was followed by widespread massacre of the city's Muslim and Jewish inhabitants. The Crusaders established the Kingdom of Jerusalem, which would last until 1291.\n\nThe Crusades had profound long-term effects on Christian-Muslim relations and European society.",
+  "startDate": "1099-07-15",
+  "location": {
+    "latitude": 31.7683,
+    "longitude": 35.2137,
+    "country": "Israel",
+    "city": "Jerusalem"
+  },
+  "category": "religion",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1099)"
+  ],
+  "createdAt": "2024-01-23",
+  "updatedAt": "2024-01-23"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "6",
+  "title": "Great Fire of London",
+  "description": "The **Great Fire of London** was a major conflagration that swept through central London from September 2 to September 6, 1666.\n\nThe fire started at a bakery on Pudding Lane and spread rapidly through the medieval wooden buildings. It destroyed 13,200 houses, 87 churches, St Paul's Cathedral, and most of the buildings of the City authorities. It is estimated to have destroyed the homes of 70,000 of the City's 80,000 inhabitants.\n\nThe fire led to major rebuilding efforts and the implementation of building regulations to prevent future disasters. Sir Christopher Wren designed many of the replacement churches, including the new St Paul's Cathedral.",
+  "startDate": "1666-09-02",
+  "endDate": "1666-09-06",
+  "location": {
+    "latitude": 51.5074,
+    "longitude": -0.0858,
+    "country": "United Kingdom",
+    "city": "London"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Great_Fire_of_London"
+  ],
+  "createdAt": "2024-01-06",
+  "updatedAt": "2024-01-06"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "15",
+  "title": "Treaty of Versailles Signed",
+  "description": "The **Treaty of Versailles** was signed on June 28, 1919, officially ending World War I between Germany and the Allied Powers.\n\nThe treaty imposed harsh penalties on Germany, including substantial territorial losses, military restrictions, and reparations payments. Many historians argue these conditions contributed to the rise of Adolf Hitler and the outbreak of World War II.\n\nThe treaty was signed in the Hall of Mirrors at the Palace of Versailles, the same location where the German Empire had been proclaimed in 1871.",
+  "startDate": "1919-06-28",
+  "location": {
+    "latitude": 48.8049,
+    "longitude": 2.1204,
+    "country": "France",
+    "city": "Versailles"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

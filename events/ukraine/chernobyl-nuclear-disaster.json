@@ -1,0 +1,19 @@
+{
+  "id": "9",
+  "title": "Chernobyl Nuclear Disaster",
+  "description": "The **Chernobyl disaster** was a nuclear accident that occurred on April 26, 1986, at the No. 4 reactor in the Chernobyl Nuclear Power Plant, near Pripyat, in Soviet Ukraine.\n\nIt is considered the worst nuclear disaster in history. The accident occurred during a late-night safety test which resulted in a massive explosion and fire that released large amounts of radioactive particles into the atmosphere.\n\nThe city of Pripyat was evacuated, and a 30-kilometer exclusion zone was established. The disaster had severe health and environmental consequences across Europe.",
+  "startDate": "1986-04-26",
+  "location": {
+    "latitude": 51.389,
+    "longitude": 30.0997,
+    "country": "Ukraine",
+    "city": "Pripyat"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+  ],
+  "createdAt": "2024-01-09",
+  "updatedAt": "2024-01-09"
+}

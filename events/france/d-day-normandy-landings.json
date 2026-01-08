@@ -1,0 +1,19 @@
+{
+  "id": "26",
+  "title": "D-Day Normandy Landings",
+  "description": "On June 6, 1944, **D-Day**, Allied forces launched the largest amphibious invasion in history on the beaches of Normandy, France. Operation Overlord involved nearly 160,000 troops crossing the English Channel.\n\nThe invasion marked the beginning of the liberation of Western Europe from Nazi control. Despite heavy casualties, the Allies established a beachhead and began pushing inland.\n\nD-Day was a turning point in World War II and is commemorated annually as a pivotal moment in modern history.",
+  "startDate": "1944-06-06",
+  "location": {
+    "latitude": 49.3344,
+    "longitude": -0.8566,
+    "country": "France",
+    "city": "Normandy"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Normandy_landings"
+  ],
+  "createdAt": "2024-01-26",
+  "updatedAt": "2024-01-26"
+}

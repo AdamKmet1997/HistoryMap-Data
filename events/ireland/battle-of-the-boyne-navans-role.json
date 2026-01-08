@@ -1,0 +1,22 @@
+{
+  "id": "40",
+  "title": "Battle of the Boyne - Navan's Role",
+  "description": "The town of **Navan** in County Meath played a significant supporting role during the Battle of the Boyne campaign in 1690. King William III's forces passed through Navan and the surrounding area as they maneuvered toward the Boyne valley.\n\nNavan, situated at the confluence of the River Boyne and River Blackwater, was a strategic location for military movements. The town provided supplies and served as a waypoint for troops during the Williamite campaign in Ireland.\n\nThe proximity of Navan to the battle site (approximately 15 kilometers upstream) meant that the town was directly affected by the military operations, with both armies requisitioning supplies and housing troops in the area before and after the battle.",
+  "startDate": "1690-06-28",
+  "endDate": "1690-07-05",
+  "location": {
+    "latitude": 53.6525,
+    "longitude": -6.6813,
+    "country": "Ireland",
+    "city": "Navan",
+    "region": "County Meath"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Navan",
+    "https://en.wikipedia.org/wiki/Battle_of_the_Boyne"
+  ],
+  "createdAt": "2024-02-09",
+  "updatedAt": "2024-02-09"
+}

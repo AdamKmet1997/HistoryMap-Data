@@ -1,0 +1,21 @@
+{
+  "id": "29",
+  "title": "The Great Irish Famine",
+  "description": "The **Great Famine**, also known as the Irish Potato Famine, was a period of mass starvation and disease in Ireland from 1845 to 1852.\n\nThe famine was caused by a potato blight (Phytophthora infestans) that destroyed potato crops, the main food source for the majority of the Irish population. An estimated one million people died and another million emigrated, reducing Ireland's population by 20-25%.\n\nThe famine had long-lasting effects on Irish society and culture, and is considered one of the greatest tragedies in Irish history. It led to widespread emigration, particularly to the United States, Canada, and Britain.",
+  "startDate": "1845-09-01",
+  "endDate": "1852-12-31",
+  "location": {
+    "latitude": 53.4129,
+    "longitude": -8.2439,
+    "country": "Ireland",
+    "city": "Galway"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)",
+    "https://www.historyireland.com/18th-19th-century-history/the-great-famine/"
+  ],
+  "createdAt": "2024-01-29",
+  "updatedAt": "2024-01-29"
+}

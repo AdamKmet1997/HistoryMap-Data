@@ -1,0 +1,19 @@
+{
+  "id": "18",
+  "title": "Indian Independence",
+  "description": "On August 15, 1947, **India** gained independence from British rule, ending nearly 200 years of British colonial control.\n\nThe independence came at the cost of partition, which created the separate nation of Pakistan. The partition led to one of the largest mass migrations in human history and communal violence that claimed hundreds of thousands of lives.\n\nJawaharlal Nehru became India's first Prime Minister, while Lord Mountbatten served as the last Viceroy and first Governor-General of independent India.",
+  "startDate": "1947-08-15",
+  "location": {
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "country": "India",
+    "city": "New Delhi"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Indian_independence_movement"
+  ],
+  "createdAt": "2024-01-18",
+  "updatedAt": "2024-01-18"
+}

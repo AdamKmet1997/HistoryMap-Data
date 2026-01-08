@@ -1,0 +1,20 @@
+{
+  "id": "33",
+  "title": "Slovak National Uprising",
+  "description": "The **Slovak National Uprising** was an armed resistance movement in Slovakia against Nazi Germany and the collaborationist Slovak government. It began on August 29, 1944.\n\nThe uprising was launched by Slovak resistance fighters, including Slovak Army units, partisans, and volunteers. The insurgents controlled large parts of central Slovakia for two months before being suppressed by German forces in late October 1944.\n\nAlthough ultimately unsuccessful, the uprising is celebrated in Slovakia as a symbol of resistance against fascism. An estimated 30,000 Slovak fighters participated, and the event is commemorated annually as a national holiday on August 29.",
+  "startDate": "1944-08-29",
+  "endDate": "1944-10-27",
+  "location": {
+    "latitude": 48.7382,
+    "longitude": 19.1526,
+    "country": "Slovakia",
+    "city": "Banská Bystrica"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Slovak_National_Uprising"
+  ],
+  "createdAt": "2024-02-02",
+  "updatedAt": "2024-02-02"
+}

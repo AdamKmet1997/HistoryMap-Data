@@ -1,0 +1,19 @@
+{
+  "id": "25",
+  "title": "Sinking of the Titanic",
+  "description": "The **RMS Titanic** sank in the early morning of April 15, 1912, after striking an iceberg during her maiden voyage from Southampton to New York City.\n\nOf the estimated 2,224 passengers and crew aboard, more than 1,500 died, making it one of the deadliest peacetime maritime disasters in history. The ship had been considered \"unsinkable\" due to its advanced safety features.\n\nThe disaster led to major improvements in maritime safety regulations, including better lifeboat requirements and 24-hour radio watch on passenger ships.",
+  "startDate": "1912-04-15",
+  "location": {
+    "latitude": 41.7325,
+    "longitude": -49.9469,
+    "country": "Atlantic Ocean",
+    "region": "International Waters"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
+  ],
+  "createdAt": "2024-01-25",
+  "updatedAt": "2024-01-25"
+}

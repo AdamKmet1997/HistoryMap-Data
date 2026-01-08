@@ -1,0 +1,112 @@
+name: Validate Events
+
+on:
+  pull_request:
+    paths:
+      - 'events/**/*.json'
+  push:
+    branches:
+      - main
+    paths:
+      - 'events/**/*.json'
+
+jobs:
+  validate:
+    name: Validate Event JSON Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install ajv ajv-formats
+
+      - name: Create validation script
+        run: |
+          cat > validate.js << 'EOF'
+          const Ajv = require('ajv');
+          const addFormats = require('ajv-formats');
+          const fs = require('fs');
+          const path = require('path');
+          const glob = require('glob');
+
+          // Load schema
+          const schema = JSON.parse(fs.readFileSync('schema.json', 'utf-8'));
+
+          // Create validator
+          const ajv = new Ajv({ allErrors: true });
+          addFormats(ajv);
+          const validate = ajv.compile(schema);
+
+          // Find all event JSON files
+          const eventFiles = glob.sync('events/**/*.json');
+
+          console.log(`\n🔍 Found ${eventFiles.length} event files to validate\n`);
+
+          let hasErrors = false;
+          let validCount = 0;
+
+          for (const file of eventFiles) {
+            try {
+              const data = JSON.parse(fs.readFileSync(file, 'utf-8'));
+              const valid = validate(data);
+
+              if (!valid) {
+                console.error(`❌ ${file}`);
+                console.error('   Errors:');
+                validate.errors.forEach(err => {
+                  console.error(`   - ${err.instancePath} ${err.message}`);
+                });
+                console.error('');
+                hasErrors = true;
+              } else {
+                console.log(`✅ ${file}`);
+                validCount++;
+              }
+            } catch (error) {
+              console.error(`❌ ${file}`);
+              console.error(`   Parse Error: ${error.message}\n`);
+              hasErrors = true;
+            }
+          }
+
+          console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+          console.log(`📊 Validation Summary:`);
+          console.log(`   ✅ Valid: ${validCount}`);
+          console.log(`   ❌ Invalid: ${eventFiles.length - validCount}`);
+          console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
+
+          if (hasErrors) {
+            console.error('💥 Validation failed. Please fix the errors above.\n');
+            process.exit(1);
+          } else {
+            console.log('✨ All events are valid!\n');
+          }
+          EOF
+
+      - name: Run validation
+        run: node validate.js
+
+      - name: Check for duplicates
+        run: |
+          # Check for duplicate IDs
+          duplicates=$(jq -r '.id' events/**/*.json | sort | uniq -d)
+          if [ ! -z "$duplicates" ]; then
+            echo "❌ Duplicate event IDs found:"
+            echo "$duplicates"
+            exit 1
+          else
+            echo "✅ No duplicate IDs found"
+          fi
+
+      - name: Validation summary
+        if: success()
+        run: |
+          echo "✅ All validation checks passed!"
+          echo "Events are ready to be merged."

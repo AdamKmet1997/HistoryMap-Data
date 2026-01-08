@@ -1,0 +1,21 @@
+{
+  "id": "1",
+  "title": "Easter Rising in Dublin",
+  "description": "The **Easter Rising** was an armed insurrection in Ireland during Easter Week in April 1916.\n\nThe Rising was launched by Irish republicans against British rule in Ireland with the aim of establishing an independent Irish Republic while the United Kingdom was fighting the First World War.\n\nIt was the most significant uprising in Ireland since the rebellion of 1798 and the first armed conflict of the Irish revolutionary period. The rebels seized key locations in Dublin and proclaimed an Irish Republic. The British Army brought in thousands of reinforcements as well as artillery and a gunboat.\n\nThere were casualties on both sides, with around 500 people killed and over 2,500 wounded. Although it was defeated militarily, the Rising and the British response led to greater popular support for Irish independence.",
+  "startDate": "1916-04-24",
+  "endDate": "1916-04-30",
+  "location": {
+    "latitude": 53.3498,
+    "longitude": -6.2603,
+    "country": "Ireland",
+    "city": "Dublin"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Easter_Rising",
+    "https://www.historyireland.com/20th-century-contemporary-history/the-easter-rising/"
+  ],
+  "createdAt": "2024-01-01",
+  "updatedAt": "2024-01-01"
+}
