@@ -423,6 +423,33 @@
   </div>
 
   <script>
+    console.log('HistoryMap Contributor Tool script loaded');
+
+    // Wait for DOM to be fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM loaded, initializing form');
+      initializeForm();
+    });
+
+    // Also run immediately in case DOM is already loaded
+    if (document.readyState === 'loading') {
+      // DOM not ready yet
+    } else {
+      // DOM is ready
+      console.log('DOM already ready, initializing form');
+      initializeForm();
+    }
+
+    function initializeForm() {
+      const form = document.getElementById('eventForm');
+      if (!form) {
+        console.error('Form not found!');
+        return;
+      }
+      console.log('Form found, attaching event listener');
+      form.addEventListener('submit', handleSubmit);
+    }
+
     function addSource() {
       const container = document.getElementById('sourcesContainer');
       const sourceInput = document.createElement('div');
@@ -454,10 +481,12 @@
       }, 5000);
     }
 
-    document.getElementById('eventForm').addEventListener('submit', function(e) {
+    function handleSubmit(e) {
       e.preventDefault();
+      console.log('Form submitted');
 
-      // Get form values
+      try {
+        // Get form values
       const eventId = document.getElementById('eventId').value.trim();
       const title = document.getElementById('title').value.trim();
       const description = document.getElementById('description').value.trim();
@@ -576,7 +605,13 @@
       document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
 
       showSuccess('✅ JSON generated successfully! Copy it and create a pull request.');
-    });
+      console.log('JSON generated successfully');
+
+      } catch (error) {
+        console.error('Error generating JSON:', error);
+        showError('Error generating JSON: ' + error.message + '. Please check the console for details.');
+      }
+    }
 
     function copyToClipboard() {
       const jsonText = document.getElementById('jsonOutput').textContent;
