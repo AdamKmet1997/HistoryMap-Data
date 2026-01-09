@@ -8,25 +8,36 @@
 This repository contains a community-maintained collection of historical events from around the world. Events are stored as JSON files and automatically synced to the HistoryMap Supabase database when approved.
 
 🌐 **View on the map**: [HistoryMap](https://historymap.vercel.app) *(coming soon)*
+🎨 **[Contributor Tool](https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html)** - Generate properly formatted events in seconds!
+
+## 📋 Quick Links
+
+- 🚀 **[Start Contributing](#-how-to-contribute)** - Add your first event!
+- 📝 **[Event Format](#-event-format)** - JSON structure and examples
+- ✅ **[Guidelines](#-contribution-guidelines)** - Quality standards and rules
+- 🤖 **[Automated Workflow](#-automated-workflow)** - How PRs are processed
+- 📜 **[Schema](schema.json)** - Technical specification
+- 📖 **[Contributing Guide](CONTRIBUTING.md)** - Detailed instructions
 
 ---
 
 ## 📊 Current Stats
 
-- **Total Events**: 43
-- **Countries**: 19
+- **Total Events**: 124+ ✅
+- **Countries**: 35+
+- **Contributors**: Growing community
 - **Categories**: Politics, War, Culture, Science, Disaster, Religion, Exploration
-- **Date Range**: 2560 BC - 1998 AD
+- **Date Range**: 10,000 BC - Present
+- **Coverage**: All continents represented
 
-### Events by Country
-- 🇮🇪 Ireland: 8 events
-- 🇸🇰 Slovakia: 7 events
-- 🇬🇧 United Kingdom: 4 events
-- 🇺🇸 United States: 4 events
-- 🇫🇷 France: 3 events
-- 🇮🇹 Italy: 3 events
-- 🇮🇳 India: 2 events
-- And 12 more countries!
+### Top Countries
+- 🇺🇸 United States
+- 🇬🇧 United Kingdom
+- 🇫🇷 France
+- 🇮🇪 Ireland
+- 🇩🇪 Germany
+- 🇮🇹 Italy
+- And 30+ more countries!
 
 ---
 
@@ -46,15 +57,19 @@ This repository serves as:
 HistoryMap-Data/
 ├── events/              # Historical events organized by country
 │   ├── ireland/
-│   │   ├── easter-rising-in-dublin.json
+│   │   ├── easter-rising-1916.json
 │   │   ├── great-irish-famine.json
 │   │   └── ...
-│   ├── slovakia/
-│   │   ├── velvet-revolution-in-czechoslovakia.json
+│   ├── france/
+│   │   ├── storming-of-bastille-1789.json
 │   │   └── ...
-│   └── ...
+│   ├── united-states/
+│   │   ├── declaration-of-independence-1776.json
+│   │   └── ...
+│   └── [35+ countries...]
+├── contribute.html      # ⭐ Interactive event submission tool
 ├── schema.json          # JSON schema for event validation
-├── CONTRIBUTING.md      # Contribution guidelines
+├── CONTRIBUTING.md      # Detailed contribution guidelines
 └── README.md           # This file
 ```
 
@@ -62,56 +77,81 @@ HistoryMap-Data/
 
 ## 🚀 How to Contribute
 
-We welcome contributions! You can add historical events in three ways:
+We welcome contributions from everyone! Adding historical events is easy - choose the method that works best for you:
 
-### Option 1: Use the Contributor Tool (Easiest) ⭐
+### 🌟 Option 1: Interactive Contributor Tool (Recommended)
 
 **[🚀 Open Contributor Tool Online](https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html)**
 
-Or download [contribute.html](contribute.html) and open it in your browser (no installation needed!)
+The easiest way to contribute! This tool:
+- ✅ Validates all your inputs in real-time
+- ✅ Prevents formatting errors
+- ✅ Generates properly formatted JSON for you
+- ✅ Works completely offline (no installation needed)
+- ✅ Includes helpful links for finding coordinates
 
-1. Fill out the form with event details
-2. Click "Generate JSON" to create properly formatted JSON
-3. Copy the generated JSON
-4. Create a new file in `events/[country]/` and paste the JSON
-5. Submit a pull request!
+**How to use:**
+1. Click the link above (or download [contribute.html](contribute.html) and open it locally)
+2. Fill out the form with your event details
+3. Click "Generate JSON" button
+4. Copy the generated JSON to your clipboard
+5. Fork this repository
+6. Create a new file: `events/[country-name]/[event-id].json`
+7. Paste the JSON and submit a pull request
+8. That's it! We'll review and merge your contribution
 
-**✨ This tool prevents formatting errors and validates your data automatically. Works completely offline - just open the HTML file in any browser!**
+**Finding Coordinates:**
+- Use [LatLong.net](https://www.latlong.net/) to find accurate coordinates
+- Or right-click on Google Maps and copy the coordinates
 
-### Option 2: Submit via Pull Request (Manual)
+---
+
+### 📝 Option 2: Manual JSON File (Advanced)
+
+If you're comfortable with JSON:
+
 1. Fork this repository
-2. Create a new JSON file in the appropriate country folder
-3. Follow the [JSON schema](schema.json)
-4. Submit a pull request
+2. Create a new JSON file in `events/[country]/[event-id].json`
+3. Follow the [schema.json](schema.json) format (see example below)
+4. Validate your JSON against the schema
+5. Submit a pull request with your event
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed technical guidelines.
 
-### Option 3: Submit via GitHub Issue
+---
+
+### 💬 Option 3: Submit via GitHub Issue (No Coding Required)
+
+Don't want to deal with files and JSON?
+
 1. Go to [Issues](../../issues/new/choose)
 2. Click "Submit a Historical Event"
-3. Fill out the template
-4. Submit!
+3. Fill out the event details in the template
+4. Submit the issue
+5. A maintainer will create the JSON file and add it for you!
 
-We'll review it and add it to the database.
+This option is perfect if you're not familiar with Git or JSON.
 
 ---
 
 ## 📝 Event Format
 
-Each event is a JSON file following this structure:
+Each event is stored as a JSON file. Here's a complete example:
 
 ```json
 {
   "id": "easter-rising-1916",
   "title": "Easter Rising in Dublin",
-  "description": "The Easter Rising was an armed insurrection...",
+  "description": "The Easter Rising was an armed insurrection in Ireland during Easter Week in April 1916. Members of the Irish Volunteers and the Irish Citizen Army seized key locations in Dublin and proclaimed an Irish Republic. The uprising lasted six days before the rebels surrendered. While initially unsuccessful, it became a significant event that contributed to Irish independence.",
   "startDate": "1916-04-24",
   "endDate": "1916-04-30",
+  "year": 1916,
   "location": {
     "latitude": 53.3498,
     "longitude": -6.2603,
     "country": "Ireland",
-    "city": "Dublin"
+    "city": "Dublin",
+    "region": "Leinster"
   },
   "category": "politics",
   "status": "approved",
@@ -119,27 +159,54 @@ Each event is a JSON file following this structure:
     "https://en.wikipedia.org/wiki/Easter_Rising",
     "https://www.historyireland.com/20th-century-contemporary-history/the-easter-rising/"
   ],
+  "contributedBy": "YourGitHubUsername",
   "createdAt": "2024-01-01",
   "updatedAt": "2024-01-01"
 }
 ```
 
 ### Required Fields
-- **id**: Unique identifier (kebab-case)
-- **title**: Event title (5-200 characters)
-- **description**: Detailed description (50-5000 characters, supports Markdown)
-- **startDate**: ISO 8601 date (YYYY-MM-DD)
-- **location**: Geographic coordinates and place names
-- **category**: One of: `politics`, `war`, `culture`, `science`, `disaster`, `religion`, `exploration`
-- **status**: Usually `approved` for new submissions
-- **sources**: Array of URLs (minimum 1, maximum 10)
+
+| Field | Type | Description | Example |
+|-------|------|-------------|---------|
+| **id** | string | Unique identifier in kebab-case | `"easter-rising-1916"` |
+| **title** | string | Event title (5-200 chars) | `"Easter Rising in Dublin"` |
+| **description** | string | Detailed description (50-5000 chars, Markdown supported) | `"The Easter Rising was..."` |
+| **startDate** | string | ISO 8601 date (YYYY-MM-DD) | `"1916-04-24"` |
+| **location** | object | Geographic information | See below |
+| **location.latitude** | number | Latitude (-90 to 90) | `53.3498` |
+| **location.longitude** | number | Longitude (-180 to 180) | `-6.2603` |
+| **location.country** | string | Country name | `"Ireland"` |
+| **category** | string | Event category | `"politics"`, `"war"`, `"culture"`, `"science"`, `"disaster"`, `"religion"`, `"exploration"` |
+| **status** | string | Approval status | `"approved"` (default) |
+| **sources** | array | Source URLs (1-10 URLs) | `["https://..."]` |
+| **createdAt** | string | Creation date (YYYY-MM-DD) | `"2024-01-01"` |
+| **updatedAt** | string | Last update date (YYYY-MM-DD) | `"2024-01-01"` |
 
 ### Optional Fields
-- **endDate**: For events spanning multiple days
-- **location.city**: City name
-- **location.region**: State/province/region
 
-See [schema.json](schema.json) for the complete specification.
+| Field | Type | Description | Example |
+|-------|------|-------------|---------|
+| **endDate** | string | End date for multi-day events | `"1916-04-30"` |
+| **year** | integer | Actual year (negative for BC dates) | `1916` or `-2560` for 2560 BC |
+| **location.city** | string | City name | `"Dublin"` |
+| **location.region** | string | State/province/region | `"Leinster"` |
+| **contributedBy** | string | GitHub username or contributor name | `"JohnDoe"` |
+
+### Special Notes
+
+**BC Dates:**
+For events before 1 AD (BC dates), use negative years:
+- 2560 BC = `-2560`
+- 753 BC = `-753`
+- 44 BC = `-44`
+
+The `startDate` field should use a placeholder like `"2560-01-01"` for display purposes.
+
+**Contributor Attribution:**
+Add your GitHub username in the `contributedBy` field to get credited on the dashboard!
+
+See [schema.json](schema.json) for the complete technical specification and validation rules.
 
 ---
 
@@ -208,7 +275,20 @@ Under the following terms:
 
 ## 🌟 Contributors
 
-Thanks to all contributors who have added historical events!
+Thanks to all contributors who have added historical events! Your contributions are making history more accessible to everyone.
+
+### How to Get Credit
+
+Add your GitHub username or name to the `contributedBy` field in your event JSON:
+
+```json
+{
+  "contributedBy": "YourGitHubUsername",
+  ...
+}
+```
+
+Your contributions will be tracked and displayed on the [HistoryMap Dashboard](https://historymap.vercel.app/dashboard)!
 
 <!-- Contributors will be automatically listed here -->
 
@@ -231,25 +311,79 @@ Thanks to all contributors who have added historical events!
 ## 🎓 Educational Use
 
 This dataset is perfect for:
-- History education
+- History education and teaching
 - Data visualization projects
 - GIS and mapping applications
-- Historical research
-- Timeline projects
+- Historical research and analysis
+- Timeline and chronology projects
+- Machine learning and NLP training data
 
 Feel free to use this data in your projects! Just give attribution.
 
 ---
 
-## 📈 Roadmap
+## ❓ FAQ
 
-- [ ] Reach 100 events
-- [ ] Add events from all continents
-- [ ] Create automated quality checks
-- [ ] Add multi-language support
-- [ ] Create data export tools (CSV, GeoJSON)
-- [ ] Build event relationship system (causes/effects)
+### How do I add an event from before 1 AD (BC)?
+Use a negative year value in the `year` field. For example, 2560 BC = `-2560`. The contributor tool handles this automatically!
+
+### Can I add events from my local area?
+Absolutely! We welcome locally significant events as long as they're historically notable and well-documented.
+
+### What makes a good source?
+Reliable sources include: Wikipedia, academic journals, museum websites, government archives, established historical societies, and reputable news sources.
+
+### How long does it take for my event to appear on the map?
+Once your PR is reviewed and merged, events sync to the database within minutes and appear on the live map within 1 hour (due to ISR caching).
+
+### Can I update an existing event?
+Yes! Submit a PR with your changes to the existing JSON file. Make sure to update the `updatedAt` date.
+
+### I found an error in an event. How do I report it?
+Open an issue with the event ID and describe the error. Or submit a PR with the fix directly!
+
+### Do I need to know how to code to contribute?
+No! You can use our [interactive contributor tool](https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html) or submit via GitHub Issues. No coding required!
 
 ---
 
+## 📈 Roadmap
+
+### Completed ✅
+- [x] Reach 100 events (124+!)
+- [x] Add events from all continents
+- [x] Create interactive contributor tool
+- [x] Add contributor attribution system
+- [x] Support BC dates
+
+### In Progress 🚧
+- [ ] Reach 500 events
+- [ ] Add automated quality checks with GitHub Actions
+- [ ] Create comprehensive CONTRIBUTING guide with examples
+
+### Future Goals 🎯
+- [ ] Reach 1,000 events
+- [ ] Add multi-language support (translations)
+- [ ] Create data export tools (CSV, GeoJSON, KML)
+- [ ] Build event relationship system (causes/effects)
+- [ ] Add event images and media support
+- [ ] Create data visualization examples
+- [ ] Develop mobile-friendly contributor app
+
+---
+
+## 🚀 Ready to Contribute?
+
+**[Start Adding Events Now!](https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html)**
+
+Every event you add helps make world history more accessible and engaging. Whether it's a major world event or an important local occurrence, your contribution matters!
+
+---
+
+<div align="center">
+
 **Made with ❤️ by the HistoryMap community**
+
+[⭐ Star this repo](../../stargazers) • [🐛 Report Bug](../../issues) • [💡 Request Feature](../../issues) • [🤝 Contribute](#-how-to-contribute)
+
+</div>
