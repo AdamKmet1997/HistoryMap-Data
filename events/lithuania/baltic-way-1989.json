@@ -1,0 +1,22 @@
+{
+  "id": "baltic-way-1989",
+  "title": "Baltic Way - Human Chain for Freedom",
+  "description": "The Baltic Way was a peaceful political demonstration on August 23, 1989, when approximately two million people joined hands forming a human chain spanning 675 kilometers (420 miles) across the three Baltic states: Estonia, Latvia, and Lithuania. The demonstration was organized to mark the 50th anniversary of the Molotov-Ribbentrop Pact between Nazi Germany and the Soviet Union, which had led to the occupation and annexation of the Baltic states. The human chain stretched from Tallinn, Estonia, through Riga, Latvia, to Vilnius, Lithuania, symbolizing Baltic unity and the desire for independence from the Soviet Union. This event drew international attention to the Baltic independence movements and is considered one of the most significant peaceful protests in history. The three Baltic states all achieved independence from the Soviet Union within two years of this demonstration.",
+  "startDate": "1989-08-23",
+  "year": 1989,
+  "location": {
+    "latitude": 54.6872,
+    "longitude": 25.2797,
+    "country": "Lithuania",
+    "city": "Vilnius"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baltic_Way",
+    "https://www.britannica.com/event/Baltic-Way"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

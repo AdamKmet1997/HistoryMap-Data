@@ -1,0 +1,22 @@
+{
+  "id": "lithuanian-independence-1918",
+  "title": "Lithuanian Declaration of Independence",
+  "description": "On February 16, 1918, the Council of Lithuania signed the Act of Independence, declaring the restoration of an independent Lithuanian state based on democratic principles. This declaration came during World War I, while Lithuania was occupied by German forces following the collapse of the Russian Empire. The Act was signed by all twenty members of the Council, including its chairman Jonas Basanavičius. The independence was proclaimed in Vilnius, the historical capital of Lithuania. Although Lithuania faced immediate challenges including territorial disputes and the Lithuanian-Soviet War, the country maintained its independence until Soviet occupation in 1940. February 16 is celebrated as the State Restoration Day, one of Lithuania's most important national holidays.",
+  "startDate": "1918-02-16",
+  "year": 1918,
+  "location": {
+    "latitude": 54.6872,
+    "longitude": 25.2797,
+    "country": "Lithuania",
+    "city": "Vilnius"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Act_of_Independence_of_Lithuania",
+    "https://www.britannica.com/place/Lithuania/Independent-Lithuania"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

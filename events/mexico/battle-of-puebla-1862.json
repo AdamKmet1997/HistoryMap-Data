@@ -1,0 +1,23 @@
+{
+  "id": "battle-of-puebla-1862",
+  "title": "Battle of Puebla (Cinco de Mayo)",
+  "description": "The Battle of Puebla took place on May 5, 1862, near the city of Puebla during the French intervention in Mexico. Mexican forces under General Ignacio Zaragoza, though significantly outnumbered and outgunned, defeated the French army led by General Charles de Lorencez. The French army, considered one of the best in the world at the time, had not been defeated in nearly 50 years. The victory boosted Mexican morale and became a symbol of Mexican resistance to foreign intervention. While the French would later succeed in occupying Mexico City, this battle became a celebrated moment in Mexican history, commemorated annually as Cinco de Mayo.",
+  "startDate": "1862-05-05",
+  "year": 1862,
+  "location": {
+    "latitude": 19.0414,
+    "longitude": -98.2063,
+    "country": "Mexico",
+    "city": "Puebla",
+    "region": "Puebla"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Puebla",
+    "https://www.britannica.com/event/Battle-of-Puebla"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

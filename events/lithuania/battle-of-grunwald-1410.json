@@ -1,0 +1,23 @@
+{
+  "id": "battle-of-grunwald-1410",
+  "title": "Battle of Grunwald (Žalgiris)",
+  "description": "The Battle of Grunwald, also known as the Battle of Žalgiris in Lithuanian, was one of the largest battles in Medieval Europe. The joint forces of the Kingdom of Poland and the Grand Duchy of Lithuania decisively defeated the Knights of the Teutonic Order. The battle took place near the villages of Grunwald, Tannenberg, and Žalgiris (now in Poland), involving approximately 60,000 soldiers. King Władysław II Jagiełło of Poland and Grand Duke Vytautas of Lithuania led the allied forces to victory against the Teutonic Grand Master Ulrich von Jungingen, who was killed in battle. This victory halted the northward expansion of the Teutonic Knights and marked the beginning of their decline. The battle remains a symbol of Polish-Lithuanian cooperation and is commemorated in both nations.",
+  "startDate": "1410-07-15",
+  "year": 1410,
+  "location": {
+    "latitude": 53.4833,
+    "longitude": 20.0333,
+    "country": "Poland",
+    "city": "Grunwald",
+    "region": "Warmian-Masurian Voivodeship"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Grunwald",
+    "https://www.britannica.com/event/Battle-of-Grunwald"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "union-of-lublin-1569",
+  "title": "Union of Lublin",
+  "description": "The Union of Lublin was signed on July 1, 1569, in Lublin, Poland, creating the Polish-Lithuanian Commonwealth, one of the largest and most populous countries in 16th and 17th century Europe. The union replaced the personal union between the Kingdom of Poland and the Grand Duchy of Lithuania (established by the Union of Krewo in 1385) with a real union and federation. The Commonwealth had a common monarch, parliament (Sejm), and currency, but Lithuania retained its own administration, laws, army, and treasury. This political entity survived for over 200 years until the partitions of Poland in the late 18th century. The Union represented a unique experiment in multinational democracy and religious tolerance for its time.",
+  "startDate": "1569-07-01",
+  "year": 1569,
+  "location": {
+    "latitude": 51.2465,
+    "longitude": 22.5684,
+    "country": "Poland",
+    "city": "Lublin",
+    "region": "Lublin Voivodeship"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Union_of_Lublin",
+    "https://www.britannica.com/event/Union-of-Lublin"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

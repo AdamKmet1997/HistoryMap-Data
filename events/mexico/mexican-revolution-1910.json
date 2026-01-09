@@ -1,0 +1,22 @@
+{
+  "id": "mexican-revolution-1910",
+  "title": "Start of the Mexican Revolution",
+  "description": "The Mexican Revolution began on November 20, 1910, as an armed revolt against the long-standing dictatorship of President Porfirio Díaz, who had ruled Mexico for over 30 years. Francisco I. Madero's Plan of San Luis Potosí called for an uprising against Díaz's government, igniting a complex civil war involving various factions with different goals. Key revolutionary leaders included Emiliano Zapata, Pancho Villa, Venustiano Carranza, and Álvaro Obregón. The revolution resulted in major social and political changes, including land reform, labor rights, and a new constitution in 1917. The conflict lasted approximately a decade and resulted in over one million deaths, fundamentally transforming Mexican society and government.",
+  "startDate": "1910-11-20",
+  "year": 1910,
+  "location": {
+    "latitude": 19.4326,
+    "longitude": -99.1332,
+    "country": "Mexico",
+    "city": "Mexico City"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mexican_Revolution",
+    "https://www.britannica.com/event/Mexican-Revolution"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

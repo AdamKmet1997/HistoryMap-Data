@@ -1,0 +1,24 @@
+{
+  "id": "fall-of-tenochtitlan-1521",
+  "title": "Fall of Tenochtitlan",
+  "description": "The Fall of Tenochtitlan marked the end of the Aztec Empire and the beginning of Spanish colonial rule in Mexico. Spanish conquistador Hernán Cortés, with his indigenous allies, laid siege to the Aztec capital city of Tenochtitlan. After a prolonged siege lasting 93 days, the city fell on August 13, 1521. The fall led to the deaths of thousands of Aztec warriors and civilians through combat, starvation, and smallpox. The ruins of Tenochtitlan became the foundation for Mexico City, the capital of New Spain.",
+  "startDate": "1521-05-26",
+  "endDate": "1521-08-13",
+  "year": 1521,
+  "location": {
+    "latitude": 19.4326,
+    "longitude": -99.1332,
+    "country": "Mexico",
+    "city": "Mexico City",
+    "region": "Valley of Mexico"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+    "https://www.britannica.com/event/Battle-of-Tenochtitlan"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}

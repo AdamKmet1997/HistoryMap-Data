@@ -1,0 +1,23 @@
+{
+  "id": "mexican-independence-1810",
+  "title": "Cry of Dolores - Start of Mexican Independence",
+  "description": "On the early morning of September 16, 1810, Catholic priest Miguel Hidalgo y Costilla rang the church bell in Dolores and delivered a speech calling for the end of Spanish colonial rule, racial equality, and land redistribution. This event, known as the 'Grito de Dolores' (Cry of Dolores), sparked the Mexican War of Independence. Hidalgo led a large but poorly equipped army of insurgents against the Spanish royalist forces. Although the initial movement was crushed and Hidalgo was executed in 1811, his actions inspired continued resistance that eventually led to Mexican independence in 1821. September 16 is celebrated as Mexico's Independence Day.",
+  "startDate": "1810-09-16",
+  "year": 1810,
+  "location": {
+    "latitude": 21.1619,
+    "longitude": -100.9317,
+    "country": "Mexico",
+    "city": "Dolores Hidalgo",
+    "region": "Guanajuato"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cry_of_Dolores",
+    "https://www.britannica.com/event/Mexican-War-of-Independence"
+  ],
+  "contributedBy": "Adam Kmet",
+  "createdAt": "2026-01-09",
+  "updatedAt": "2026-01-09"
+}
