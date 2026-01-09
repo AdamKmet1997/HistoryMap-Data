@@ -1,13 +1,15 @@
 {
   "id": "indian-ocean-tsunami",
   "title": "Indian Ocean Tsunami",
-  "description": "The **Indian Ocean tsunami** on December 26, 2004, was triggered by a 9.1-9.3 magnitude earthquake off Sumatra, killing over 230,000 people in 14 countries.\n\nIt was one of the deadliest natural disasters in recorded history. Indonesia, Sri Lanka, India, and Thailand were hardest hit.\n\nThe disaster led to improved tsunami warning systems worldwide.",
+  "description": "On December 26, 2004, a massive undersea earthquake off the coast of **Sumatra, Indonesia**, triggered a devastating tsunami.\n\nThe earthquake, magnitude 9.1-9.3, was the third-largest ever recorded. The resulting tsunami waves reached heights of up to 30 meters (100 feet).\n\nThe disaster killed approximately 230,000 people across 14 countries, making it one of the deadliest natural disasters in recorded history.",
   "startDate": "2004-12-26",
+  "year": 2004,
   "location": {
-    "latitude": 3.3167,
-    "longitude": 95.8545,
+    "latitude": 3.2952,
+    "longitude": 95.9783,
     "country": "Indonesia",
-    "city": "Banda Aceh"
+    "city": "Banda Aceh",
+    "region": "Sumatra"
   },
   "category": "disaster",
   "status": "approved",

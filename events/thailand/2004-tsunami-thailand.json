@@ -1,0 +1,20 @@
+{
+  "id": "2004-tsunami-thailand",
+  "title": "Tsunami Hits Thailand",
+  "description": "On December 26, 2004, the Indian Ocean tsunami devastated Thailand's Andaman coast, particularly the tourist areas of **Phuket** and Khao Lak.\n\nThe waves killed over 5,000 people in Thailand, including many foreign tourists. The disaster struck during peak tourist season.\n\nThe Thai government and international community worked together on massive relief and reconstruction efforts.",
+  "startDate": "2004-12-26",
+  "year": 2004,
+  "location": {
+    "latitude": 7.8804,
+    "longitude": 98.3923,
+    "country": "Thailand",
+    "city": "Phuket"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Effect_of_the_2004_Indian_Ocean_earthquake_on_Thailand"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

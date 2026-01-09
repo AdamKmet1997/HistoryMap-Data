@@ -1,0 +1,20 @@
+{
+  "id": "fall-of-saigon",
+  "title": "Fall of Saigon",
+  "description": "On April 30, 1975, **Saigon** (now Ho Chi Minh City) fell to North Vietnamese forces, marking the end of the Vietnam War.\n\nThe iconic images of helicopters evacuating people from the U.S. Embassy rooftop symbolized the chaotic American withdrawal.\n\nThe fall of Saigon resulted in the reunification of Vietnam under communist rule and the end of the Republic of Vietnam.",
+  "startDate": "1975-04-30",
+  "year": 1975,
+  "location": {
+    "latitude": 10.8231,
+    "longitude": 106.6297,
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fall_of_Saigon"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

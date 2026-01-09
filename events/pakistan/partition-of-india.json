@@ -1,0 +1,20 @@
+{
+  "id": "partition-of-india",
+  "title": "Partition of India and Creation of Pakistan",
+  "description": "On August 14, 1947, **Pakistan** was created as a separate nation for Muslims from British India.\n\nThe partition, based on religious demographics, led to one of the largest mass migrations in history with over 10 million people displaced.\n\nThe communal violence during partition resulted in between 200,000 to 2 million deaths and created lasting tensions between India and Pakistan.",
+  "startDate": "1947-08-14",
+  "year": 1947,
+  "location": {
+    "latitude": 33.6844,
+    "longitude": 73.0479,
+    "country": "Pakistan",
+    "city": "Islamabad"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Partition_of_India"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

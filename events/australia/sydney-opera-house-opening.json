@@ -1,0 +1,20 @@
+{
+  "id": "sydney-opera-house-opening",
+  "title": "Opening of Sydney Opera House",
+  "description": "On October 20, 1973, Queen Elizabeth II officially opened the **Sydney Opera House**, one of the 20th century's most distinctive buildings.\n\nDesigned by Danish architect Jørn Utzon, its unique shell-like design has made it an iconic symbol of both Sydney and Australia.\n\nThe construction took 14 years and cost 14 times the original budget. It was declared a UNESCO World Heritage Site in 2007.",
+  "startDate": "1973-10-20",
+  "year": 1973,
+  "location": {
+    "latitude": -33.8568,
+    "longitude": 151.2153,
+    "country": "Australia",
+    "city": "Sydney"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

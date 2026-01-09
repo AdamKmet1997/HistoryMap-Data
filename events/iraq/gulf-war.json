@@ -1,0 +1,21 @@
+{
+  "id": "gulf-war",
+  "title": "Gulf War",
+  "description": "The **Gulf War** began on August 2, 1990, when Iraq invaded Kuwait, and ended on February 28, 1991.\n\nA U.S.-led coalition of 35 nations launched Operation Desert Storm to liberate Kuwait. The war featured extensive use of precision-guided munitions and air power.\n\nIraq was defeated in just 42 days of combat operations, but Saddam Hussein remained in power until 2003.",
+  "startDate": "1990-08-02",
+  "endDate": "1991-02-28",
+  "year": 1990,
+  "location": {
+    "latitude": 29.3759,
+    "longitude": 47.9774,
+    "country": "Iraq",
+    "city": "Kuwait City"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gulf_War"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

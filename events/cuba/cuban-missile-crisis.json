@@ -1,16 +1,17 @@
 {
   "id": "cuban-missile-crisis",
   "title": "Cuban Missile Crisis",
-  "description": "The **Cuban Missile Crisis** in October 1962 brought the world to the brink of nuclear war when the Soviet Union placed missiles in Cuba.\n\nPresident Kennedy demanded their removal and blockaded Cuba. After 13 tense days, Khrushchev agreed to remove the missiles in exchange for US promises not to invade Cuba.\n\nIt was the closest the Cold War came to escalating into nuclear conflict.",
+  "description": "In October 1962, the **Cuban Missile Crisis** brought the world to the brink of nuclear war.\n\nThe United States discovered Soviet nuclear missiles being installed in Cuba, just 90 miles from Florida. President Kennedy ordered a naval blockade of Cuba.\n\nAfter 13 tense days of negotiation, Soviet Premier Khrushchev agreed to remove the missiles in exchange for the U.S. removing missiles from Turkey and a pledge not to invade Cuba.",
   "startDate": "1962-10-16",
   "endDate": "1962-10-28",
+  "year": 1962,
   "location": {
     "latitude": 23.1136,
     "longitude": -82.3666,
     "country": "Cuba",
     "city": "Havana"
   },
-  "category": "politics",
+  "category": "war",
   "status": "approved",
   "sources": [
     "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"

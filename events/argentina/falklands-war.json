@@ -1,0 +1,22 @@
+{
+  "id": "falklands-war",
+  "title": "Falklands War",
+  "description": "On April 2, 1982, Argentina invaded the **Falkland Islands** (Islas Malvinas), a British overseas territory in the South Atlantic.\n\nBritain responded with a naval task force to retake the islands. The conflict lasted 74 days and resulted in Argentine surrender on June 14, 1982.\n\nThe war resulted in 649 Argentine and 255 British military deaths. The defeat led to the fall of the Argentine military junta.",
+  "startDate": "1982-04-02",
+  "endDate": "1982-06-14",
+  "year": 1982,
+  "location": {
+    "latitude": -51.7963,
+    "longitude": -59.5236,
+    "country": "Argentina",
+    "city": "Port Stanley",
+    "region": "Falkland Islands"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Falklands_War"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

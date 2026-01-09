@@ -1,0 +1,20 @@
+{
+  "id": "haitian-earthquake",
+  "title": "Haiti Earthquake",
+  "description": "On January 12, 2010, a devastating magnitude 7.0 earthquake struck **Haiti**, with its epicenter near the capital Port-au-Prince.\n\nThe earthquake killed an estimated 220,000 to 316,000 people and left approximately 1.5 million people homeless.\n\nIt was the most devastating natural disaster in Haitian history and one of the deadliest earthquakes ever recorded.",
+  "startDate": "2010-01-12",
+  "year": 2010,
+  "location": {
+    "latitude": 18.5944,
+    "longitude": -72.3074,
+    "country": "Haiti",
+    "city": "Port-au-Prince"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2010_Haiti_earthquake"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

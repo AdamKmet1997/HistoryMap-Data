@@ -1,0 +1,20 @@
+{
+  "id": "olympic-games-ancient",
+  "title": "First Ancient Olympic Games",
+  "description": "The first recorded **Ancient Olympic Games** were held in 776 BCE in Olympia, Greece.\n\nThe games were held in honor of Zeus and featured athletic competitions among representatives of various Greek city-states.\n\nThe ancient Olympics continued for nearly 12 centuries until Emperor Theodosius I abolished them in 393 CE. They were revived as the modern Olympic Games in 1896.",
+  "startDate": "0776-01-01",
+  "year": -776,
+  "location": {
+    "latitude": 37.6379,
+    "longitude": 21.6300,
+    "country": "Greece",
+    "city": "Olympia"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ancient_Olympic_Games"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mau-mau-uprising",
+  "title": "Mau Mau Uprising",
+  "description": "From 1952 to 1960, the **Mau Mau Uprising** was a rebellion against British colonial rule in Kenya.\n\nThe movement was primarily composed of Kikuyu people fighting for land and freedom. The British response included mass detention and harsh counter-insurgency measures.\n\nThe uprising was a crucial step toward Kenyan independence, which was achieved in 1963.",
+  "startDate": "1952-10-20",
+  "endDate": "1960-01-12",
+  "year": 1952,
+  "location": {
+    "latitude": -1.2921,
+    "longitude": 36.8219,
+    "country": "Kenya",
+    "city": "Nairobi"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mau_Mau_Uprising"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "amazon-rainforest-discovery",
+  "title": "European Discovery of the Amazon River",
+  "description": "In 1542, Spanish conquistador **Francisco de Orellana** became the first European to navigate the entire length of the Amazon River.\n\nThe river was named after a legendary tribe of female warriors that Orellana's expedition claimed to have encountered.\n\nThe Amazon rainforest, the world's largest tropical rainforest, covers approximately 5.5 million square kilometers and produces 20% of the world's oxygen.",
+  "startDate": "1542-02-12",
+  "year": 1542,
+  "location": {
+    "latitude": -3.4653,
+    "longitude": -62.2159,
+    "country": "Brazil",
+    "city": "Manaus",
+    "region": "Amazonas"
+  },
+  "category": "exploration",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Francisco_de_Orellana"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

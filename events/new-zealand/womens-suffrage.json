@@ -1,0 +1,20 @@
+{
+  "id": "womens-suffrage-nz",
+  "title": "New Zealand Grants Women's Suffrage",
+  "description": "On September 19, 1893, **New Zealand** became the first self-governing country to grant all women the right to vote.\n\nThe movement was led by suffragists like Kate Sheppard, who presented petitions with thousands of signatures to Parliament.\n\nThis historic achievement inspired women's suffrage movements worldwide and set a precedent for democratic equality.",
+  "startDate": "1893-09-19",
+  "year": 1893,
+  "location": {
+    "latitude": -41.2865,
+    "longitude": 174.7762,
+    "country": "New Zealand",
+    "city": "Wellington"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_New_Zealand"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

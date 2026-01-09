@@ -1,0 +1,20 @@
+{
+  "id": "pinochet-coup",
+  "title": "Chilean Coup d'État",
+  "description": "On September 11, 1973, the Chilean military, led by General **Augusto Pinochet**, overthrew the democratically elected government of Salvador Allende.\n\nPresident Allende died during the assault on the presidential palace. Pinochet established a military dictatorship that lasted until 1990.\n\nThe regime was responsible for numerous human rights violations, including the torture and murder of thousands of political dissidents.",
+  "startDate": "1973-09-11",
+  "year": 1973,
+  "location": {
+    "latitude": -33.4489,
+    "longitude": -70.6693,
+    "country": "Chile",
+    "city": "Santiago"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

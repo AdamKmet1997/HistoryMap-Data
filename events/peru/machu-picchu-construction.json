@@ -1,0 +1,21 @@
+{
+  "id": "machu-picchu-construction",
+  "title": "Construction of Machu Picchu",
+  "description": "**Machu Picchu**, the iconic Incan citadel, was built around 1450 CE during the reign of Inca emperor Pachacuti.\n\nSituated high in the Andes Mountains, this architectural marvel demonstrates advanced engineering and astronomical knowledge.\n\nAbandoned during the Spanish conquest, it remained unknown to the outside world until American historian Hiram Bingham brought it to international attention in 1911.",
+  "startDate": "1450-01-01",
+  "year": 1450,
+  "location": {
+    "latitude": -13.1631,
+    "longitude": -72.5450,
+    "country": "Peru",
+    "city": "Machu Picchu",
+    "region": "Cusco"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Machu_Picchu"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

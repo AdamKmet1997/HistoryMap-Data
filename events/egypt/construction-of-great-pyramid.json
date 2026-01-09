@@ -1,0 +1,20 @@
+{
+  "id": "construction-of-great-pyramid",
+  "title": "Construction of the Great Pyramid of Giza",
+  "description": "The **Great Pyramid of Giza** was built around 2560 BCE as a tomb for Pharaoh Khufu during Egypt's Fourth Dynasty.\n\nIt was the tallest man-made structure in the world for over 3,800 years, standing at 146.6 meters (481 feet).\n\nThe pyramid was constructed using an estimated 2.3 million stone blocks, each weighing 2.5 to 15 tons. It remains one of the Seven Wonders of the Ancient World still standing.",
+  "startDate": "2560-01-01",
+  "year": -2560,
+  "location": {
+    "latitude": 29.9792,
+    "longitude": 31.1342,
+    "country": "Egypt",
+    "city": "Giza"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

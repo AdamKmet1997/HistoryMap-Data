@@ -1,0 +1,21 @@
+{
+  "id": "khmer-rouge-genocide",
+  "title": "Khmer Rouge Genocide",
+  "description": "From 1975 to 1979, the **Khmer Rouge** regime led by Pol Pot ruled Cambodia with extreme brutality.\n\nThe regime sought to create an agrarian socialist society, forcibly evacuating cities and executing intellectuals, professionals, and minorities.\n\nAn estimated 1.7 to 2 million people died from execution, starvation, and disease - approximately 25% of Cambodia's population.",
+  "startDate": "1975-04-17",
+  "endDate": "1979-01-07",
+  "year": 1975,
+  "location": {
+    "latitude": 11.5564,
+    "longitude": 104.9282,
+    "country": "Cambodia",
+    "city": "Phnom Penh"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cambodian_genocide"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

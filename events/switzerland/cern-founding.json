@@ -1,0 +1,20 @@
+{
+  "id": "cern-founding",
+  "title": "CERN Founded",
+  "description": "The **European Organization for Nuclear Research** (CERN) was founded on September 29, 1954, near Geneva, Switzerland.\n\nCERN operates the largest particle physics laboratory in the world. In 1989, Tim Berners-Lee invented the World Wide Web at CERN.\n\nIn 2012, CERN announced the discovery of the Higgs boson particle using the Large Hadron Collider.",
+  "startDate": "1954-09-29",
+  "year": 1954,
+  "location": {
+    "latitude": 46.2044,
+    "longitude": 6.1432,
+    "country": "Switzerland",
+    "city": "Geneva"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/CERN"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

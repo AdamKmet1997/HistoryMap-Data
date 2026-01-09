@@ -1,0 +1,20 @@
+{
+  "id": "atomic-bombing-hiroshima",
+  "title": "Atomic Bombing of Hiroshima",
+  "description": "On August 6, 1945, the United States dropped the atomic bomb \"Little Boy\" on **Hiroshima**, Japan.\n\nThe explosion immediately killed an estimated 80,000 people, with tens of thousands more dying later from radiation effects.\n\nThis was the first use of a nuclear weapon in warfare, followed three days later by the bombing of Nagasaki. Japan surrendered on August 15, 1945, ending World War II.",
+  "startDate": "1945-08-06",
+  "year": 1945,
+  "location": {
+    "latitude": 34.3853,
+    "longitude": 132.4553,
+    "country": "Japan",
+    "city": "Hiroshima"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

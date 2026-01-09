@@ -1,0 +1,21 @@
+{
+  "id": "people-power-revolution",
+  "title": "People Power Revolution",
+  "description": "From February 22-25, 1986, the **People Power Revolution** (also known as EDSA Revolution) peacefully overthrew Philippine dictator Ferdinand Marcos.\n\nMillions of Filipinos gathered on Epifanio de los Santos Avenue (EDSA) in Manila, forming a human barrier against military forces.\n\nThe non-violent revolution inspired similar movements worldwide and restored democracy to the Philippines after 21 years of authoritarian rule.",
+  "startDate": "1986-02-22",
+  "endDate": "1986-02-25",
+  "year": 1986,
+  "location": {
+    "latitude": 14.5995,
+    "longitude": 120.9842,
+    "country": "Philippines",
+    "city": "Manila"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/People_Power_Revolution"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "spanish-inquisition",
+  "title": "Spanish Inquisition Begins",
+  "description": "The **Spanish Inquisition** was established in 1478 by Catholic Monarchs Ferdinand II and Isabella I to maintain Catholic orthodoxy.\n\nThe Inquisition investigated and prosecuted individuals accused of heresy. Methods included torture, confiscation of property, and execution by burning at the stake.\n\nThe Spanish Inquisition lasted over 350 years, officially ending in 1834. It became infamous for religious persecution and human rights abuses.",
+  "startDate": "1478-11-01",
+  "year": 1478,
+  "location": {
+    "latitude": 40.4168,
+    "longitude": -3.7038,
+    "country": "Spain",
+    "city": "Madrid"
+  },
+  "category": "religion",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Spanish_Inquisition"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

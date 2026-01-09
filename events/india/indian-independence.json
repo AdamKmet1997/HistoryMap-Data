@@ -1,11 +1,12 @@
 {
   "id": "indian-independence",
   "title": "Indian Independence",
-  "description": "**India** gained independence from British rule on August 15, 1947, ending nearly 200 years of colonial rule.\n\nThe partition created two independent nations: India and Pakistan. Mass migration and communal violence resulted in over a million deaths.\n\nMahatma Gandhi's non-violent resistance movement was instrumental in achieving independence.",
+  "description": "On August 15, 1947, **India** gained independence from British colonial rule after nearly 200 years.\n\nThe independence movement, led by Mahatma Gandhi's philosophy of non-violent resistance, inspired civil rights movements worldwide.\n\nThe partition of India created the new nation of Pakistan, leading to one of the largest mass migrations in history and widespread communal violence.",
   "startDate": "1947-08-15",
+  "year": 1947,
   "location": {
     "latitude": 28.6139,
-    "longitude": 77.209,
+    "longitude": 77.2090,
     "country": "India",
     "city": "New Delhi"
   },
@@ -14,6 +15,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Indian_independence_movement"
   ],
-  "createdAt": "2024-01-15",
-  "updatedAt": "2024-01-15"
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
 }

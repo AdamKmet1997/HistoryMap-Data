@@ -1,0 +1,20 @@
+{
+  "id": "signing-of-roman-treaty",
+  "title": "Signing of the Treaty of Rome",
+  "description": "On March 25, 1957, the **Treaty of Rome** was signed, establishing the European Economic Community (EEC).\n\nThe six founding members were Belgium, France, Italy, Luxembourg, the Netherlands, and West Germany.\n\nThis treaty laid the foundation for what would eventually become the European Union, creating a common market and customs union among member states.",
+  "startDate": "1957-03-25",
+  "year": 1957,
+  "location": {
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "country": "Italy",
+    "city": "Rome"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Rome"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}
