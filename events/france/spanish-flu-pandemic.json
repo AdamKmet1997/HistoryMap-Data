@@ -1,0 +1,20 @@
+{
+  "id": "86",
+  "title": "Spanish Flu Pandemic",
+  "description": "The **1918 influenza pandemic** infected 500 million people worldwide (one-third of the global population) and killed an estimated 50-100 million.\n\nThe pandemic spread rapidly due to World War I troop movements. It was unusual in killing many healthy young adults.\n\nThe pandemic ended in 1920 after the virus mutated to a less lethal strain.",
+  "startDate": "1918-02-01",
+  "endDate": "1920-04-01",
+  "location": {
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "country": "France",
+    "city": "Paris"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Spanish_flu"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

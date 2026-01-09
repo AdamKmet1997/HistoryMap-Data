@@ -1,0 +1,19 @@
+{
+  "id": "100",
+  "title": "Sputnik 1 Launched",
+  "description": "The Soviet Union launched **Sputnik 1**, the first artificial Earth satellite, on October 4, 1957, marking the beginning of the Space Age.\n\nThe 58 cm diameter sphere transmitted radio signals for 21 days. Its launch shocked the United States and sparked the Space Race.\n\nSputnik led to the creation of NASA and accelerated space exploration efforts.",
+  "startDate": "1957-10-04",
+  "location": {
+    "latitude": 45.92,
+    "longitude": 63.34,
+    "country": "Kazakhstan",
+    "city": "Baikonur"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sputnik_1"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

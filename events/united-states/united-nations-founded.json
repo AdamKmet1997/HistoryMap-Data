@@ -1,0 +1,20 @@
+{
+  "id": "94",
+  "title": "United Nations Founded",
+  "description": "The **United Nations** was officially established on October 24, 1945, after World War II to prevent future conflicts.\n\nThe UN Charter was signed by 51 countries. The organization aims to maintain international peace and security, develop friendly relations among nations, and promote social progress.\n\nToday, the UN has 193 member states.",
+  "startDate": "1945-10-24",
+  "location": {
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "country": "United States",
+    "city": "San Francisco",
+    "region": "California"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/United_Nations"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

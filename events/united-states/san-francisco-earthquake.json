@@ -1,7 +1,7 @@
 {
-  "id": "22",
+  "id": "82",
   "title": "San Francisco Earthquake",
-  "description": "The **1906 San Francisco earthquake** struck on April 18, 1906, with an estimated magnitude of 7.9. The earthquake and subsequent fires destroyed over 80% of the city.\n\nAn estimated 3,000 people died and over 400,000 were left homeless. The disaster prompted major improvements in earthquake science and urban planning.\n\nSan Francisco was rebuilt using more modern building techniques and became a model for earthquake-resistant construction.",
+  "description": "The **1906 San Francisco earthquake** struck on April 18 with a magnitude of 7.9, devastating the city and causing massive fires.\n\nOver 3,000 people died and 80% of San Francisco was destroyed. The disaster led to major improvements in earthquake preparedness and building codes.\n\nThe city was rebuilt and emerged as a major West Coast metropolis.",
   "startDate": "1906-04-18",
   "location": {
     "latitude": 37.7749,
@@ -15,6 +15,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake"
   ],
-  "createdAt": "2024-01-22",
-  "updatedAt": "2024-01-22"
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
 }

@@ -1,0 +1,20 @@
+{
+  "id": "53",
+  "title": "Alexander the Great's Conquest of Persia",
+  "description": "**Alexander the Great** defeated the Persian Empire in a series of battles from 334-330 BC, creating one of the largest empires in ancient history.\n\nHis conquests spread Greek culture across three continents and marked the beginning of the Hellenistic period. He was never defeated in battle.\n\nAlexander died at age 32 in Babylon, leaving an empire that stretched from Greece to India.",
+  "startDate": "0334-01-01",
+  "year": -334,
+  "location": {
+    "latitude": 38.0406,
+    "longitude": 23.8103,
+    "country": "Greece",
+    "city": "Athens"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Alexander_the_Great"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

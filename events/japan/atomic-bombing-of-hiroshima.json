@@ -1,0 +1,19 @@
+{
+  "id": "93",
+  "title": "Atomic Bombing of Hiroshima",
+  "description": "The United States dropped an **atomic bomb** on Hiroshima on August 6, 1945, killing an estimated 140,000 people by the end of the year.\n\nThis was the first use of nuclear weapons in warfare. Three days later, Nagasaki was also bombed. Japan surrendered on August 15, ending World War II.\n\nThe bombings ushered in the nuclear age and the Cold War arms race.",
+  "startDate": "1945-08-06",
+  "location": {
+    "latitude": 34.3853,
+    "longitude": 132.4553,
+    "country": "Japan",
+    "city": "Hiroshima"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

@@ -1,11 +1,11 @@
 {
-  "id": "17",
+  "id": "71",
   "title": "Battle of Waterloo",
-  "description": "The **Battle of Waterloo** was fought on June 18, 1815, near Waterloo in present-day Belgium. It marked the final defeat of Napoleon Bonaparte.\n\nThe French army under Napoleon was defeated by the combined forces of the Duke of Wellington and the Prussian army under Gebhard von Blücher. The battle ended the Napoleonic Wars and Napoleon's rule as Emperor of France.\n\nNapoleon was subsequently exiled to Saint Helena, where he died in 1821.",
+  "description": "The **Battle of Waterloo** on June 18, 1815, marked Napoleon Bonaparte's final defeat. The Duke of Wellington and Prussian forces under Blücher defeated the French army.\n\nThis battle ended the Napoleonic Wars and Napoleon's rule as Emperor of France. He was exiled to Saint Helena where he died in 1821.\n\nThe battle ushered in nearly a century of relative peace in Europe.",
   "startDate": "1815-06-18",
   "location": {
     "latitude": 50.68,
-    "longitude": 4.4125,
+    "longitude": 4.4114,
     "country": "Belgium",
     "city": "Waterloo"
   },
@@ -14,6 +14,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
   ],
-  "createdAt": "2024-01-17",
-  "updatedAt": "2024-01-17"
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
 }

@@ -64,15 +64,21 @@ HistoryMap-Data/
 
 We welcome contributions! You can add historical events in three ways:
 
-### Option 1: Submit via GitHub Issue (Easiest)
-1. Go to [Issues](../../issues/new/choose)
-2. Click "Submit a Historical Event"
-3. Fill out the template
-4. Submit!
+### Option 1: Use the Contributor Tool (Easiest) ⭐
 
-We'll review it and add it to the database.
+**[🚀 Open Contributor Tool Online](https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html)**
 
-### Option 2: Submit via Pull Request (Recommended)
+Or download [contribute.html](contribute.html) and open it in your browser (no installation needed!)
+
+1. Fill out the form with event details
+2. Click "Generate JSON" to create properly formatted JSON
+3. Copy the generated JSON
+4. Create a new file in `events/[country]/` and paste the JSON
+5. Submit a pull request!
+
+**✨ This tool prevents formatting errors and validates your data automatically. Works completely offline - just open the HTML file in any browser!**
+
+### Option 2: Submit via Pull Request (Manual)
 1. Fork this repository
 2. Create a new JSON file in the appropriate country folder
 3. Follow the [JSON schema](schema.json)
@@ -80,8 +86,13 @@ We'll review it and add it to the database.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
-### Option 3: Submit via Website UI *(Coming Soon)*
-Users will be able to submit events directly through the HistoryMap website.
+### Option 3: Submit via GitHub Issue
+1. Go to [Issues](../../issues/new/choose)
+2. Click "Submit a Historical Event"
+3. Fill out the template
+4. Submit!
+
+We'll review it and add it to the database.
 
 ---
 

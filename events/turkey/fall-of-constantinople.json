@@ -1,0 +1,19 @@
+{
+  "id": "60",
+  "title": "Fall of Constantinople",
+  "description": "**Constantinople**, capital of the Byzantine Empire, fell to the Ottoman Turks on May 29, 1453, marking the end of the Byzantine Empire.\n\nSultan Mehmed II conquered the city after a 53-day siege, using massive cannons to breach the ancient walls. The city became the capital of the Ottoman Empire.\n\nMany historians mark this as the end of the Middle Ages and the beginning of the Renaissance.",
+  "startDate": "1453-05-29",
+  "location": {
+    "latitude": 41.0082,
+    "longitude": 28.9784,
+    "country": "Turkey",
+    "city": "Istanbul"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

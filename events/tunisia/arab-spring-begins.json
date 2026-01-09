@@ -1,0 +1,19 @@
+{
+  "id": "117",
+  "title": "Arab Spring Begins",
+  "description": "The **Arab Spring** began in Tunisia on December 17, 2010, when Mohamed Bouazizi set himself on fire in protest, sparking revolutions across the Middle East.\n\nProtests spread to Egypt, Libya, Syria, Yemen, and other countries, toppling several long-standing dictators. The movement emphasized democracy and human rights.\n\nThe aftermath has been mixed, with some countries achieving reforms and others descending into conflict.",
+  "startDate": "2010-12-17",
+  "location": {
+    "latitude": 36.8065,
+    "longitude": 10.1815,
+    "country": "Tunisia",
+    "city": "Tunis"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Arab_Spring"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "59",
+  "title": "Black Death Pandemic",
+  "description": "The **Black Death** was one of the most devastating pandemics in human history, killing an estimated 75-200 million people across Europe, Asia, and North Africa from 1347-1353.\n\nCaused by the bubonic plague, it killed 30-60% of Europe's population. The pandemic led to major social, economic, and religious changes.\n\nIt took 200 years for Europe's population to recover to pre-plague levels.",
+  "startDate": "1347-01-01",
+  "endDate": "1353-12-31",
+  "location": {
+    "latitude": 45.4408,
+    "longitude": 12.3155,
+    "country": "Italy",
+    "city": "Venice"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Black_Death"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

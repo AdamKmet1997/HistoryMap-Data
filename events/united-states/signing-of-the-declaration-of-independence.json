@@ -1,0 +1,20 @@
+{
+  "id": "69",
+  "title": "Signing of the Declaration of Independence",
+  "description": "The **Declaration of Independence** was adopted by the Continental Congress on July 4, 1776, announcing the thirteen American colonies' separation from Great Britain.\n\nWritten primarily by Thomas Jefferson, it articulated the principles of individual liberty and government by consent. The document inspired democratic movements worldwide.\n\nJuly 4th is celebrated as Independence Day in the United States.",
+  "startDate": "1776-07-04",
+  "location": {
+    "latitude": 39.9526,
+    "longitude": -75.1652,
+    "country": "United States",
+    "city": "Philadelphia",
+    "region": "Pennsylvania"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

@@ -1,20 +1,19 @@
 {
-  "id": "13",
+  "id": "128",
   "title": "Nelson Mandela Released from Prison",
-  "description": "On February 11, 1990, **Nelson Mandela** was released from Victor Verster Prison after 27 years of imprisonment by South Africa's apartheid government.\n\nMandela had been imprisoned since 1962 for his anti-apartheid activism. His release marked a turning point in South African history and paved the way for the end of apartheid.\n\nIn 1994, Mandela became South Africa's first Black president in the country's first fully democratic elections.",
+  "description": "**Nelson Mandela** was released from prison on February 11, 1990, after 27 years of imprisonment for fighting apartheid in South Africa.\n\nHis release marked the beginning of the end of apartheid. Mandela led negotiations for a peaceful transition to democracy.\n\nHe became South Africa's first Black president in 1994.",
   "startDate": "1990-02-11",
   "location": {
-    "latitude": -33.8008,
-    "longitude": 18.8646,
+    "latitude": -33.9249,
+    "longitude": 18.4241,
     "country": "South Africa",
-    "city": "Paarl",
-    "region": "Western Cape"
+    "city": "Cape Town"
   },
   "category": "politics",
   "status": "approved",
   "sources": [
     "https://en.wikipedia.org/wiki/Nelson_Mandela"
   ],
-  "createdAt": "2024-01-13",
-  "updatedAt": "2024-01-13"
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
 }

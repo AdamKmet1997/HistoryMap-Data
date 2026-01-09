@@ -1,0 +1,18 @@
+{
+  "id": "83",
+  "title": "Sinking of the Titanic",
+  "description": "The RMS **Titanic**, the largest ship afloat, struck an iceberg and sank on April 15, 1912, during its maiden voyage from Southampton to New York.\n\nOver 1,500 people died in the disaster. The tragedy exposed inadequate safety regulations and led to major improvements in maritime safety.\n\nThe ship's wreck was discovered in 1985 at a depth of about 12,500 feet.",
+  "startDate": "1912-04-15",
+  "location": {
+    "latitude": 41.7325,
+    "longitude": -49.9469,
+    "country": "Atlantic Ocean"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

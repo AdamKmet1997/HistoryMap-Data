@@ -1,0 +1,20 @@
+{
+  "id": "52",
+  "title": "Birth of Buddha",
+  "description": "**Siddhartha Gautama**, the founder of Buddhism, was born in Lumbini (present-day Nepal) around 563 BC.\n\nAfter witnessing suffering in the world, he renounced his princely life to seek enlightenment. He achieved enlightenment under the Bodhi tree and spent the rest of his life teaching the Middle Way.\n\nBuddhism spread throughout Asia and remains one of the world's major religions with over 500 million followers.",
+  "startDate": "0563-01-01",
+  "year": -563,
+  "location": {
+    "latitude": 27.4833,
+    "longitude": 83.2764,
+    "country": "Nepal",
+    "city": "Lumbini"
+  },
+  "category": "religion",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gautama_Buddha"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

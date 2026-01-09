@@ -1,0 +1,19 @@
+{
+  "id": "61",
+  "title": "Christopher Columbus Reaches the Americas",
+  "description": "**Christopher Columbus** landed in the Bahamas on October 12, 1492, believing he had reached Asia. This voyage marked the beginning of sustained European exploration and colonization of the Americas.\n\nColumbus made four voyages to the New World, opening the way for widespread European exploration. The Columbian Exchange transformed both the Old and New Worlds.\n\nThis encounter had devastating consequences for indigenous peoples through disease and colonization.",
+  "startDate": "1492-10-12",
+  "location": {
+    "latitude": 24.25,
+    "longitude": -74.5,
+    "country": "Bahamas",
+    "city": "San Salvador"
+  },
+  "category": "exploration",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Christopher_Columbus"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

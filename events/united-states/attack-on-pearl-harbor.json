@@ -1,0 +1,20 @@
+{
+  "id": "91",
+  "title": "Attack on Pearl Harbor",
+  "description": "The Japanese attack on **Pearl Harbor** on December 7, 1941, brought the United States into World War II.\n\nThe surprise military strike killed 2,403 Americans and damaged the US Pacific Fleet. President Roosevelt called it \"a date which will live in infamy.\"\n\nThe attack unified American public opinion in favor of entering the war.",
+  "startDate": "1941-12-07",
+  "location": {
+    "latitude": 21.3606,
+    "longitude": -157.9289,
+    "country": "United States",
+    "city": "Honolulu",
+    "region": "Hawaii"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "81",
+  "title": "Wright Brothers' First Flight",
+  "description": "On December 17, 1903, the **Wright Brothers** achieved the first powered, sustained, and controlled airplane flight in Kitty Hawk, North Carolina.\n\nOrville Wright flew 120 feet in 12 seconds. The brothers made four flights that day, with the longest lasting 59 seconds and covering 852 feet.\n\nThis achievement launched the aviation age and transformed transportation and warfare.",
+  "startDate": "1903-12-17",
+  "location": {
+    "latitude": 36.0182,
+    "longitude": -75.6701,
+    "country": "United States",
+    "city": "Kitty Hawk",
+    "region": "North Carolina"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wright_brothers"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

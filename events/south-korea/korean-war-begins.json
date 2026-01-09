@@ -1,0 +1,19 @@
+{
+  "id": "97",
+  "title": "Korean War Begins",
+  "description": "The **Korean War** began on June 25, 1950, when North Korea invaded South Korea, starting a proxy war between communist and democratic powers.\n\nThe war involved UN forces (primarily American) supporting South Korea against North Korea and China. It ended in an armistice in 1953.\n\nThe war resulted in millions of casualties and Korea remains divided today.",
+  "startDate": "1950-06-25",
+  "location": {
+    "latitude": 37.5665,
+    "longitude": 126.978,
+    "country": "South Korea",
+    "city": "Seoul"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Korean_War"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

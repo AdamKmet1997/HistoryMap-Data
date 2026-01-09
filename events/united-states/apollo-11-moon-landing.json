@@ -1,9 +1,8 @@
 {
-  "id": "3",
+  "id": "104",
   "title": "Apollo 11 Moon Landing",
-  "description": "**Apollo 11** was the American spaceflight that first landed humans on the Moon. Commander Neil Armstrong and lunar module pilot Buzz Aldrin landed the Apollo Lunar Module Eagle on July 20, 1969.\n\nArmstrong became the first person to step onto the lunar surface six hours and 39 minutes later on July 21; Aldrin joined him 19 minutes later. They spent about two and a quarter hours together outside the spacecraft, and they collected 47.5 pounds of lunar material to bring back to Earth.\n\n\"That's one small step for man, one giant leap for mankind\" - Neil Armstrong's famous words as he stepped onto the Moon.",
+  "description": "On July 20, 1969, **Apollo 11** astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the Moon.\n\nArmstrong's first words were \"That's one small step for man, one giant leap for mankind.\" The mission fulfilled President Kennedy's goal set in 1961.\n\nOver 600 million people watched the historic event on television.",
   "startDate": "1969-07-20",
-  "endDate": "1969-07-24",
   "location": {
     "latitude": 28.5729,
     "longitude": -80.649,
@@ -16,6 +15,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Apollo_11"
   ],
-  "createdAt": "2024-01-03",
-  "updatedAt": "2024-01-03"
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
 }

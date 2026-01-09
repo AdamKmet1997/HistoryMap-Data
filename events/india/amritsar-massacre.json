@@ -1,0 +1,19 @@
+{
+  "id": "124",
+  "title": "Amritsar Massacre",
+  "description": "The **Jallianwala Bagh massacre** on April 13, 1919, saw British troops kill hundreds of unarmed Indian civilians in Amritsar.\n\nBrigadier General Dyer ordered troops to fire on a peaceful gathering. The massacre shocked India and strengthened the independence movement.\n\nIt marked a turning point in Indian nationalism.",
+  "startDate": "1919-04-13",
+  "location": {
+    "latitude": 31.6205,
+    "longitude": 74.8757,
+    "country": "India",
+    "city": "Amritsar"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jallianwala_Bagh_massacre"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

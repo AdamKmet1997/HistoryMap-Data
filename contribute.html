@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  HistoryMap Event Contributor Tool
+
+  HOW TO USE:
+  1. Download this file to your computer
+  2. Double-click to open it in your web browser (Chrome, Firefox, Safari, Edge)
+  3. Fill out the form and generate JSON
+  4. No installation or setup required - works offline!
+
+  OR use online: https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HistoryMap - Event Contributor Tool</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #333;
+      font-size: 0.95rem;
+    }
+
+    .required {
+      color: #e53e3e;
+    }
+
+    .help-text {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 4px;
+      font-weight: 400;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s;
+      font-family: inherit;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .sources-container {
+      margin-top: 10px;
+    }
+
+    .source-input {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .source-input input {
+      flex: 1;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .btn-secondary {
+      background: #e2e8f0;
+      color: #333;
+    }
+
+    .btn-secondary:hover {
+      background: #cbd5e0;
+    }
+
+    .btn-success {
+      background: #48bb78;
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #38a169;
+    }
+
+    .btn-small {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+
+    .output-section {
+      margin-top: 40px;
+      padding: 20px;
+      background: #f7fafc;
+      border-radius: 8px;
+      display: none;
+    }
+
+    .output-section.show {
+      display: block;
+    }
+
+    .json-output {
+      background: #2d3748;
+      color: #68d391;
+      padding: 20px;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .action-buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .alert {
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .alert-error {
+      background: #fed7d7;
+      color: #c53030;
+      border-left: 4px solid #e53e3e;
+    }
+
+    .alert-success {
+      background: #c6f6d5;
+      color: #22543d;
+      border-left: 4px solid #48bb78;
+    }
+
+    .instructions {
+      background: #ebf8ff;
+      border-left: 4px solid #4299e1;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    .instructions h3 {
+      color: #2c5282;
+      margin-bottom: 10px;
+    }
+
+    .instructions ol {
+      margin-left: 20px;
+      color: #2d3748;
+    }
+
+    .instructions li {
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .row {
+        grid-template-columns: 1fr;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .action-buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🗺️ HistoryMap Event Contributor</h1>
+      <p>Create a new historical event for the community database</p>
+    </div>
+
+    <div class="content">
+      <div class="instructions">
+        <h3>How to Contribute</h3>
+        <ol>
+          <li>Fill out the form below with accurate historical information</li>
+          <li>Click "Generate JSON" to create the event file</li>
+          <li>Copy the generated JSON</li>
+          <li>Create a new file in the <code>events/[country]/</code> folder with a descriptive name (e.g., <code>events/France/storming-of-bastille-1789.json</code>)</li>
+          <li>Submit a pull request with your new event!</li>
+        </ol>
+      </div>
+
+      <div id="errorAlert" class="alert alert-error" style="display: none;"></div>
+      <div id="successAlert" class="alert alert-success" style="display: none;"></div>
+
+      <form id="eventForm">
+        <!-- Basic Information -->
+        <div class="form-group">
+          <label>Event ID <span class="required">*</span></label>
+          <input type="text" id="eventId" required placeholder="e.g., storming-of-bastille-1789">
+          <div class="help-text">Use kebab-case (lowercase with hyphens). This will be the filename.</div>
+        </div>
+
+        <div class="form-group">
+          <label>Title <span class="required">*</span></label>
+          <input type="text" id="title" required placeholder="e.g., Storming of the Bastille">
+          <div class="help-text">The name of the historical event (5-200 characters)</div>
+        </div>
+
+        <div class="form-group">
+          <label>Description <span class="required">*</span></label>
+          <textarea id="description" required placeholder="Provide a detailed description of the event. Supports Markdown formatting."></textarea>
+          <div class="help-text">Detailed description (50-5000 characters). You can use Markdown formatting.</div>
+        </div>
+
+        <!-- Dates -->
+        <div class="row">
+          <div class="form-group">
+            <label>Start Date <span class="required">*</span></label>
+            <input type="date" id="startDate" required>
+            <div class="help-text">For BC dates, enter the year manually below</div>
+          </div>
+
+          <div class="form-group">
+            <label>End Date</label>
+            <input type="date" id="endDate">
+            <div class="help-text">Optional - for events spanning multiple days</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Year (for BC dates) <span class="required">*</span></label>
+          <input type="number" id="year" placeholder="e.g., -2560 for 2560 BC, 1789 for 1789 AD">
+          <div class="help-text">Use negative numbers for BC (e.g., -2560 for 2560 BC). Leave empty for AD dates after 1 AD.</div>
+        </div>
+
+        <!-- Location -->
+        <div class="form-group">
+          <label>Country <span class="required">*</span></label>
+          <input type="text" id="country" required placeholder="e.g., France">
+        </div>
+
+        <div class="row">
+          <div class="form-group">
+            <label>City</label>
+            <input type="text" id="city" placeholder="e.g., Paris">
+            <div class="help-text">Optional</div>
+          </div>
+
+          <div class="form-group">
+            <label>Region/State</label>
+            <input type="text" id="region" placeholder="e.g., Île-de-France">
+            <div class="help-text">Optional</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="form-group">
+            <label>Latitude <span class="required">*</span></label>
+            <input type="number" id="latitude" required step="0.0001" placeholder="e.g., 48.8566">
+            <div class="help-text">Use <a href="https://www.latlong.net/" target="_blank" style="color: #667eea; text-decoration: underline;">LatLong.net</a> or Google Maps to find coordinates</div>
+          </div>
+
+          <div class="form-group">
+            <label>Longitude <span class="required">*</span></label>
+            <input type="number" id="longitude" required step="0.0001" placeholder="e.g., 2.3522">
+            <div class="help-text">Use <a href="https://www.latlong.net/" target="_blank" style="color: #667eea; text-decoration: underline;">LatLong.net</a> or Google Maps</div>
+          </div>
+        </div>
+
+        <!-- Category -->
+        <div class="form-group">
+          <label>Category <span class="required">*</span></label>
+          <select id="category" required>
+            <option value="">Select a category...</option>
+            <option value="politics">Politics</option>
+            <option value="war">War</option>
+            <option value="culture">Culture</option>
+            <option value="science">Science</option>
+            <option value="disaster">Disaster</option>
+            <option value="religion">Religion</option>
+            <option value="exploration">Exploration</option>
+          </select>
+        </div>
+
+        <!-- Sources -->
+        <div class="form-group">
+          <label>Sources (URLs) <span class="required">*</span></label>
+          <div class="help-text" style="margin-bottom: 10px;">Add at least one reliable source URL. Click "Add Source" for more.</div>
+          <div class="sources-container" id="sourcesContainer">
+            <div class="source-input">
+              <input type="url" class="source-url" placeholder="https://example.com/article" required>
+            </div>
+          </div>
+          <button type="button" class="btn btn-secondary btn-small" onclick="addSource()">+ Add Source</button>
+        </div>
+
+        <!-- Contributor -->
+        <div class="form-group">
+          <label>Your Name/GitHub Username</label>
+          <input type="text" id="contributedBy" placeholder="e.g., JohnDoe or John Smith">
+          <div class="help-text">Optional - so we can credit you for the contribution!</div>
+        </div>
+
+        <!-- Submit Button -->
+        <div style="margin-top: 30px;">
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            🎉 Generate JSON
+          </button>
+        </div>
+      </form>
+
+      <!-- Output Section -->
+      <div id="outputSection" class="output-section">
+        <h3 style="margin-bottom: 15px; color: #2d3748;">Generated JSON</h3>
+        <div class="json-output" id="jsonOutput"></div>
+        <div class="action-buttons">
+          <button class="btn btn-success" onclick="copyToClipboard()">
+            📋 Copy to Clipboard
+          </button>
+          <button class="btn btn-secondary" onclick="resetForm()">
+            🔄 Create Another Event
+          </button>
+        </div>
+        <div style="margin-top: 20px; padding: 15px; background: white; border-radius: 8px; border: 2px solid #e2e8f0;">
+          <strong>Next Steps:</strong>
+          <ol style="margin-left: 20px; margin-top: 10px; color: #4a5568;">
+            <li>Copy the JSON above</li>
+            <li>Go to <a href="https://github.com/AdamKmet1997/HistoryMap-Data" target="_blank" style="color: #667eea;">HistoryMap-Data repository</a></li>
+            <li>Create a new file: <code>events/<span id="suggestedPath"></span></code></li>
+            <li>Paste the JSON and submit a Pull Request</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function addSource() {
+      const container = document.getElementById('sourcesContainer');
+      const sourceInput = document.createElement('div');
+      sourceInput.className = 'source-input';
+      sourceInput.innerHTML = `
+        <input type="url" class="source-url" placeholder="https://example.com/article">
+        <button type="button" class="btn btn-secondary btn-small" onclick="this.parentElement.remove()">Remove</button>
+      `;
+      container.appendChild(sourceInput);
+    }
+
+    function showError(message) {
+      const errorAlert = document.getElementById('errorAlert');
+      errorAlert.textContent = message;
+      errorAlert.style.display = 'block';
+      document.getElementById('successAlert').style.display = 'none';
+      setTimeout(() => {
+        errorAlert.style.display = 'none';
+      }, 5000);
+    }
+
+    function showSuccess(message) {
+      const successAlert = document.getElementById('successAlert');
+      successAlert.textContent = message;
+      successAlert.style.display = 'block';
+      document.getElementById('errorAlert').style.display = 'none';
+      setTimeout(() => {
+        successAlert.style.display = 'none';
+      }, 5000);
+    }
+
+    document.getElementById('eventForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Get form values
+      const eventId = document.getElementById('eventId').value.trim();
+      const title = document.getElementById('title').value.trim();
+      const description = document.getElementById('description').value.trim();
+      const startDate = document.getElementById('startDate').value;
+      const endDate = document.getElementById('endDate').value;
+      const yearInput = document.getElementById('year').value;
+      const country = document.getElementById('country').value.trim();
+      const city = document.getElementById('city').value.trim();
+      const region = document.getElementById('region').value.trim();
+      const latitude = parseFloat(document.getElementById('latitude').value);
+      const longitude = parseFloat(document.getElementById('longitude').value);
+      const category = document.getElementById('category').value;
+      const contributedBy = document.getElementById('contributedBy').value.trim();
+
+      // Get sources
+      const sourceInputs = document.querySelectorAll('.source-url');
+      const sources = Array.from(sourceInputs)
+        .map(input => input.value.trim())
+        .filter(url => url !== '');
+
+      // Validation
+      if (eventId.length < 3 || eventId.length > 100) {
+        showError('Event ID must be between 3 and 100 characters');
+        return;
+      }
+
+      if (!/^[a-z0-9-]+$/.test(eventId)) {
+        showError('Event ID must use kebab-case (lowercase letters, numbers, and hyphens only)');
+        return;
+      }
+
+      if (title.length < 5 || title.length > 200) {
+        showError('Title must be between 5 and 200 characters');
+        return;
+      }
+
+      if (description.length < 50 || description.length > 5000) {
+        showError('Description must be between 50 and 5000 characters');
+        return;
+      }
+
+      if (sources.length === 0) {
+        showError('At least one source URL is required');
+        return;
+      }
+
+      if (sources.length > 10) {
+        showError('Maximum 10 sources allowed');
+        return;
+      }
+
+      // Validate URLs
+      for (const url of sources) {
+        if (!url.startsWith('http://') && !url.startsWith('https://')) {
+          showError('All source URLs must start with http:// or https://');
+          return;
+        }
+      }
+
+      if (latitude < -90 || latitude > 90) {
+        showError('Latitude must be between -90 and 90');
+        return;
+      }
+
+      if (longitude < -180 || longitude > 180) {
+        showError('Longitude must be between -180 and 180');
+        return;
+      }
+
+      // Determine year
+      let year = null;
+      if (yearInput) {
+        year = parseInt(yearInput);
+        if (year < -10000 || year > 2100) {
+          showError('Year must be between -10000 and 2100');
+          return;
+        }
+      } else if (startDate) {
+        year = new Date(startDate).getFullYear();
+      }
+
+      // Build event object
+      const event = {
+        id: eventId,
+        title: title,
+        description: description,
+        startDate: startDate || null,
+        location: {
+          latitude: latitude,
+          longitude: longitude,
+          country: country
+        },
+        category: category,
+        status: "approved",
+        sources: sources,
+        createdAt: new Date().toISOString().split('T')[0],
+        updatedAt: new Date().toISOString().split('T')[0]
+      };
+
+      // Add optional fields
+      if (endDate) event.endDate = endDate;
+      if (year !== null) event.year = year;
+      if (city) event.location.city = city;
+      if (region) event.location.region = region;
+      if (contributedBy) event.contributedBy = contributedBy;
+
+      // Generate JSON
+      const json = JSON.stringify(event, null, 2);
+
+      // Display output
+      document.getElementById('jsonOutput').textContent = json;
+      document.getElementById('outputSection').classList.add('show');
+      document.getElementById('suggestedPath').textContent = `${country}/${eventId}.json`;
+
+      // Scroll to output
+      document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+
+      showSuccess('✅ JSON generated successfully! Copy it and create a pull request.');
+    });
+
+    function copyToClipboard() {
+      const jsonText = document.getElementById('jsonOutput').textContent;
+      navigator.clipboard.writeText(jsonText).then(() => {
+        showSuccess('✅ Copied to clipboard! Ready to paste into GitHub.');
+      }).catch(() => {
+        showError('Failed to copy. Please select and copy manually.');
+      });
+    }
+
+    function resetForm() {
+      document.getElementById('eventForm').reset();
+      document.getElementById('outputSection').classList.remove('show');
+      document.getElementById('errorAlert').style.display = 'none';
+      document.getElementById('successAlert').style.display = 'none';
+
+      // Reset sources to one input
+      const sourcesContainer = document.getElementById('sourcesContainer');
+      sourcesContainer.innerHTML = `
+        <div class="source-input">
+          <input type="url" class="source-url" placeholder="https://example.com/article" required>
+        </div>
+      `;
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

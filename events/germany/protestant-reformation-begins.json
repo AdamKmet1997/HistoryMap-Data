@@ -1,0 +1,19 @@
+{
+  "id": "62",
+  "title": "Protestant Reformation Begins",
+  "description": "On October 31, 1517, Martin Luther nailed his **Ninety-five Theses** to the door of the Castle Church in Wittenberg, challenging Catholic Church practices.\n\nThis act sparked the Protestant Reformation, splitting Western Christianity and reshaping European politics and culture. Luther's translation of the Bible into German made scripture accessible to common people.\n\nThe Reformation led to religious wars and the establishment of Protestant denominations.",
+  "startDate": "1517-10-31",
+  "location": {
+    "latitude": 51.8667,
+    "longitude": 12.6433,
+    "country": "Germany",
+    "city": "Wittenberg"
+  },
+  "category": "religion",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Reformation"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

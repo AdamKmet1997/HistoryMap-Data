@@ -1,0 +1,19 @@
+{
+  "id": "56",
+  "title": "Muhammad's First Revelation",
+  "description": "According to Islamic tradition, the Prophet **Muhammad** received his first revelation from God through the angel Gabriel in 610 AD in a cave on Mount Hira near Mecca.\n\nThis marked the beginning of Islam, which would become one of the world's major religions. The revelations continued over 23 years and were compiled into the Quran.\n\nIslam now has over 1.8 billion followers worldwide.",
+  "startDate": "0610-01-01",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "country": "Saudi Arabia",
+    "city": "Mecca"
+  },
+  "category": "religion",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Muhammad%27s_first_revelation"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

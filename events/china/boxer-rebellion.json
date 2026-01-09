@@ -1,0 +1,20 @@
+{
+  "id": "122",
+  "title": "Boxer Rebellion",
+  "description": "The **Boxer Rebellion** (1899-1901) was an anti-foreign, anti-Christian uprising in China that sought to expel foreign influence.\n\nThe rebellion was eventually crushed by an eight-nation alliance. The defeat further weakened the Qing Dynasty.\n\nThe rebellion reflected Chinese resistance to foreign imperialism.",
+  "startDate": "1899-11-02",
+  "endDate": "1901-09-07",
+  "location": {
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "country": "China",
+    "city": "Beijing"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Boxer_Rebellion"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

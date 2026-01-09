@@ -1,0 +1,19 @@
+{
+  "id": "87",
+  "title": "Treaty of Versailles",
+  "description": "The **Treaty of Versailles** was signed on June 28, 1919, officially ending World War I. It imposed harsh penalties on Germany, including territorial losses and reparations.\n\nThe treaty created the League of Nations but failed to prevent future conflict. Many historians believe its punitive terms contributed to World War II.\n\nThe United States Senate refused to ratify the treaty.",
+  "startDate": "1919-06-28",
+  "location": {
+    "latitude": 48.8049,
+    "longitude": 2.1204,
+    "country": "France",
+    "city": "Versailles"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

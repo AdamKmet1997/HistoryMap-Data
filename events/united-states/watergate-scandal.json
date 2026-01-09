@@ -1,0 +1,20 @@
+{
+  "id": "106",
+  "title": "Watergate Scandal",
+  "description": "The **Watergate scandal** began with a break-in at the Democratic National Committee headquarters on June 17, 1972, and led to President Nixon's resignation.\n\nInvestigative journalism revealed Nixon's involvement in the cover-up. Facing impeachment, Nixon resigned on August 9, 1974.\n\nThe scandal damaged public trust in government and led to reforms.",
+  "startDate": "1972-06-17",
+  "location": {
+    "latitude": 38.8977,
+    "longitude": -77.0529,
+    "country": "United States",
+    "city": "Washington",
+    "region": "D.C."
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Watergate_scandal"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

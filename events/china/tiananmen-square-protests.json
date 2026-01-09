@@ -1,9 +1,8 @@
 {
-  "id": "11",
+  "id": "110",
   "title": "Tiananmen Square Protests",
-  "description": "The **Tiananmen Square protests** were student-led demonstrations in Beijing in the spring of 1989, calling for democracy, free speech, and freedom of the press.\n\nThe protests grew to involve millions across China. On June 4, 1989, the Chinese government declared martial law and sent military troops and tanks to occupy central Beijing, forcibly clearing the square.\n\nThe violent suppression of the protests resulted in hundreds to thousands of deaths, and the event remains a sensitive and censored topic in China today.",
-  "startDate": "1989-04-15",
-  "endDate": "1989-06-04",
+  "description": "Pro-democracy protests in **Tiananmen Square** in Beijing lasted from April to June 4, 1989, when Chinese troops violently suppressed the demonstrations.\n\nHundreds, possibly thousands, were killed when tanks entered the square. The iconic \"Tank Man\" photo became a symbol of resistance.\n\nChina censors discussion of the event to this day.",
+  "startDate": "1989-06-04",
   "location": {
     "latitude": 39.9042,
     "longitude": 116.4074,
@@ -15,6 +14,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
   ],
-  "createdAt": "2024-01-11",
-  "updatedAt": "2024-01-11"
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
 }

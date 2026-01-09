@@ -1,0 +1,20 @@
+{
+  "id": "102",
+  "title": "Assassination of JFK",
+  "description": "President **John F. Kennedy** was assassinated on November 22, 1963, in Dallas, Texas, while riding in a motorcade.\n\nLee Harvey Oswald was arrested for the murder but was killed two days later by Jack Ruby. The Warren Commission concluded Oswald acted alone.\n\nKennedy's death shocked the nation and sparked numerous conspiracy theories.",
+  "startDate": "1963-11-22",
+  "location": {
+    "latitude": 32.7767,
+    "longitude": -96.797,
+    "country": "United States",
+    "city": "Dallas",
+    "region": "Texas"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

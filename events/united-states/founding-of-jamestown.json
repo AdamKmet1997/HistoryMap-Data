@@ -1,0 +1,20 @@
+{
+  "id": "64",
+  "title": "Founding of Jamestown",
+  "description": "**Jamestown**, the first permanent English settlement in North America, was established on May 14, 1607, in present-day Virginia.\n\nThe colony struggled initially with disease, starvation, and conflict with Native Americans. John Smith's leadership and Pocahontas's intervention helped the colony survive.\n\nJamestown became the capital of the Virginia Colony and the birthplace of representative government in America.",
+  "startDate": "1607-05-14",
+  "location": {
+    "latitude": 37.2054,
+    "longitude": -76.7793,
+    "country": "United States",
+    "city": "Jamestown",
+    "region": "Virginia"
+  },
+  "category": "exploration",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jamestown,_Virginia"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

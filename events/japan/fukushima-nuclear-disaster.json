@@ -1,0 +1,19 @@
+{
+  "id": "118",
+  "title": "Fukushima Nuclear Disaster",
+  "description": "The **Fukushima Daiichi nuclear disaster** on March 11, 2011, was triggered by a massive earthquake and tsunami that killed over 18,000 people.\n\nThe nuclear plant suffered meltdowns and released radioactive materials. Over 150,000 people were evacuated. It was the worst nuclear accident since Chernobyl.\n\nThe disaster led Japan to shut down all nuclear reactors and reconsider its energy policy.",
+  "startDate": "2011-03-11",
+  "location": {
+    "latitude": 37.4219,
+    "longitude": 141.0328,
+    "country": "Japan",
+    "city": "Fukushima"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fukushima_nuclear_disaster"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

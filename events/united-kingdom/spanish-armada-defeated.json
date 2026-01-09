@@ -1,0 +1,19 @@
+{
+  "id": "63",
+  "title": "Spanish Armada Defeated",
+  "description": "In 1588, the **Spanish Armada**, a fleet of 130 ships sent by King Philip II to invade England, was defeated by the English navy and storms.\n\nThis victory established England as a major naval power and marked the beginning of Spain's decline. The battle was fought in the English Channel.\n\nQueen Elizabeth I's famous speech at Tilbury rallied English troops during this crisis.",
+  "startDate": "1588-07-29",
+  "location": {
+    "latitude": 50.7833,
+    "longitude": 0.0833,
+    "country": "United Kingdom",
+    "city": "English Channel"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Spanish_Armada"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

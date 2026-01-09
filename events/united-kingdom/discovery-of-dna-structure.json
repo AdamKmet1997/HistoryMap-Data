@@ -1,0 +1,19 @@
+{
+  "id": "98",
+  "title": "Discovery of DNA Structure",
+  "description": "On February 28, 1953, **James Watson and Francis Crick** discovered the double helix structure of DNA at Cambridge University.\n\nTheir model, building on work by Rosalind Franklin, revolutionized biology and medicine. It explained how genetic information is stored and replicated.\n\nWatson, Crick, and Maurice Wilkins won the Nobel Prize in 1962.",
+  "startDate": "1953-02-28",
+  "location": {
+    "latitude": 52.2053,
+    "longitude": 0.1218,
+    "country": "United Kingdom",
+    "city": "Cambridge"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Molecular_Structure_of_Nucleic_Acids"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

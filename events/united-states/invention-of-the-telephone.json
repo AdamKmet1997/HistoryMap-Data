@@ -1,0 +1,20 @@
+{
+  "id": "79",
+  "title": "Invention of the Telephone",
+  "description": "**Alexander Graham Bell** made the first successful telephone call on March 10, 1876, saying \"Mr. Watson, come here, I want to see you.\"\n\nThe telephone revolutionized communication, allowing voice transmission over long distances. Bell founded the Bell Telephone Company in 1877.\n\nThe invention transformed business, society, and personal communication worldwide.",
+  "startDate": "1876-03-10",
+  "location": {
+    "latitude": 42.3601,
+    "longitude": -71.0589,
+    "country": "United States",
+    "city": "Boston",
+    "region": "Massachusetts"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Invention_of_the_telephone"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

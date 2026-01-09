@@ -1,0 +1,19 @@
+{
+  "id": "68",
+  "title": "Isaac Newton Publishes Principia",
+  "description": "In 1687, **Isaac Newton** published *Philosophiæ Naturalis Principia Mathematica*, laying the foundation for classical mechanics.\n\nThe work described universal gravitation and the three laws of motion, revolutionizing scientific understanding of the physical world.\n\nPrincipia is considered one of the most important scientific works ever published.",
+  "startDate": "1687-07-05",
+  "location": {
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "United Kingdom",
+    "city": "London"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

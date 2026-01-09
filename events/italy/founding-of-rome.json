@@ -3,6 +3,7 @@
   "title": "Founding of Rome",
   "description": "According to Roman mythology, **Rome** was founded on April 21, 753 BC, by the twin brothers Romulus and Remus, who were raised by a she-wolf.\n\nArchaeological evidence indicates that the area was inhabited from at least 1000 BC. Rome would grow from a small settlement to become the capital of one of the greatest empires in history.\n\nThe Roman Empire at its height controlled territory spanning from Britain to North Africa and from Spain to the Middle East.",
   "startDate": "0753-04-21",
+  "year": -753,
   "location": {
     "latitude": 41.9028,
     "longitude": 12.4964,

@@ -1,0 +1,21 @@
+{
+  "id": "50",
+  "title": "Construction of the Great Wall of China",
+  "description": "The **Great Wall of China** was built over many dynasties, with major construction during the Qin Dynasty (221-206 BC) under Emperor Qin Shi Huang.\n\nStretching over 13,000 miles, it was built to protect Chinese states from nomadic invasions. The wall represents one of humanity's most impressive architectural achievements.\n\nMuch of the wall that exists today was built during the Ming Dynasty (1368-1644 AD).",
+  "startDate": "0221-01-01",
+  "year": -221,
+  "endDate": "1644-12-31",
+  "location": {
+    "latitude": 40.4319,
+    "longitude": 116.5704,
+    "country": "China",
+    "city": "Beijing"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

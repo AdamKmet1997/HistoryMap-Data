@@ -1,0 +1,20 @@
+{
+  "id": "99",
+  "title": "Rosa Parks and Montgomery Bus Boycott",
+  "description": "On December 1, 1955, **Rosa Parks** refused to give up her seat to a white passenger on a Montgomery bus, sparking the Montgomery Bus Boycott.\n\nThe boycott, led by Martin Luther King Jr., lasted 381 days and ended with the Supreme Court ruling that bus segregation was unconstitutional.\n\nThis event launched the modern civil rights movement in America.",
+  "startDate": "1955-12-01",
+  "location": {
+    "latitude": 32.3668,
+    "longitude": -86.3,
+    "country": "United States",
+    "city": "Montgomery",
+    "region": "Alabama"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Montgomery_bus_boycott"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

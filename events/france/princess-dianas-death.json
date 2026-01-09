@@ -1,0 +1,19 @@
+{
+  "id": "113",
+  "title": "Princess Diana's Death",
+  "description": "**Princess Diana** died in a car crash in Paris on August 31, 1997, shocking the world and prompting an unprecedented outpouring of grief.\n\nThe crash in the Pont de l'Alma tunnel also killed her companion Dodi Fayed and driver Henri Paul. Paparazzi pursuit was initially blamed.\n\nHer funeral was watched by an estimated 2.5 billion people worldwide.",
+  "startDate": "1997-08-31",
+  "location": {
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "country": "France",
+    "city": "Paris"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Death_of_Diana,_Princess_of_Wales"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

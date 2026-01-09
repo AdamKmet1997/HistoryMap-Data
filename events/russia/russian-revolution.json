@@ -1,0 +1,20 @@
+{
+  "id": "85",
+  "title": "Russian Revolution",
+  "description": "The **Russian Revolution** of 1917 overthrew the Tsarist autocracy and led to the rise of the Soviet Union.\n\nThe February Revolution forced Tsar Nicholas II to abdicate. The October Revolution brought the Bolsheviks to power under Vladimir Lenin.\n\nThe revolution fundamentally changed Russia and influenced global politics for the rest of the 20th century.",
+  "startDate": "1917-03-08",
+  "endDate": "1917-11-07",
+  "location": {
+    "latitude": 59.9343,
+    "longitude": 30.3351,
+    "country": "Russia",
+    "city": "Saint Petersburg"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Russian_Revolution"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

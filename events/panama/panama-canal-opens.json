@@ -1,0 +1,19 @@
+{
+  "id": "123",
+  "title": "Panama Canal Opens",
+  "description": "The **Panama Canal** opened on August 15, 1914, connecting the Atlantic and Pacific Oceans and revolutionizing global shipping.\n\nConstruction took 10 years and cost over 5,600 lives. The 82 km canal eliminated the need to sail around South America.\n\nThe canal remains one of the most important waterways in the world.",
+  "startDate": "1914-08-15",
+  "location": {
+    "latitude": 9.081,
+    "longitude": -79.6805,
+    "country": "Panama",
+    "city": "Panama City"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Panama_Canal"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

@@ -44,6 +44,12 @@
       "description": "End date of the event (optional, same format as startDate)",
       "pattern": "^-?\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2})?$"
     },
+    "year": {
+      "type": "integer",
+      "description": "Year of the event as an integer (negative for BC, e.g., -2560 for 2560 BC)",
+      "minimum": -10000,
+      "maximum": 2100
+    },
     "location": {
       "type": "object",
       "description": "Geographic location of the event",
@@ -109,6 +115,12 @@
         "format": "uri",
         "pattern": "^https?://"
       }
+    },
+    "contributedBy": {
+      "type": "string",
+      "description": "GitHub username or name of the person who contributed this event",
+      "minLength": 2,
+      "maxLength": 100
     },
     "createdAt": {
       "type": "string",

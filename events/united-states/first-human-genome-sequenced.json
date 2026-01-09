@@ -1,0 +1,20 @@
+{
+  "id": "129",
+  "title": "First Human Genome Sequenced",
+  "description": "The **Human Genome Project** was declared complete on April 14, 2003, having sequenced all 3 billion base pairs of human DNA.\n\nThe project took 13 years and involved scientists from around the world. It revolutionized medicine and biology.\n\nThe data enables personalized medicine and understanding of genetic diseases.",
+  "startDate": "2003-04-14",
+  "location": {
+    "latitude": 38.8977,
+    "longitude": -77.0365,
+    "country": "United States",
+    "city": "Washington",
+    "region": "D.C."
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Human_Genome_Project"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "90",
+  "title": "Invasion of Poland - WWII Begins",
+  "description": "**World War II** began on September 1, 1939, when Nazi Germany invaded Poland. Britain and France declared war on Germany two days later.\n\nThe war would become the deadliest conflict in human history, killing an estimated 70-85 million people. It involved nations from around the world.\n\nThe war ended in 1945 with Allied victory and fundamentally reshaped global politics.",
+  "startDate": "1939-09-01",
+  "location": {
+    "latitude": 52.2297,
+    "longitude": 21.0122,
+    "country": "Poland",
+    "city": "Warsaw"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

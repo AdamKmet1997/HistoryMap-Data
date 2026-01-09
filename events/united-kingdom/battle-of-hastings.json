@@ -1,0 +1,19 @@
+{
+  "id": "57",
+  "title": "Battle of Hastings",
+  "description": "The **Battle of Hastings** was fought on October 14, 1066, between Norman forces under William the Conqueror and English forces under King Harold II.\n\nWilliam's victory led to the Norman conquest of England, fundamentally changing English culture, language, and governance. Harold II was killed in the battle.\n\nThis battle is commemorated in the famous Bayeux Tapestry.",
+  "startDate": "1066-10-14",
+  "location": {
+    "latitude": 50.9117,
+    "longitude": 0.4912,
+    "country": "United Kingdom",
+    "city": "Hastings"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Hastings"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

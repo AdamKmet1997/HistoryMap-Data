@@ -1,7 +1,7 @@
 {
-  "id": "19",
+  "id": "84",
   "title": "Assassination of Archduke Franz Ferdinand",
-  "description": "On June 28, 1914, **Archduke Franz Ferdinand** of Austria and his wife Sophie were assassinated in Sarajevo by Gavrilo Princip, a Bosnian Serb nationalist.\n\nThis assassination set off a chain of events that led to the outbreak of World War I one month later. Austria-Hungary's subsequent invasion of Serbia triggered a complex web of alliances, pulling major European powers into the conflict.\n\nThe war would last four years and result in over 17 million deaths.",
+  "description": "**Archduke Franz Ferdinand** of Austria and his wife were assassinated in Sarajevo on June 28, 1914, by Gavrilo Princip, a Bosnian Serb nationalist.\n\nThis event triggered a chain of events that led to World War I. Austria-Hungary declared war on Serbia, setting off a cascade of alliances.\n\nThe war would last four years and claim over 17 million lives.",
   "startDate": "1914-06-28",
   "location": {
     "latitude": 43.8563,
@@ -14,6 +14,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
   ],
-  "createdAt": "2024-01-19",
-  "updatedAt": "2024-01-19"
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
 }

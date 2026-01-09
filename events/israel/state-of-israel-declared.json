@@ -1,0 +1,19 @@
+{
+  "id": "96",
+  "title": "State of Israel Declared",
+  "description": "**Israel** declared independence on May 14, 1948, establishing a Jewish homeland. David Ben-Gurion became the first Prime Minister.\n\nThe declaration led to the 1948 Arab-Israeli War. The conflict displaced hundreds of thousands of Palestinians and created ongoing regional tensions.\n\nIsrael's creation fulfilled Zionist aspirations but remains a source of conflict in the Middle East.",
+  "startDate": "1948-05-14",
+  "location": {
+    "latitude": 32.0853,
+    "longitude": 34.7818,
+    "country": "Israel",
+    "city": "Tel Aviv"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

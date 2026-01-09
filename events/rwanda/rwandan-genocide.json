@@ -1,0 +1,20 @@
+{
+  "id": "112",
+  "title": "Rwandan Genocide",
+  "description": "The **Rwandan Genocide** from April to July 1994 resulted in the massacre of an estimated 500,000-800,000 Tutsis and moderate Hutus.\n\nThe genocide lasted 100 days and was fueled by ethnic tensions. The international community failed to intervene effectively.\n\nThe aftermath led to major reforms in international humanitarian law and intervention policies.",
+  "startDate": "1994-04-07",
+  "endDate": "1994-07-15",
+  "location": {
+    "latitude": -1.9536,
+    "longitude": 30.0606,
+    "country": "Rwanda",
+    "city": "Kigali"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rwandan_genocide"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

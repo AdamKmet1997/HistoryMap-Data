@@ -1,0 +1,20 @@
+{
+  "id": "73",
+  "title": "California Gold Rush",
+  "description": "The **California Gold Rush** began on January 24, 1848, when James W. Marshall discovered gold at Sutter's Mill in Coloma, California.\n\nOver 300,000 people migrated to California during the rush. It accelerated California's admission to the Union and spurred the development of San Francisco.\n\nThe influx devastated Native American populations and transformed California's economy and landscape.",
+  "startDate": "1848-01-24",
+  "location": {
+    "latitude": 38.7996,
+    "longitude": -120.8977,
+    "country": "United States",
+    "city": "Coloma",
+    "region": "California"
+  },
+  "category": "exploration",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/California_Gold_Rush"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

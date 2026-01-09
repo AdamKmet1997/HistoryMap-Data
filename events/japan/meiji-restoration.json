@@ -1,0 +1,19 @@
+{
+  "id": "121",
+  "title": "Meiji Restoration",
+  "description": "The **Meiji Restoration** in 1868 ended the Tokugawa shogunate and restored imperial rule in Japan under Emperor Meiji.\n\nJapan rapidly modernized and industrialized, transforming from a feudal society to a major world power within decades.\n\nThe restoration led to Japan's emergence as a modern nation-state.",
+  "startDate": "1868-01-03",
+  "location": {
+    "latitude": 35.6762,
+    "longitude": 139.6503,
+    "country": "Japan",
+    "city": "Tokyo"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Meiji_Restoration"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

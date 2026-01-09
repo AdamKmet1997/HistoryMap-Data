@@ -1,11 +1,11 @@
 {
-  "id": "20",
+  "id": "88",
   "title": "Discovery of Penicillin",
-  "description": "In September 1928, **Alexander Fleming** discovered penicillin at St. Mary's Hospital in London. He noticed that a mold (Penicillium notatum) had contaminated one of his bacterial cultures and killed the bacteria around it.\n\nThis accidental discovery led to the development of the first widely used antibiotic. Penicillin has saved countless millions of lives and revolutionized medicine.\n\nFleming shared the 1945 Nobel Prize in Physiology or Medicine for this discovery.",
-  "startDate": "1928-09-03",
+  "description": "**Alexander Fleming** discovered penicillin on September 28, 1928, when he noticed that a mold had killed bacteria in a petri dish.\n\nThis accidental discovery led to the development of antibiotics, revolutionizing medicine. Penicillin saved countless lives during World War II.\n\nFleming, along with Howard Florey and Ernst Chain, won the Nobel Prize in 1945.",
+  "startDate": "1928-09-28",
   "location": {
-    "latitude": 51.5174,
-    "longitude": -0.1755,
+    "latitude": 51.5074,
+    "longitude": -0.1278,
     "country": "United Kingdom",
     "city": "London"
   },
@@ -14,6 +14,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Penicillin"
   ],
-  "createdAt": "2024-01-20",
-  "updatedAt": "2024-01-20"
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
 }

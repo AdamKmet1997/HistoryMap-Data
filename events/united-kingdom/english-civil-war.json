@@ -1,0 +1,20 @@
+{
+  "id": "67",
+  "title": "English Civil War",
+  "description": "The **English Civil War** (1642-1651) was fought between Parliamentarians and Royalists over how England should be governed.\n\nThe war ended with the execution of King Charles I and the brief establishment of a republic under Oliver Cromwell. It fundamentally changed the balance of power between Parliament and monarchy.\n\nThe conflict resulted in over 200,000 deaths and reshaped British constitutional government.",
+  "startDate": "1642-08-22",
+  "endDate": "1651-09-03",
+  "location": {
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "United Kingdom",
+    "city": "London"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/English_Civil_War"
+  ],
+  "createdAt": "2024-01-15",
+  "updatedAt": "2024-01-15"
+}

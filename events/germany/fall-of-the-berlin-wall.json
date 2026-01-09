@@ -1,7 +1,7 @@
 {
-  "id": "2",
+  "id": "109",
   "title": "Fall of the Berlin Wall",
-  "description": "The **Berlin Wall** fell on November 9, 1989, marking a pivotal moment in world history.\n\nThe wall had divided East and West Berlin for 28 years, serving as a symbol of the Cold War and the Iron Curtain between Western Europe and the Eastern Bloc.\n\nOn the evening of November 9, after several weeks of civil unrest, the East German government announced that all GDR citizens could visit West Germany and West Berlin. Crowds of East Germans crossed and climbed onto the Wall, joined by West Germans on the other side in a celebratory atmosphere.\n\nThe fall of the Wall paved the way for German reunification, which was formally concluded on October 3, 1990.",
+  "description": "The **Berlin Wall** fell on November 9, 1989, symbolizing the end of the Cold War and German division.\n\nEast Germans were allowed to cross into West Berlin for the first time in 28 years. People celebrated by tearing down sections of the wall.\n\nGermany reunified less than a year later on October 3, 1990.",
   "startDate": "1989-11-09",
   "location": {
     "latitude": 52.52,
@@ -12,8 +12,8 @@
   "category": "politics",
   "status": "approved",
   "sources": [
-    "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+    "https://en.wikipedia.org/wiki/Berlin_Wall"
   ],
-  "createdAt": "2024-01-02",
-  "updatedAt": "2024-01-02"
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
 }

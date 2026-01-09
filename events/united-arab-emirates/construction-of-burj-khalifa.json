@@ -1,0 +1,19 @@
+{
+  "id": "127",
+  "title": "Construction of Burj Khalifa",
+  "description": "The **Burj Khalifa** in Dubai was completed in 2010, becoming the world's tallest building at 828 meters (2,717 feet).\n\nConstruction took six years and required innovative engineering. The building symbolizes Dubai's rapid development and ambition.\n\nIt remains an iconic landmark and tourist attraction.",
+  "startDate": "2010-01-04",
+  "location": {
+    "latitude": 25.1972,
+    "longitude": 55.2744,
+    "country": "United Arab Emirates",
+    "city": "Dubai"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}

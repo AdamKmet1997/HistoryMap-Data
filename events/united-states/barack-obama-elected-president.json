@@ -1,0 +1,20 @@
+{
+  "id": "116",
+  "title": "Barack Obama Elected President",
+  "description": "**Barack Obama** was elected the first African American President of the United States on November 4, 2008.\n\nHis victory was historic and symbolized racial progress in America. His campaign emphasized hope and change during the financial crisis.\n\nObama served two terms, implementing the Affordable Care Act and other major policies.",
+  "startDate": "2008-11-04",
+  "location": {
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "country": "United States",
+    "city": "Chicago",
+    "region": "Illinois"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2008_United_States_presidential_election"
+  ],
+  "createdAt": "2024-01-16",
+  "updatedAt": "2024-01-16"
+}
