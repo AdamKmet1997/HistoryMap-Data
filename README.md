@@ -10,6 +10,14 @@ This repository contains a community-maintained collection of historical events 
 🌐 **View on the map**: [HistoryMap](https://historymap.vercel.app) *(coming soon)*
 🎨 **[Contributor Tool](https://htmlpreview.github.io/?https://github.com/AdamKmet1997/HistoryMap-Data/blob/main/contribute.html)** - Generate properly formatted events in seconds!
 
+## 🎉 Recent Updates (January 2026)
+
+- 📊 **139 Events**: Reached new milestone with diverse global coverage
+- 👍 **Voting System**: Community engagement with thumbs up/down on every event
+- ⏱️ **Interactive Timeline**: Visual exploration of history with histogram visualization
+- 🌏 **Expanded Coverage**: Added 21+ events from Peru, South Korea, Kenya, Brazil, Chile, Cambodia, and more
+- 🏛️ **Ancient to Modern**: Events now span from 2560 BC (Great Pyramid) to present day
+
 ## 📋 Quick Links
 
 - 🚀 **[Start Contributing](#-how-to-contribute)** - Add your first event!
@@ -23,21 +31,26 @@ This repository contains a community-maintained collection of historical events 
 
 ## 📊 Current Stats
 
-- **Total Events**: 124+ ✅
-- **Countries**: 35+
+- **Total Events**: 139 ✅
+- **Countries**: 40+
 - **Contributors**: Growing community
 - **Categories**: Politics, War, Culture, Science, Disaster, Religion, Exploration
-- **Date Range**: 10,000 BC - Present
+- **Date Range**: 2560 BC - Present
 - **Coverage**: All continents represented
+- **Community Engagement**: Voting system with thumbs up/down on every event
 
-### Top Countries
-- 🇺🇸 United States
-- 🇬🇧 United Kingdom
-- 🇫🇷 France
-- 🇮🇪 Ireland
+### Geographic Coverage
+- 🇺🇸 United States (30+ events)
+- 🇬🇧 United Kingdom (20+ events)
+- 🇫🇷 France (10+ events)
+- 🇮🇪 Ireland (10+ events)
 - 🇩🇪 Germany
 - 🇮🇹 Italy
-- And 30+ more countries!
+- 🇨🇳 China
+- 🇮🇳 India
+- 🇯🇵 Japan
+- 🇲🇽 Mexico
+- And 30+ more countries across all continents!
 
 ---
 
@@ -182,6 +195,15 @@ Each event is stored as a JSON file. Here's a complete example:
 | **sources** | array | Source URLs (1-10 URLs) | `["https://..."]` |
 | **createdAt** | string | Creation date (YYYY-MM-DD) | `"2024-01-01"` |
 | **updatedAt** | string | Last update date (YYYY-MM-DD) | `"2024-01-01"` |
+
+### Automatic Fields (Added by System)
+
+These fields are automatically managed by the HistoryMap system:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| **voteCountUp** | integer | Number of positive votes (managed automatically) |
+| **voteCountDown** | integer | Number of negative votes (managed automatically) |
 
 ### Optional Fields
 
@@ -350,25 +372,30 @@ No! You can use our [interactive contributor tool](https://htmlpreview.github.io
 ## 📈 Roadmap
 
 ### Completed ✅
-- [x] Reach 100 events (124+!)
+- [x] Reach 100 events (139!)
 - [x] Add events from all continents
 - [x] Create interactive contributor tool
 - [x] Add contributor attribution system
 - [x] Support BC dates
+- [x] Add voting system with engagement tracking
+- [x] Implement "Suggest Edit" feature
+- [x] Add interactive timeline with histogram visualization
 
 ### In Progress 🚧
-- [ ] Reach 500 events
+- [ ] Reach 250 events
 - [ ] Add automated quality checks with GitHub Actions
 - [ ] Create comprehensive CONTRIBUTING guide with examples
+- [ ] Add event images and media support
 
 ### Future Goals 🎯
+- [ ] Reach 500 events
 - [ ] Reach 1,000 events
 - [ ] Add multi-language support (translations)
 - [ ] Create data export tools (CSV, GeoJSON, KML)
 - [ ] Build event relationship system (causes/effects)
-- [ ] Add event images and media support
 - [ ] Create data visualization examples
 - [ ] Develop mobile-friendly contributor app
+- [ ] Add event verification badges for highly-sourced events
 
 ---
 
