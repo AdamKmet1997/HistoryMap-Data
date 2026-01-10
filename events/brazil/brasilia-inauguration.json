@@ -1,0 +1,19 @@
+{
+  "id": "brasilia-inauguration",
+  "title": "Inauguration of Brasília",
+  "description": "On April 21, 1960, Brasília was officially inaugurated as Brazil's new capital, replacing Rio de Janeiro. Designed by urban planner Lúcio Costa and architect Oscar Niemeyer, the city was built in just 41 months in Brazil's central highlands. President Juscelino Kubitschek championed the project to promote development of the interior and better integrate the vast nation. The modernist planned city, shaped like an airplane from above, represents one of the 20th century's most ambitious urban planning projects. UNESCO designated Brasília a World Heritage Site in 1987.",
+  "startDate": "1960-04-21",
+  "location": {
+    "latitude": -15.8267,
+    "longitude": -47.9218,
+    "country": "Brazil",
+    "city": "Brasília",
+    "region": "Federal District"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bras%C3%ADlia",
+    "https://www.britannica.com/place/Brasilia"
+  ]
+}

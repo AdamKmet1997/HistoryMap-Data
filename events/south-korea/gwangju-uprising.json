@@ -1,0 +1,20 @@
+{
+  "id": "gwangju-uprising",
+  "title": "Gwangju Democratization Movement",
+  "description": "The Gwangju Uprising (May 18-27, 1980) was a popular pro-democracy movement in Gwangju, South Korea, brutally suppressed by the military government. Citizens protested against martial law and demanded democratic reforms, but the government responded with armed force. Official estimates cite 165-200 deaths, though actual casualties may have been much higher. The massacre became a pivotal moment in South Korea's democratization struggle, galvanizing the pro-democracy movement throughout the 1980s. May 18 is now a national memorial day in South Korea.",
+  "startDate": "1980-05-18",
+  "endDate": "1980-05-27",
+  "location": {
+    "latitude": 35.1595,
+    "longitude": 126.8526,
+    "country": "South Korea",
+    "city": "Gwangju",
+    "region": "South Jeolla"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gwangju_Uprising",
+    "https://www.britannica.com/event/Kwangju-Uprising"
+  ]
+}

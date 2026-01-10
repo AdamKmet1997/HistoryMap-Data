@@ -1,0 +1,20 @@
+{
+  "id": "mumbai-terrorist-attacks",
+  "title": "2008 Mumbai Terrorist Attacks",
+  "description": "Between November 26-29, 2008, ten Pakistani terrorists carried out coordinated shooting and bombing attacks across Mumbai, India's financial capital. The attackers targeted crowded locations including the Taj Mahal Palace Hotel, Oberoi Trident Hotel, Leopold Cafe, and Chhatrapati Shivaji Terminus railway station. The three-day siege killed 166 people and wounded over 300. The attacks shocked the world, strained India-Pakistan relations, and led to significant changes in India's counter-terrorism capabilities and protocols.",
+  "startDate": "2008-11-26",
+  "endDate": "2008-11-29",
+  "location": {
+    "latitude": 18.9220,
+    "longitude": 72.8347,
+    "country": "India",
+    "city": "Mumbai",
+    "region": "Maharashtra"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2008_Mumbai_attacks",
+    "https://www.britannica.com/event/Mumbai-terrorist-attacks-of-2008"
+  ]
+}

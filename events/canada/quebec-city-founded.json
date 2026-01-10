@@ -1,0 +1,19 @@
+{
+  "id": "quebec-city-founded",
+  "title": "Founding of Quebec City",
+  "description": "On July 3, 1608, French explorer Samuel de Champlain founded Quebec City, establishing the first permanent French settlement in North America. Located at a strategic point where the St. Lawrence River narrows (the name 'Quebec' comes from the Algonquin word for 'where the river narrows'), the settlement became the capital of New France. Champlain's founding of Quebec marked the beginning of permanent French colonization in Canada and established Quebec as a center of French culture and language in North America, a legacy that continues today.",
+  "startDate": "1608-07-03",
+  "location": {
+    "latitude": 46.8139,
+    "longitude": -71.2080,
+    "country": "Canada",
+    "city": "Quebec City",
+    "region": "Quebec"
+  },
+  "category": "exploration",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Quebec_City",
+    "https://www.britannica.com/place/Quebec-city"
+  ]
+}

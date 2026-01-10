@@ -1,0 +1,19 @@
+{
+  "id": "hagia-sophia-completion",
+  "title": "Completion of Hagia Sophia",
+  "description": "The Hagia Sophia was completed on December 27, 537 AD, in Constantinople (modern Istanbul) under Byzantine Emperor Justinian I. For nearly 1,000 years, it was the world's largest cathedral and an architectural marvel featuring a massive dome (102 feet in diameter) that seemed to float above the worship space. The building represented the peak of Byzantine architecture and engineering. After the Ottoman conquest in 1453, it was converted to a mosque. It became a museum in 1935, then reconverted to a mosque in 2020. The structure remains one of history's most significant religious buildings.",
+  "startDate": "0537-12-27",
+  "location": {
+    "latitude": 41.0086,
+    "longitude": 28.9802,
+    "country": "Turkey",
+    "city": "Istanbul",
+    "region": "Istanbul"
+  },
+  "category": "religion",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hagia_Sophia",
+    "https://www.britannica.com/topic/Hagia-Sophia"
+  ]
+}

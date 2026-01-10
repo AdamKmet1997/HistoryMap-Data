@@ -1,0 +1,19 @@
+{
+  "id": "uae-formation",
+  "title": "Formation of the United Arab Emirates",
+  "description": "On December 2, 1971, six emirates (Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al-Quwain, and Fujairah) united to form the United Arab Emirates, with Ras Al Khaimah joining in February 1972. The federation was established following British withdrawal from the region after 150 years of treaty relations. Sheikh Zayed bin Sultan Al Nahyan of Abu Dhabi became the first president. The discovery of oil in the 1950s-60s transformed these small trading states into one of the world's wealthiest nations. The UAE has since become a global business hub, known for its rapid modernization and ambitious development.",
+  "startDate": "1971-12-02",
+  "location": {
+    "latitude": 24.4539,
+    "longitude": 54.3773,
+    "country": "United Arab Emirates",
+    "city": "Abu Dhabi",
+    "region": "Abu Dhabi"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/History_of_the_United_Arab_Emirates",
+    "https://www.britannica.com/place/United-Arab-Emirates/History"
+  ]
+}

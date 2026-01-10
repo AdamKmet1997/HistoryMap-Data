@@ -1,0 +1,19 @@
+{
+  "id": "hajj-stampede-2015",
+  "title": "2015 Mina Stampede During Hajj",
+  "description": "On September 24, 2015, a catastrophic stampede occurred in Mina, near Mecca, during the Hajj pilgrimage's ritual of stoning the devil. At least 2,236 pilgrims were killed and over 900 injured when two large groups of pilgrims converged at an intersection, causing a crush. It was the deadliest incident in Hajj history. The tragedy prompted Saudi Arabia to invest billions in safety improvements, expand pathways, implement crowd management technology, and redesign pilgrimage routes. The incident highlighted the immense logistical challenges of hosting millions of pilgrims annually.",
+  "startDate": "2015-09-24",
+  "location": {
+    "latitude": 21.4175,
+    "longitude": 39.8575,
+    "country": "Saudi Arabia",
+    "city": "Mina",
+    "region": "Makkah"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2015_Mina_stampede",
+    "https://www.bbc.com/news/world-middle-east-34379969"
+  ]
+}

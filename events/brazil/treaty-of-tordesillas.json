@@ -1,0 +1,19 @@
+{
+  "id": "treaty-of-tordesillas",
+  "title": "Treaty of Tordesillas",
+  "description": "On June 7, 1494, Spain and Portugal signed the Treaty of Tordesillas, dividing the newly discovered lands outside Europe between the two powers along a meridian 370 leagues west of the Cape Verde islands. This treaty, mediated by Pope Alexander VI, gave Portugal rights to territories east of the line (including Brazil, which was 'discovered' in 1500) and Spain rights to lands west of it (most of the Americas). The treaty profoundly shaped colonial history, explaining why Brazil speaks Portuguese while most of South America speaks Spanish.",
+  "startDate": "1494-06-07",
+  "location": {
+    "latitude": 41.6628,
+    "longitude": -4.7285,
+    "country": "Spain",
+    "city": "Tordesillas",
+    "region": "Castile and León"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Tordesillas",
+    "https://www.britannica.com/event/Treaty-of-Tordesillas"
+  ]
+}

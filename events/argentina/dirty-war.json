@@ -1,0 +1,20 @@
+{
+  "id": "dirty-war",
+  "title": "Argentina's Dirty War Begins",
+  "description": "The Argentine military coup of March 24, 1976, overthrew President Isabel Perón and installed a military junta, beginning the 'Dirty War' (1976-1983). The dictatorship systematically disappeared an estimated 30,000 people - political dissidents, students, union organizers, and intellectuals - in a campaign of state terrorism. Victims were tortured, murdered, and their bodies disposed of secretly. The Mothers of the Plaza de Mayo became international symbols of resistance, demanding information about their disappeared children. The dictatorship ended in 1983, but its legacy of trauma continues to shape Argentine society.",
+  "startDate": "1976-03-24",
+  "endDate": "1983-12-10",
+  "location": {
+    "latitude": -34.6037,
+    "longitude": -58.3816,
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "region": "Buenos Aires"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dirty_War",
+    "https://www.britannica.com/event/Dirty-War"
+  ]
+}

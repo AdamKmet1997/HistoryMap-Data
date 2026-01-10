@@ -1,0 +1,19 @@
+{
+  "id": "great-kanto-earthquake",
+  "title": "Great Kanto Earthquake",
+  "description": "On September 1, 1923, a devastating magnitude 7.9 earthquake struck the Kanto region of Japan, with its epicenter in Sagami Bay. The disaster killed an estimated 105,000-142,000 people, with Tokyo and Yokohama suffering the most damage. Firestorms swept through wooden buildings, and the subsequent tsunami added to the destruction. The earthquake prompted major urban redesign, improved building codes, and the establishment of modern disaster preparedness systems in Japan. September 1st is now observed as Disaster Prevention Day.",
+  "startDate": "1923-09-01",
+  "location": {
+    "latitude": 35.3333,
+    "longitude": 139.4833,
+    "country": "Japan",
+    "city": "Tokyo",
+    "region": "Kanto"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/1923_Great_Kant%C5%8D_earthquake",
+    "https://www.britannica.com/event/Tokyo-Yokohama-earthquake-of-1923"
+  ]
+}

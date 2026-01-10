@@ -1,0 +1,20 @@
+{
+  "id": "six-day-war",
+  "title": "Six-Day War",
+  "description": "The Six-Day War (June 5-10, 1967) was a brief but transformative conflict in which Israel fought against Egypt, Jordan, and Syria. Israel launched preemptive strikes against Egyptian airfields, destroying most of Egypt's air force on the ground. In six days, Israel captured the Gaza Strip and Sinai Peninsula from Egypt, the West Bank and East Jerusalem from Jordan, and the Golan Heights from Syria. The war tripled Israeli-controlled territory and established new regional dynamics that continue to shape Middle Eastern politics. The territorial disputes from this war remain central to the Israeli-Palestinian conflict.",
+  "startDate": "1967-06-05",
+  "endDate": "1967-06-10",
+  "location": {
+    "latitude": 31.7683,
+    "longitude": 35.2137,
+    "country": "Israel",
+    "city": "Jerusalem",
+    "region": "Jerusalem District"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Six-Day_War",
+    "https://www.britannica.com/event/Six-Day-War"
+  ]
+}

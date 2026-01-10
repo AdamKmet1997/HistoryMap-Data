@@ -1,0 +1,20 @@
+{
+  "id": "salt-march",
+  "title": "Gandhi's Salt March",
+  "description": "On March 12, 1930, Mahatma Gandhi began his famous Salt March (Dandi March) as an act of civil disobedience against British colonial salt taxes. Gandhi and 78 followers walked 240 miles from Sabarmati Ashram to the coastal village of Dandi, where they produced salt from seawater on April 6. The peaceful protest sparked nationwide civil disobedience and attracted worldwide attention to India's independence movement. It demonstrated the power of nonviolent resistance and became an iconic moment in the fight against colonialism.",
+  "startDate": "1930-03-12",
+  "endDate": "1930-04-06",
+  "location": {
+    "latitude": 20.7131,
+    "longitude": 70.9167,
+    "country": "India",
+    "city": "Dandi",
+    "region": "Gujarat"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Salt_March",
+    "https://www.britannica.com/event/Salt-March"
+  ]
+}

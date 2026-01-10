@@ -1,0 +1,19 @@
+{
+  "id": "inca-empire-height",
+  "title": "Inca Empire at Its Height",
+  "description": "Around 1525, under Emperor Huayna Capac, the Inca Empire (Tawantinsuyu) reached its maximum extent, stretching from modern-day Colombia to central Chile - over 2,500 miles along the Andes. With a population estimated at 12-20 million, it was the largest empire in pre-Columbian America. The Incas developed sophisticated systems of roads (25,000 miles), suspension bridges, agricultural terraces, and administration without written language. Their capital Cusco was one of the world's great cities. This vast civilization would collapse within a decade following Spanish arrival and Huayna Capac's death from smallpox.",
+  "startDate": "1525-01-01",
+  "location": {
+    "latitude": -13.5319,
+    "longitude": -71.9675,
+    "country": "Peru",
+    "city": "Cusco",
+    "region": "Cusco"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Inca_Empire",
+    "https://www.britannica.com/topic/Inca"
+  ]
+}

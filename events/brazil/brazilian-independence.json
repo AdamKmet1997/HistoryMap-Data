@@ -1,0 +1,19 @@
+{
+  "id": "brazilian-independence",
+  "title": "Brazilian Independence",
+  "description": "On September 7, 1822, Dom Pedro I declared Brazil's independence from Portugal with his famous 'Grito do Ipiranga' (Cry of Ipiranga) along the Ipiranga River in São Paulo. Unlike most Latin American independence movements, Brazil's transition was relatively peaceful and maintained monarchical rule. Pedro, son of the Portuguese king, became Emperor Pedro I of Brazil. This unique path to independence preserved Brazil's territorial unity, contrasting with Spanish America's fragmentation into multiple republics. Brazil remained an empire until 1889 when it became a republic.",
+  "startDate": "1822-09-07",
+  "location": {
+    "latitude": -23.5871,
+    "longitude": -46.6127,
+    "country": "Brazil",
+    "city": "São Paulo",
+    "region": "São Paulo"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Independence_of_Brazil",
+    "https://www.britannica.com/place/Brazil/The-Empire"
+  ]
+}

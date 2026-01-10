@@ -1,0 +1,19 @@
+{
+  "id": "soweto-uprising",
+  "title": "Soweto Uprising",
+  "description": "On June 16, 1976, thousands of black students in Soweto, South Africa, marched in protest against the Bantu Education Act's requirement to be taught in Afrikaans. Police responded with teargas and live ammunition, killing at least 176 people (estimates range to 700) over subsequent weeks of unrest. The uprising, sparked by educational language policy, evolved into broader resistance against apartheid. The iconic image of Hector Pieterson, a 12-year-old shot by police, became a symbol of apartheid's brutality. June 16 is now celebrated as Youth Day in South Africa.",
+  "startDate": "1976-06-16",
+  "location": {
+    "latitude": -26.2486,
+    "longitude": 27.8549,
+    "country": "South Africa",
+    "city": "Soweto",
+    "region": "Gauteng"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Soweto_uprising",
+    "https://www.sahistory.org.za/article/june-16-soweto-youth-uprising"
+  ]
+}

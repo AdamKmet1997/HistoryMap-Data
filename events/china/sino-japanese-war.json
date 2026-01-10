@@ -1,0 +1,19 @@
+{
+  "id": "sino-japanese-war",
+  "title": "Second Sino-Japanese War Begins",
+  "description": "The Second Sino-Japanese War began on July 7, 1937, with the Marco Polo Bridge Incident near Beijing. This full-scale war between China and Japan lasted until 1945 and became merged into World War II. The conflict resulted in massive casualties - estimates range from 15-20 million Chinese deaths - and widespread atrocities including the Nanjing Massacre. The war devastated China's infrastructure and economy but ultimately strengthened nationalism and contributed to the eventual Communist victory in the Chinese Civil War.",
+  "startDate": "1937-07-07",
+  "location": {
+    "latitude": 39.8489,
+    "longitude": 116.2273,
+    "country": "China",
+    "city": "Beijing",
+    "region": "Beijing"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War",
+    "https://www.britannica.com/event/Second-Sino-Japanese-War"
+  ]
+}

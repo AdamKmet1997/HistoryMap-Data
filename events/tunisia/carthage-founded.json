@@ -1,0 +1,20 @@
+{
+  "id": "carthage-founded",
+  "title": "Founding of Carthage",
+  "description": "According to legend, Carthage was founded in 814 BC by Phoenician settlers from Tyre, led by Queen Dido (Elissa). The city-state grew to become a dominant naval and commercial power in the Mediterranean, controlling trade routes and establishing colonies across North Africa, Spain, and Sicily. At its height, Carthage rivaled Rome for supremacy, leading to the three Punic Wars (264-146 BC). The city produced the famous general Hannibal, who nearly conquered Rome. Carthage was eventually destroyed by Rome in 146 BC but remains one of antiquity's most significant civilizations.",
+  "startDate": "0814-01-01",
+  "year": -814,
+  "location": {
+    "latitude": 36.8528,
+    "longitude": 10.3233,
+    "country": "Tunisia",
+    "city": "Carthage",
+    "region": "Tunis"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Carthage",
+    "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sharpeville-massacre",
+  "title": "Sharpeville Massacre",
+  "description": "On March 21, 1960, South African police opened fire on a crowd of black protesters in Sharpeville township who were demonstrating against apartheid pass laws. The police killed 69 people and wounded 180, many shot in the back while fleeing. The massacre drew international condemnation and marked a turning point in South Africa's anti-apartheid struggle. It led to the banning of the African National Congress (ANC) and Pan Africanist Congress (PAC), pushing the resistance underground and towards armed struggle. March 21 is now commemorated as Human Rights Day in South Africa.",
+  "startDate": "1960-03-21",
+  "location": {
+    "latitude": -26.6950,
+    "longitude": 27.8699,
+    "country": "South Africa",
+    "city": "Sharpeville",
+    "region": "Gauteng"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sharpeville_massacre",
+    "https://www.sahistory.org.za/article/sharpeville-massacre-21-march-1960"
+  ]
+}

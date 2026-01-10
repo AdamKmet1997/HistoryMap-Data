@@ -1,0 +1,19 @@
+{
+  "id": "botany-bay-landing",
+  "title": "First Fleet Arrives at Botany Bay",
+  "description": "On January 26, 1788, the First Fleet commanded by Captain Arthur Phillip arrived at Botany Bay, establishing the first permanent European settlement in Australia. The fleet of 11 ships carried about 1,500 people, including over 700 convicts transported from Britain. Finding Botany Bay unsuitable, Phillip moved north to establish Sydney Cove (modern Sydney) on January 26. This date marks the beginning of British colonization of Australia and is now celebrated as Australia Day, though it remains controversial due to its impact on Indigenous Australians who had inhabited the continent for over 65,000 years.",
+  "startDate": "1788-01-26",
+  "location": {
+    "latitude": -33.9888,
+    "longitude": 151.1957,
+    "country": "Australia",
+    "city": "Botany Bay",
+    "region": "New South Wales"
+  },
+  "category": "exploration",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/First_Fleet",
+    "https://www.britannica.com/event/First-Fleet"
+  ]
+}

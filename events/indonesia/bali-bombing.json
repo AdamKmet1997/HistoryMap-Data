@@ -1,0 +1,19 @@
+{
+  "id": "bali-bombing",
+  "title": "2002 Bali Bombings",
+  "description": "On October 12, 2002, a series of terrorist bomb attacks in the tourist district of Kuta, Bali, killed 202 people and injured 209 more. The deadliest attack occurred at Paddy's Pub and the Sari Club, popular with foreign tourists. The bombings were carried out by Jemaah Islamiyah, an Islamic extremist group with links to Al-Qaeda. Australians made up the largest number of victims (88 deaths). The attacks devastated Bali's tourism industry and led to significant changes in Indonesia's counter-terrorism efforts and regional security cooperation.",
+  "startDate": "2002-10-12",
+  "location": {
+    "latitude": -8.7184,
+    "longitude": 115.1727,
+    "country": "Indonesia",
+    "city": "Kuta",
+    "region": "Bali"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2002_Bali_bombings",
+    "https://www.britannica.com/event/Bali-bombings-of-2002"
+  ]
+}

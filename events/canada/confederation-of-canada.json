@@ -1,0 +1,19 @@
+{
+  "id": "confederation-of-canada",
+  "title": "Canadian Confederation",
+  "description": "On July 1, 1867, the British North America Act united three British colonies (Province of Canada, Nova Scotia, and New Brunswick) into a single Dominion within the British Empire called Canada. This created a federal system with four provinces: Ontario, Quebec, Nova Scotia, and New Brunswick. The confederation was driven by economic interests, fears of American expansion, and desire for better defense. While Canada gained increasing autonomy, it remained part of the British Empire until the Statute of Westminster in 1931. July 1 is celebrated as Canada Day, the country's national holiday.",
+  "startDate": "1867-07-01",
+  "location": {
+    "latitude": 45.4215,
+    "longitude": -75.6972,
+    "country": "Canada",
+    "city": "Ottawa",
+    "region": "Ontario"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Canadian_Confederation",
+    "https://www.britannica.com/event/Canadian-Confederation"
+  ]
+}

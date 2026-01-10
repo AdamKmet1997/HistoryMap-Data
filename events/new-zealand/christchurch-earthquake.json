@@ -1,0 +1,19 @@
+{
+  "id": "christchurch-earthquake",
+  "title": "Christchurch Earthquake",
+  "description": "On February 22, 2011, a magnitude 6.3 earthquake struck Christchurch, New Zealand's second-largest city, killing 185 people and injuring thousands. Despite being smaller than a September 2010 quake, it was far more destructive due to its shallow depth (3 miles) and proximity to the city center. The earthquake collapsed the CTV and PGC buildings, destroyed much of the central business district, and severely damaged Christchurch Cathedral. The disaster prompted New Zealand's most expensive reconstruction effort (over NZ$40 billion) and led to major changes in building codes and earthquake engineering.",
+  "startDate": "2011-02-22",
+  "location": {
+    "latitude": -43.5321,
+    "longitude": 172.6362,
+    "country": "New Zealand",
+    "city": "Christchurch",
+    "region": "Canterbury"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2011_Christchurch_earthquake",
+    "https://www.britannica.com/event/Christchurch-earthquake-of-2011"
+  ]
+}

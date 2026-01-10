@@ -1,0 +1,19 @@
+{
+  "id": "1960-valdivia-earthquake",
+  "title": "1960 Valdivia Earthquake - Strongest Ever Recorded",
+  "description": "On May 22, 1960, a magnitude 9.5 earthquake struck near Valdivia, Chile - the most powerful earthquake ever recorded by seismographs. The massive quake and resulting tsunami killed approximately 1,655 people in Chile and caused deaths as far away as Hawaii, Japan, and the Philippines. The tsunami reached heights of 82 feet in some areas. The disaster caused over $550 million in damage (1960 dollars) and led to major advances in earthquake science, tsunami warning systems, and building codes. The event fundamentally changed our understanding of plate tectonics and megathrust earthquakes.",
+  "startDate": "1960-05-22",
+  "location": {
+    "latitude": -39.8142,
+    "longitude": -73.2459,
+    "country": "Chile",
+    "city": "Valdivia",
+    "region": "Los Ríos"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake",
+    "https://www.britannica.com/event/Valdivia-earthquake-of-1960"
+  ]
+}

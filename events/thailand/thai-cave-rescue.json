@@ -1,0 +1,20 @@
+{
+  "id": "thai-cave-rescue",
+  "title": "Thai Cave Rescue Mission",
+  "description": "In June-July 2018, twelve members of a youth soccer team and their coach were trapped in the Tham Luang cave system in northern Thailand by rising floodwaters. The boys, aged 11-16, survived for nine days before being discovered by British divers. Their rescue became a global news story, involving over 10,000 people including international cave diving experts, Thai Navy SEALs, and volunteers. After a complex 17-day operation involving sedation and underwater extraction, all 13 were successfully rescued, though one Thai Navy SEAL diver tragically died during the mission.",
+  "startDate": "2018-06-23",
+  "endDate": "2018-07-10",
+  "location": {
+    "latitude": 20.3830,
+    "longitude": 99.8686,
+    "country": "Thailand",
+    "city": "Mae Sai",
+    "region": "Chiang Rai"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
+    "https://www.bbc.com/news/world-asia-44791998"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "independence-of-kenya",
+  "title": "Kenya Gains Independence",
+  "description": "On December 12, 1963, Kenya gained independence from British colonial rule, with Jomo Kenyatta becoming the nation's first Prime Minister (later President in 1964). Independence followed the bloody Mau Mau uprising (1952-1960) against British rule. Kenyatta, who had been imprisoned by the British, led Kenya through its transition to independence and worked to build national unity among diverse ethnic groups. The independence marked the end of over 60 years of British colonial administration and the beginning of Kenya's journey as a sovereign nation.",
+  "startDate": "1963-12-12",
+  "location": {
+    "latitude": -1.2921,
+    "longitude": 36.8219,
+    "country": "Kenya",
+    "city": "Nairobi",
+    "region": "Nairobi County"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/History_of_Kenya#Independence",
+    "https://www.britannica.com/place/Kenya/Independence"
+  ]
+}

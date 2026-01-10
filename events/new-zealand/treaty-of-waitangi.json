@@ -1,0 +1,19 @@
+{
+  "id": "treaty-of-waitangi",
+  "title": "Treaty of Waitangi Signed",
+  "description": "On February 6, 1840, the Treaty of Waitangi was signed between representatives of the British Crown and various Māori chiefs in the Bay of Islands, New Zealand. The treaty established British sovereignty while supposedly guaranteeing Māori possession of their lands and rights. However, differences between the English and Māori language versions created ongoing disputes about its interpretation. Despite controversies over its implementation and breaches, the treaty is considered New Zealand's founding document. February 6 is celebrated as Waitangi Day, the national day of New Zealand.",
+  "startDate": "1840-02-06",
+  "location": {
+    "latitude": -35.2676,
+    "longitude": 174.0927,
+    "country": "New Zealand",
+    "city": "Waitangi",
+    "region": "Northland"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Treaty_of_Waitangi",
+    "https://www.britannica.com/topic/Treaty-of-Waitangi"
+  ]
+}

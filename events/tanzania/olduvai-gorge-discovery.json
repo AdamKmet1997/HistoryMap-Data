@@ -1,0 +1,19 @@
+{
+  "id": "olduvai-gorge-discovery",
+  "title": "Discovery of Early Human Fossils at Olduvai Gorge",
+  "description": "In July 1959, paleoanthropologist Mary Leakey discovered a 1.75 million-year-old hominin skull at Olduvai Gorge in Tanzania. The fossil, initially called 'Zinjanthropus' (later Paranthropus boisei), provided crucial evidence for human evolution in Africa. The Leakeys' decades of work at Olduvai Gorge uncovered numerous fossils and stone tools spanning nearly 2 million years, revolutionizing our understanding of human origins. The site earned recognition as the 'Cradle of Mankind' and established East Africa as central to human evolutionary studies.",
+  "startDate": "1959-07-17",
+  "location": {
+    "latitude": -2.9914,
+    "longitude": 35.3528,
+    "country": "Tanzania",
+    "city": "Olduvai Gorge",
+    "region": "Arusha"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Olduvai_Gorge",
+    "https://www.britannica.com/place/Olduvai-Gorge"
+  ]
+}

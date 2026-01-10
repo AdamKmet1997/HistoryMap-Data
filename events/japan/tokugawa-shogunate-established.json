@@ -1,0 +1,19 @@
+{
+  "id": "tokugawa-shogunate-established",
+  "title": "Tokugawa Shogunate Established",
+  "description": "Tokugawa Ieyasu established the Tokugawa Shogunate in 1603, ushering in the Edo period - over 250 years of relative peace and stability in Japan. This marked the beginning of a feudal military government that would rule until 1868. The shogunate implemented strict social hierarchies, closed Japan's borders to most foreign influences (sakoku), and relocated the capital to Edo (modern Tokyo). This period saw significant cultural developments including ukiyo-e art, kabuki theater, and the flourishing of Japanese literature.",
+  "startDate": "1603-03-24",
+  "location": {
+    "latitude": 35.6762,
+    "longitude": 139.6503,
+    "country": "Japan",
+    "city": "Edo (Tokyo)",
+    "region": "Kanto"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tokugawa_shogunate",
+    "https://www.britannica.com/topic/Tokugawa-shogunate"
+  ]
+}

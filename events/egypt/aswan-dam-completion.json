@@ -1,0 +1,19 @@
+{
+  "id": "aswan-dam-completion",
+  "title": "Aswan High Dam Completion",
+  "description": "The Aswan High Dam was officially inaugurated on January 15, 1971, after 11 years of construction. Built across the Nile River in southern Egypt with Soviet assistance, the dam created Lake Nasser, one of the world's largest artificial lakes. The project controlled flooding, provided water storage for irrigation, and generated hydroelectric power, transforming Egypt's economy and agriculture. However, it also caused significant environmental and cultural impacts, including the relocation of 90,000 people and the UNESCO-led rescue operation to save ancient temples like Abu Simbel.",
+  "startDate": "1971-01-15",
+  "location": {
+    "latitude": 23.9704,
+    "longitude": 32.8773,
+    "country": "Egypt",
+    "city": "Aswan",
+    "region": "Aswan Governorate"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Aswan_Dam",
+    "https://www.britannica.com/topic/Aswan-High-Dam"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hanging-gardens-babylon",
+  "title": "Hanging Gardens of Babylon",
+  "description": "The Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World, were reportedly built around 600 BC by King Nebuchadnezzar II for his wife Amytis. According to ancient accounts, the gardens featured terraced levels with lush vegetation, exotic plants, and an sophisticated irrigation system that lifted water from the Euphrates River. Located in ancient Babylon (modern-day Iraq), the gardens symbolized the engineering prowess and wealth of the Neo-Babylonian Empire. While their exact location and even existence remain debated by archaeologists, they capture ancient Mesopotamia's architectural ambitions.",
+  "startDate": "0600-01-01",
+  "year": -600,
+  "location": {
+    "latitude": 32.5355,
+    "longitude": 44.4275,
+    "country": "Iraq",
+    "city": "Babylon",
+    "region": "Babil"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon",
+    "https://www.britannica.com/topic/Hanging-Gardens-of-Babylon"
+  ]
+}
