@@ -1,0 +1,80 @@
+name: PR Comment with Event Preview
+
+on:
+  pull_request:
+    paths:
+      - 'events/**/*.json'
+    types: [opened, synchronize]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  preview:
+    name: Generate Event Preview
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v40
+        with:
+          files: 'events/**/*.json'
+
+      - name: Generate preview
+        id: preview
+        run: |
+          echo "## 📝 Event Preview" > comment.md
+          echo "" >> comment.md
+
+          file_count=0
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              file_count=$((file_count + 1))
+              echo "### 📍 $(basename $file .json)" >> comment.md
+              echo "" >> comment.md
+              echo '```json' >> comment.md
+              cat "$file" >> comment.md
+              echo '```' >> comment.md
+              echo "" >> comment.md
+
+              # Extract key details
+              title=$(jq -r '.title' "$file" 2>/dev/null || echo "N/A")
+              country=$(jq -r '.location.country' "$file" 2>/dev/null || echo "N/A")
+              category=$(jq -r '.category' "$file" 2>/dev/null || echo "N/A")
+              date=$(jq -r '.startDate' "$file" 2>/dev/null || echo "N/A")
+
+              echo "**Quick Info:**" >> comment.md
+              echo "- 🏷️ Title: $title" >> comment.md
+              echo "- 🌍 Country: $country" >> comment.md
+              echo "- 📂 Category: $category" >> comment.md
+              echo "- 📅 Date: $date" >> comment.md
+              echo "" >> comment.md
+            fi
+          done
+
+          if [ $file_count -eq 0 ]; then
+            echo "No event files found in this PR." >> comment.md
+          else
+            echo "" >> comment.md
+            echo "---" >> comment.md
+            echo "" >> comment.md
+            echo "✅ **Total events in this PR:** $file_count" >> comment.md
+            echo "" >> comment.md
+            echo "Once validation passes and this PR is merged, these events will automatically sync to the live map!" >> comment.md
+          fi
+
+      - name: Comment on PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: comment.md
+          comment_tag: event-preview

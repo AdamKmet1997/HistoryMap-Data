@@ -1,0 +1,153 @@
+name: Update Stats
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'events/**/*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    name: Update Repository Stats
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate stats
+        run: |
+          cat > generate-stats.js << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          function getAllEvents() {
+            const eventsDir = './events';
+            const events = [];
+
+            const countries = fs.readdirSync(eventsDir).filter(f => {
+              return fs.statSync(path.join(eventsDir, f)).isDirectory();
+            });
+
+            countries.forEach(country => {
+              const countryDir = path.join(eventsDir, country);
+              const files = fs.readdirSync(countryDir).filter(f => f.endsWith('.json'));
+
+              files.forEach(file => {
+                const filePath = path.join(countryDir, file);
+                try {
+                  const event = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+                  events.push(event);
+                } catch (error) {
+                  console.error(`Error reading ${filePath}:`, error.message);
+                }
+              });
+            });
+
+            return events;
+          }
+
+          const events = getAllEvents();
+
+          // Calculate stats
+          const stats = {
+            totalEvents: events.length,
+            countries: [...new Set(events.map(e => e.location.country))].length,
+            categories: {},
+            countryCounts: {},
+            oldestEvent: null,
+            newestEvent: null,
+            bcEvents: 0,
+          };
+
+          events.forEach(event => {
+            // Count by category
+            stats.categories[event.category] = (stats.categories[event.category] || 0) + 1;
+
+            // Count by country
+            const country = event.location.country;
+            stats.countryCounts[country] = (stats.countryCounts[country] || 0) + 1;
+
+            // Check for BC events
+            if (event.year && event.year < 0) {
+              stats.bcEvents++;
+            }
+
+            // Track oldest/newest
+            const year = event.year || new Date(event.startDate).getFullYear();
+            if (!stats.oldestEvent || year < (stats.oldestEvent.year || new Date(stats.oldestEvent.startDate).getFullYear())) {
+              stats.oldestEvent = event;
+            }
+            if (!stats.newestEvent || year > (stats.newestEvent.year || new Date(stats.newestEvent.startDate).getFullYear())) {
+              stats.newestEvent = event;
+            }
+          });
+
+          // Sort countries by count
+          const topCountries = Object.entries(stats.countryCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 10);
+
+          // Generate stats markdown
+          let markdown = `# HistoryMap Statistics\n\n`;
+          markdown += `*Last updated: ${new Date().toISOString().split('T')[0]}*\n\n`;
+          markdown += `## 📊 Overview\n\n`;
+          markdown += `- **Total Events**: ${stats.totalEvents}\n`;
+          markdown += `- **Countries Represented**: ${stats.countries}\n`;
+          markdown += `- **Ancient Events (BC)**: ${stats.bcEvents}\n`;
+
+          if (stats.oldestEvent) {
+            const oldestYear = stats.oldestEvent.year || new Date(stats.oldestEvent.startDate).getFullYear();
+            markdown += `- **Oldest Event**: ${stats.oldestEvent.title} (${oldestYear < 0 ? Math.abs(oldestYear) + ' BC' : oldestYear})\n`;
+          }
+
+          if (stats.newestEvent) {
+            const newestYear = stats.newestEvent.year || new Date(stats.newestEvent.startDate).getFullYear();
+            markdown += `- **Newest Event**: ${stats.newestEvent.title} (${newestYear})\n`;
+          }
+
+          markdown += `\n## 📂 Events by Category\n\n`;
+          Object.entries(stats.categories)
+            .sort((a, b) => b[1] - a[1])
+            .forEach(([category, count]) => {
+              const percentage = ((count / stats.totalEvents) * 100).toFixed(1);
+              markdown += `- **${category}**: ${count} (${percentage}%)\n`;
+            });
+
+          markdown += `\n## 🌍 Top 10 Countries\n\n`;
+          topCountries.forEach(([country, count], index) => {
+            const percentage = ((count / stats.totalEvents) * 100).toFixed(1);
+            markdown += `${index + 1}. **${country}**: ${count} events (${percentage}%)\n`;
+          });
+
+          markdown += `\n## 📈 Growth\n\n`;
+          markdown += `Repository contains events spanning over ${stats.oldestEvent && stats.newestEvent ?
+            Math.abs((stats.newestEvent.year || new Date(stats.newestEvent.startDate).getFullYear()) -
+            (stats.oldestEvent.year || new Date(stats.oldestEvent.startDate).getFullYear())) : 0} years of history.\n`;
+
+          fs.writeFileSync('STATS.md', markdown);
+          console.log('✅ Stats generated successfully!');
+          console.log(`📊 Total events: ${stats.totalEvents}`);
+          EOF
+
+          node generate-stats.js
+
+      - name: Commit stats
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add STATS.md || true
+          git commit -m "📊 Update repository statistics" || echo "No changes to commit"
+          git push || echo "No changes to push"

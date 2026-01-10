@@ -20,6 +20,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install dependencies
         run: npm install @supabase/supabase-js glob
@@ -62,6 +71,7 @@ jobs:
                   description: eventData.description,
                   start_date: eventData.startDate,
                   end_date: eventData.endDate || null,
+                  year: eventData.year || null,
                   latitude: eventData.location.latitude,
                   longitude: eventData.location.longitude,
                   country: eventData.location.country,
@@ -70,6 +80,8 @@ jobs:
                   category: eventData.category,
                   status: eventData.status,
                   sources: eventData.sources || [],
+                  vote_count_up: 0,
+                  vote_count_down: 0,
                   created_by: 'github-actions',
                 };
 

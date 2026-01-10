@@ -23,9 +23,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install dependencies
-        run: npm install ajv ajv-formats
+        run: npm install ajv ajv-formats glob
 
       - name: Create validation script
         run: |
@@ -95,15 +104,74 @@ jobs:
 
       - name: Check for duplicates
         run: |
-          # Check for duplicate IDs
-          duplicates=$(jq -r '.id' events/**/*.json | sort | uniq -d)
-          if [ ! -z "$duplicates" ]; then
-            echo "❌ Duplicate event IDs found:"
-            echo "$duplicates"
-            exit 1
-          else
-            echo "✅ No duplicate IDs found"
-          fi
+          cat > check-duplicates.js << 'EOF'
+          const fs = require('fs');
+          const path = require('path');
+
+          function getAllEvents() {
+            const eventsDir = './events';
+            const events = [];
+
+            const countries = fs.readdirSync(eventsDir).filter(f => {
+              return fs.statSync(path.join(eventsDir, f)).isDirectory();
+            });
+
+            countries.forEach(country => {
+              const countryDir = path.join(eventsDir, country);
+              const files = fs.readdirSync(countryDir).filter(f => f.endsWith('.json'));
+
+              files.forEach(file => {
+                const filePath = path.join(countryDir, file);
+                try {
+                  const event = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+                  events.push({ ...event, _file: filePath });
+                } catch (error) {
+                  console.error(`Error reading ${filePath}:`, error.message);
+                }
+              });
+            });
+
+            return events;
+          }
+
+          const events = getAllEvents();
+          let hasDuplicates = false;
+
+          // Check for duplicate IDs
+          const idMap = {};
+          events.forEach(event => {
+            if (idMap[event.id]) {
+              console.error(`❌ Duplicate ID "${event.id}" found:`);
+              console.error(`   - ${idMap[event.id]}`);
+              console.error(`   - ${event._file}`);
+              hasDuplicates = true;
+            } else {
+              idMap[event.id] = event._file;
+            }
+          });
+
+          // Check for very similar titles (potential duplicates)
+          const titleMap = {};
+          events.forEach(event => {
+            const normalizedTitle = event.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+            if (titleMap[normalizedTitle]) {
+              console.warn(`⚠️  Very similar titles found (may be duplicate):`);
+              console.warn(`   - ${titleMap[normalizedTitle]}: "${events.find(e => e._file === titleMap[normalizedTitle]).title}"`);
+              console.warn(`   - ${event._file}: "${event.title}"`);
+            } else {
+              titleMap[normalizedTitle] = event._file;
+            }
+          });
+
+          if (hasDuplicates) {
+            console.error('\n💥 Duplicate IDs found. Please fix before merging.\n');
+            process.exit(1);
+          } else {
+            console.log('\n✅ No duplicate IDs found\n');
+          }
+          EOF
+
+          node check-duplicates.js
 
       - name: Validation summary
         if: success()

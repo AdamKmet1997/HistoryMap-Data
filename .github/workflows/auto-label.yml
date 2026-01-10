@@ -1,0 +1,113 @@
+name: Auto Label PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  label:
+    name: Auto Label
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v40
+        with:
+          files: 'events/**/*.json'
+
+      - name: Analyze events and add labels
+        run: |
+          categories=""
+          countries=""
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [ -f "$file" ]; then
+              category=$(jq -r '.category' "$file" 2>/dev/null)
+              country=$(jq -r '.location.country' "$file" 2>/dev/null)
+
+              # Collect unique categories
+              if [ ! -z "$category" ] && [ "$category" != "null" ]; then
+                categories="$categories $category"
+              fi
+
+              # Collect unique countries
+              if [ ! -z "$country" ] && [ "$country" != "null" ]; then
+                countries="$countries $country"
+              fi
+            fi
+          done
+
+          # Remove duplicates and save
+          categories=$(echo "$categories" | tr ' ' '\n' | sort -u | tr '\n' ',' | sed 's/,$//')
+          countries=$(echo "$countries" | tr ' ' '\n' | sort -u | tr '\n' ',' | sed 's/,$//')
+
+          echo "categories=$categories" >> $GITHUB_OUTPUT
+          echo "countries=$countries" >> $GITHUB_OUTPUT
+        id: analyze
+
+      - name: Add category labels
+        if: steps.analyze.outputs.categories != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const categories = '${{ steps.analyze.outputs.categories }}'.split(',').filter(c => c);
+            const labels = categories.map(cat => `category: ${cat}`);
+
+            for (const label of labels) {
+              try {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.pull_request.number,
+                  labels: [label]
+                });
+              } catch (error) {
+                console.log(`Label "${label}" might not exist, skipping...`);
+              }
+            }
+
+      - name: Add region label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const countries = '${{ steps.analyze.outputs.countries }}'.split(',').filter(c => c);
+
+            if (countries.length === 1) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: [`country: ${countries[0]}`]
+              });
+            } else if (countries.length > 1) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                labels: ['multiple-countries']
+              });
+            }
+
+      - name: Add new event label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              labels: ['new-event']
+            });
