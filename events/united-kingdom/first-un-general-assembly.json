@@ -1,0 +1,19 @@
+{
+  "id": "first-un-general-assembly",
+  "title": "First United Nations General Assembly",
+  "description": "The first session of the United Nations General Assembly convened on January 10, 1946, at Central Hall Westminster in London. Representatives from 51 nations gathered just months after World War II ended, marking a new era of international cooperation. The assembly elected Belgian diplomat Paul-Henri Spaak as its first president and began work on establishing the UN's structure and procedures. This historic meeting represented humanity's renewed commitment to preventing global conflict and promoting peace, human rights, and international cooperation.",
+  "startDate": "1946-01-10",
+  "location": {
+    "latitude": 51.4987,
+    "longitude": -0.1289,
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "England"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/United_Nations_General_Assembly",
+    "https://www.un.org/en/about-us/history-of-the-un"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "league-of-nations-established",
+  "title": "League of Nations Holds First Meeting",
+  "description": "The League of Nations, the first worldwide intergovernmental organization with the mission of maintaining world peace, held its first council meeting on January 10, 1920, in Paris. Created after World War I as part of the Treaty of Versailles, it aimed to prevent future conflicts through collective security and disarmament. Despite its noble goals and 42 founding members, the League ultimately failed to prevent World War II. However, it laid crucial groundwork for its successor, the United Nations, which learned from the League's shortcomings.",
+  "startDate": "1920-01-10",
+  "location": {
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "country": "France",
+    "city": "Paris",
+    "region": "Île-de-France"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/League_of_Nations",
+    "https://www.britannica.com/topic/League-of-Nations"
+  ]
+}

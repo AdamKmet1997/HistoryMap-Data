@@ -1,0 +1,19 @@
+{
+  "id": "hattie-caraway-elected",
+  "title": "Hattie Caraway - First Woman Elected to U.S. Senate",
+  "description": "On January 12, 1932, Hattie Caraway of Arkansas became the first woman elected to the United States Senate in her own right. Initially appointed to fill her deceased husband's seat in 1931, she won a special election to complete his term and then successfully campaigned for a full term. Caraway broke numerous gender barriers, becoming the first woman to preside over the Senate, the first to chair a Senate committee, and the first to conduct Senate hearings. She served until 1945, paving the way for future women in politics.",
+  "startDate": "1932-01-12",
+  "location": {
+    "latitude": 34.7465,
+    "longitude": -92.2896,
+    "country": "United States",
+    "city": "Little Rock",
+    "region": "Arkansas"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hattie_Caraway",
+    "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_CarawayHattie.htm"
+  ]
+}

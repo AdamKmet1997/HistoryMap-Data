@@ -1,0 +1,19 @@
+{
+  "id": "surgeon-general-smoking-report",
+  "title": "U.S. Surgeon General's Report on Smoking",
+  "description": "On January 11, 1964, U.S. Surgeon General Luther Terry released a landmark report definitively linking cigarette smoking to lung cancer, heart disease, and other serious health conditions. The 387-page document, based on over 7,000 scientific studies, concluded that smoking was a major health hazard. This groundbreaking report led to warning labels on cigarette packages, advertising restrictions, and public health campaigns that dramatically reduced smoking rates. It marked a turning point in public health policy and saved millions of lives.",
+  "startDate": "1964-01-11",
+  "location": {
+    "latitude": 38.9072,
+    "longitude": -77.0369,
+    "country": "United States",
+    "city": "Washington, D.C.",
+    "region": "District of Columbia"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Smoking_and_Health:_Report_of_the_Advisory_Committee_to_the_Surgeon_General_of_the_United_States",
+    "https://www.cdc.gov/tobacco/data_statistics/sgr/history/index.htm"
+  ]
+}

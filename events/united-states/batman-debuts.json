@@ -1,0 +1,19 @@
+{
+  "id": "batman-debuts",
+  "title": "Batman Makes First Appearance",
+  "description": "Batman, one of the most iconic superheroes in popular culture, made his first appearance in Detective Comics #27 on January 12, 1939. Created by artist Bob Kane and writer Bill Finger, the character of Bruce Wayne/Batman revolutionized comic books with his darker, more complex persona compared to other heroes of the era. Unlike Superman, Batman had no superpowers, relying on intellect, detective skills, and technology. The character has since become a global cultural phenomenon, spawning countless comics, films, TV shows, and video games worth billions of dollars.",
+  "startDate": "1939-01-12",
+  "location": {
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "country": "United States",
+    "city": "New York City",
+    "region": "New York"
+  },
+  "category": "culture",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Batman",
+    "https://www.dccomics.com/characters/batman"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "alice-paul-born",
+  "title": "Birth of Alice Paul - Women's Rights Leader",
+  "description": "Alice Paul, one of the most prominent leaders of the women's suffrage movement, was born on January 11, 1885, in Mount Laurel, New Jersey. A Quaker and activist, she founded the National Woman's Party in 1916 and led aggressive campaigns for women's voting rights, including organizing the famous 1913 Women's Suffrage Parade in Washington D.C. Paul later authored the Equal Rights Amendment (ERA) in 1923, continuing her fight for gender equality throughout her life. Her strategic protests and political pressure were instrumental in passing the 19th Amendment.",
+  "startDate": "1885-01-11",
+  "location": {
+    "latitude": 39.9338,
+    "longitude": -74.8918,
+    "country": "United States",
+    "city": "Mount Laurel",
+    "region": "New Jersey"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Alice_Paul",
+    "https://www.nps.gov/people/alice-paul.htm"
+  ]
+}

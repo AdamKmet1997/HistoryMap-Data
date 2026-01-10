@@ -1,0 +1,19 @@
+{
+  "id": "london-underground-opens",
+  "title": "First London Underground Railway Opens",
+  "description": "On January 10, 1863, the world's first underground railway, the Metropolitan Railway, opened in London. The initial 3.75-mile line ran between Paddington and Farringdon, carrying 38,000 passengers on its first day. Steam locomotives pulled wooden carriages through gas-lit tunnels, revolutionizing urban transportation. This pioneering achievement established London as a leader in public transit innovation and set the blueprint for subway systems worldwide. Today, the London Underground (the Tube) serves over 1 billion passengers annually.",
+  "startDate": "1863-01-10",
+  "location": {
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "United Kingdom",
+    "city": "London",
+    "region": "England"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Metropolitan_Railway",
+    "https://www.ltmuseum.co.uk/collections/stories/transport/150-years-london-underground"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "zanzibar-revolution",
+  "title": "Zanzibar Revolution",
+  "description": "On January 12, 1964, the Zanzibar Revolution began when African revolutionaries overthrew the Sultan of Zanzibar and his predominantly Arab government. The revolution, led by John Okello and the Afro-Shirazi Party, ended centuries of Arab rule and resulted in the death of thousands. The new government formed the People's Republic of Zanzibar and Pemba, which merged with Tanganyika just months later to form the United Republic of Tanzania. The revolution marked a significant shift in East African politics and decolonization.",
+  "startDate": "1964-01-12",
+  "location": {
+    "latitude": -6.1659,
+    "longitude": 39.2026,
+    "country": "Tanzania",
+    "city": "Zanzibar City",
+    "region": "Zanzibar"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zanzibar_Revolution",
+    "https://www.britannica.com/event/Zanzibar-Revolution"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "haiti-earthquake-2010",
+  "title": "Devastating Haiti Earthquake",
+  "description": "A catastrophic magnitude 7.0 earthquake struck Haiti on January 12, 2010, with its epicenter near the capital Port-au-Prince. The disaster killed an estimated 220,000-300,000 people, injured 300,000 more, and left 1.5 million homeless. The earthquake destroyed critical infrastructure including hospitals, schools, and government buildings, devastating an already vulnerable nation. The international community responded with massive humanitarian aid, but recovery has been slow and challenging. This remains one of the deadliest natural disasters in recorded history.",
+  "startDate": "2010-01-12",
+  "location": {
+    "latitude": 18.5944,
+    "longitude": -72.3074,
+    "country": "Haiti",
+    "city": "Port-au-Prince",
+    "region": "Ouest"
+  },
+  "category": "disaster",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/2010_Haiti_earthquake",
+    "https://www.britannica.com/event/2010-Haiti-earthquake"
+  ]
+}

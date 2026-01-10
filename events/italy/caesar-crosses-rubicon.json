@@ -1,0 +1,20 @@
+{
+  "id": "caesar-crosses-rubicon",
+  "title": "Julius Caesar Crosses the Rubicon",
+  "description": "Julius Caesar's crossing of the Rubicon River in 49 BC was a pivotal moment in Roman history. By leading his army across this boundary between Gaul and Italy, Caesar violated Roman law and effectively declared war on the Roman Senate. His famous words 'alea iacta est' (the die is cast) marked the point of no return. This act triggered a civil war that ultimately led to the end of the Roman Republic and the beginning of the Roman Empire under Caesar's rule.",
+  "startDate": "0049-01-10",
+  "year": -49,
+  "location": {
+    "latitude": 44.0678,
+    "longitude": 12.2463,
+    "country": "Italy",
+    "city": "Rubicon River",
+    "region": "Emilia-Romagna"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Caesar%27s_civil_war",
+    "https://www.britannica.com/event/Caesars-civil-war"
+  ]
+}

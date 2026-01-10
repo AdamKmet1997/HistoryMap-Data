@@ -1,0 +1,19 @@
+{
+  "id": "first-insulin-treatment",
+  "title": "First Successful Insulin Treatment",
+  "description": "On January 11, 1922, Leonard Thompson, a 14-year-old boy dying from diabetes, became the first person to receive insulin as treatment at Toronto General Hospital. The experimental injection, developed by Frederick Banting and Charles Best, dramatically improved his condition within 24 hours. This breakthrough transformed diabetes from a fatal disease into a manageable condition, saving countless millions of lives. Banting and Best's discovery earned them the Nobel Prize in Medicine in 1923 and revolutionized medical treatment worldwide.",
+  "startDate": "1922-01-11",
+  "location": {
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "country": "Canada",
+    "city": "Toronto",
+    "region": "Ontario"
+  },
+  "category": "science",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Insulin",
+    "https://www.diabetes.org/blog/history-wonderful-thing-we-call-insulin"
+  ]
+}
