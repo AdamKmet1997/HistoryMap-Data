@@ -1,0 +1,22 @@
+{
+  "id": "battle-of-britain",
+  "title": "Battle of Britain",
+  "description": "The Battle of Britain was a major air campaign fought over the United Kingdom. The Royal Air Force defended against large-scale attacks by Nazi Germany's air force, the Luftwaffe. The British victory prevented a German invasion and was a crucial turning point in WW2.",
+  "startDate": "1940-07-10",
+  "endDate": "1940-10-31",
+  "year": 1940,
+  "location": {
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "city": "London",
+    "country": "United Kingdom"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Britain"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

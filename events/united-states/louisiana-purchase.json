@@ -1,0 +1,21 @@
+{
+  "id": "louisiana-purchase",
+  "title": "Louisiana Purchase",
+  "description": "The United States acquired approximately 827,000 square miles of territory from France for $15 million, doubling the size of the nation. The purchase included land from fifteen present U.S. states and two Canadian provinces. It was one of the most significant land deals in history.",
+  "startDate": "1803-04-30",
+  "year": 1803,
+  "location": {
+    "latitude": 38.6270,
+    "longitude": -90.1994,
+    "city": "St. Louis",
+    "country": "United States"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Louisiana_Purchase"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

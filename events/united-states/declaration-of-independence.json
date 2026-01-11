@@ -1,0 +1,21 @@
+{
+  "id": "declaration-of-independence",
+  "title": "Declaration of Independence",
+  "description": "The Continental Congress adopted the Declaration of Independence, announcing the thirteen American colonies' separation from Great Britain. Written primarily by Thomas Jefferson, it proclaimed that \"all men are created equal\" and have unalienable rights. This document became the foundation of American democracy.",
+  "startDate": "1776-07-04",
+  "year": 1776,
+  "location": {
+    "latitude": 39.9496,
+    "longitude": -75.1503,
+    "city": "Philadelphia",
+    "country": "United States"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

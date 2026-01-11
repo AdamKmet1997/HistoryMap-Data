@@ -1,0 +1,21 @@
+{
+  "id": "apartheid-begins-south-africa",
+  "title": "Apartheid Begins in South Africa",
+  "description": "The National Party won the South African elections and began implementing apartheid, a system of institutionalized racial segregation. This policy legally enforced racial discrimination and would last until 1994. It denied millions of Black South Africans basic human rights and freedoms.",
+  "startDate": "1948-05-26",
+  "year": 1948,
+  "location": {
+    "latitude": -25.7479,
+    "longitude": 28.2293,
+    "city": "Pretoria",
+    "country": "South Africa"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Apartheid"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

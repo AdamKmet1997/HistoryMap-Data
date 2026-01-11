@@ -1,0 +1,21 @@
+{
+  "id": "pearl-harbor-attack",
+  "title": "Attack on Pearl Harbor",
+  "description": "The Imperial Japanese Navy Air Service launched a surprise attack on the U.S. naval base at Pearl Harbor, Hawaii, killing 2,403 Americans and destroying or damaging 19 ships and 300+ aircraft. The attack led to the United States' entry into World War II the following day.",
+  "startDate": "1941-12-07",
+  "year": 1941,
+  "location": {
+    "latitude": 21.3657,
+    "longitude": -157.9449,
+    "city": "Honolulu",
+    "country": "United States"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

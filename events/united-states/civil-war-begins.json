@@ -1,0 +1,21 @@
+{
+  "id": "civil-war-begins",
+  "title": "American Civil War Begins",
+  "description": "Confederate forces fired on Fort Sumter in Charleston Harbor, marking the beginning of the American Civil War. The war between Northern states (Union) and Southern states (Confederacy) centered on the issues of slavery and states' rights. It would become the deadliest war in American history.",
+  "startDate": "1861-04-12",
+  "year": 1861,
+  "location": {
+    "latitude": 32.7520,
+    "longitude": -79.8745,
+    "city": "Charleston",
+    "country": "United States"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/American_Civil_War"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

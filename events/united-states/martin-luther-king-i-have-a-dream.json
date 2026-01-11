@@ -1,0 +1,21 @@
+{
+  "id": "martin-luther-king-i-have-a-dream",
+  "title": "Martin Luther King Jr. \"I Have a Dream\" Speech",
+  "description": "During the March on Washington for Jobs and Freedom, Martin Luther King Jr. delivered his iconic \"I Have a Dream\" speech to over 250,000 civil rights supporters. The speech became a defining moment of the Civil Rights Movement and is regarded as one of the greatest speeches in American history.",
+  "startDate": "1963-08-28",
+  "year": 1963,
+  "location": {
+    "latitude": 38.8893,
+    "longitude": -77.0502,
+    "city": "Washington DC",
+    "country": "United States"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/I_Have_a_Dream"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

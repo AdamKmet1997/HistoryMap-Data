@@ -1,0 +1,21 @@
+{
+  "id": "egypt-independence",
+  "title": "Egypt Declares Independence",
+  "description": "Egypt formally declared independence from British protectorate status, ending decades of British control. Though Britain retained some influence, this marked a major step toward full sovereignty. Egypt would continue to struggle for complete independence in the following decades.",
+  "startDate": "1922-02-28",
+  "year": 1922,
+  "location": {
+    "latitude": 30.0444,
+    "longitude": 31.2357,
+    "city": "Cairo",
+    "country": "Egypt"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Declaration_of_Egyptian_Independence"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

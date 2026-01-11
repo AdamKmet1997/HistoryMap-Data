@@ -1,0 +1,22 @@
+{
+  "id": "battle-of-stalingrad",
+  "title": "Battle of Stalingrad",
+  "description": "The Battle of Stalingrad was one of the bloodiest battles in history, with an estimated 2 million casualties. The Soviet victory marked a turning point in World War II, ending German expansion in the East. The city was reduced to rubble as German and Soviet forces fought street-by-street in brutal urban combat.",
+  "startDate": "1942-08-23",
+  "endDate": "1943-02-02",
+  "year": 1942,
+  "location": {
+    "latitude": 48.7080,
+    "longitude": 44.5133,
+    "city": "Volgograd",
+    "country": "Russia"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

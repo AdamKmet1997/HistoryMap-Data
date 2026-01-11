@@ -1,0 +1,21 @@
+{
+  "id": "nelson-mandela-released",
+  "title": "Nelson Mandela Released from Prison",
+  "description": "After 27 years in prison, Nelson Mandela was released, marking a pivotal moment in the end of apartheid. His release signaled the beginning of negotiations to end white minority rule in South Africa. Mandela would go on to become South Africa's first Black president in 1994.",
+  "startDate": "1990-02-11",
+  "year": 1990,
+  "location": {
+    "latitude": -33.9249,
+    "longitude": 18.4241,
+    "city": "Cape Town",
+    "country": "South Africa"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nelson_Mandela"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

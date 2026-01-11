@@ -1,0 +1,21 @@
+{
+  "id": "operation-overlord-dday",
+  "title": "D-Day - Operation Overlord",
+  "description": "Operation Overlord, the Allied invasion of Normandy, began the liberation of Western Europe from Nazi control. Over 156,000 American, British, and Canadian forces landed on five beaches. Despite heavy casualties, the operation was successful and marked the beginning of the end for Nazi Germany.",
+  "startDate": "1944-06-06",
+  "year": 1944,
+  "location": {
+    "latitude": 49.3333,
+    "longitude": -0.5000,
+    "city": "Normandy",
+    "country": "France"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Normandy_landings"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

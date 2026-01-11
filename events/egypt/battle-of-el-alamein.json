@@ -1,0 +1,22 @@
+{
+  "id": "battle-of-el-alamein",
+  "title": "Battle of El Alamein",
+  "description": "The Second Battle of El Alamein was a decisive Allied victory in North Africa during World War II. British forces under Montgomery defeated Rommel's Afrika Korps, marking the beginning of the end of Axis control in North Africa. Churchill said: \"Before Alamein we never had a victory. After Alamein, we never had a defeat.\"",
+  "startDate": "1942-10-23",
+  "endDate": "1942-11-11",
+  "year": 1942,
+  "location": {
+    "latitude": 30.8333,
+    "longitude": 28.9500,
+    "city": "El Alamein",
+    "country": "Egypt"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Second_Battle_of_El_Alamein"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

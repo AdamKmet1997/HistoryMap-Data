@@ -1,0 +1,22 @@
+{
+  "id": "battle-of-midway",
+  "title": "Battle of Midway",
+  "description": "The Battle of Midway was a decisive naval battle in the Pacific Theater of World War II. The U.S. Navy defeated an attacking fleet of the Imperial Japanese Navy, sinking four Japanese aircraft carriers. This victory is considered the turning point of the Pacific War.",
+  "startDate": "1942-06-04",
+  "endDate": "1942-06-07",
+  "year": 1942,
+  "location": {
+    "latitude": 28.2072,
+    "longitude": -177.3735,
+    "city": "Midway Atoll",
+    "country": "United States"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_Midway"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

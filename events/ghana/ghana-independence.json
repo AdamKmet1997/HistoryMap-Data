@@ -1,0 +1,21 @@
+{
+  "id": "ghana-independence",
+  "title": "Ghana Gains Independence",
+  "description": "Ghana became the first sub-Saharan African country to gain independence from European colonial rule. Under the leadership of Kwame Nkrumah, Ghana's independence inspired independence movements across Africa and marked the beginning of decolonization on the continent.",
+  "startDate": "1957-03-06",
+  "year": 1957,
+  "location": {
+    "latitude": 5.6037,
+    "longitude": -0.1870,
+    "city": "Accra",
+    "country": "Ghana"
+  },
+  "category": "politics",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ghanaian_independence"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}

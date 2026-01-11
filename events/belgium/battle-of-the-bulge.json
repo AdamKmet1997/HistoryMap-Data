@@ -1,0 +1,22 @@
+{
+  "id": "battle-of-the-bulge",
+  "title": "Battle of the Bulge",
+  "description": "The Battle of the Bulge was the last major German offensive campaign on the Western Front during World War II. Despite initial German successes, American forces held key positions and eventually repelled the attack. It was the largest and bloodiest single battle fought by the United States in World War II.",
+  "startDate": "1944-12-16",
+  "endDate": "1945-01-25",
+  "year": 1944,
+  "location": {
+    "latitude": 50.0117,
+    "longitude": 5.7881,
+    "city": "Ardennes",
+    "country": "Belgium"
+  },
+  "category": "war",
+  "status": "approved",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Battle_of_the_Bulge"
+  ],
+  "contributedBy": "Claude Code",
+  "createdAt": "2026-01-11",
+  "updatedAt": "2026-01-11"
+}
