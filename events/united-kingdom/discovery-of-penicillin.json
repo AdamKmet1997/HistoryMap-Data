@@ -4,8 +4,8 @@
   "description": "**Alexander Fleming** discovered penicillin on September 28, 1928, when he noticed that a mold had killed bacteria in a petri dish.\n\nThis accidental discovery led to the development of antibiotics, revolutionizing medicine. Penicillin saved countless lives during World War II.\n\nFleming, along with Howard Florey and Ernst Chain, won the Nobel Prize in 1945.",
   "startDate": "1928-09-28",
   "location": {
-    "latitude": 51.5074,
-    "longitude": -0.1278,
+    "latitude": 51.506078,
+    "longitude": -0.129383,
     "country": "United Kingdom",
     "city": "London"
   },

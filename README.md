@@ -1,6 +1,6 @@
 # HistoryMap Data
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **Open-source database of historical events for the HistoryMap project.**
@@ -12,10 +12,10 @@ This repository contains a community-maintained collection of historical events 
 
 ## 🎉 Recent Updates (January 2026)
 
-- 📊 **139 Events**: Reached new milestone with diverse global coverage
+- 📊 **198 Events**: Major milestone reached with diverse global coverage across 55 countries
 - 👍 **Voting System**: Community engagement with thumbs up/down on every event
 - ⏱️ **Interactive Timeline**: Visual exploration of history with histogram visualization
-- 🌏 **Expanded Coverage**: Added 21+ events from Peru, South Korea, Kenya, Brazil, Chile, Cambodia, and more
+- 🌏 **Expanded Coverage**: Added events from Peru, South Korea, Kenya, Brazil, Chile, Cambodia, and many more
 - 🏛️ **Ancient to Modern**: Events now span from 2560 BC (Great Pyramid) to present day
 
 ## 📋 Quick Links
@@ -31,8 +31,8 @@ This repository contains a community-maintained collection of historical events 
 
 ## 📊 Current Stats
 
-- **Total Events**: 139 ✅
-- **Countries**: 40+
+- **Total Events**: 198 ✅
+- **Countries**: 55
 - **Contributors**: Growing community
 - **Categories**: Politics, War, Culture, Science, Disaster, Religion, Exploration
 - **Date Range**: 2560 BC - Present
@@ -50,7 +50,7 @@ This repository contains a community-maintained collection of historical events 
 - 🇮🇳 India
 - 🇯🇵 Japan
 - 🇲🇽 Mexico
-- And 30+ more countries across all continents!
+- And 45+ more countries across all continents including Argentina, Australia, Brazil, Cambodia, Chile, Egypt, Ghana, Greece, Haiti, Indonesia, Kenya, Lithuania, Nepal, New Zealand, Pakistan, Panama, Peru, Philippines, Poland, Russia, Rwanda, Saudi Arabia, South Africa, South Korea, Spain, Switzerland, Tanzania, Thailand, Tunisia, Turkey, Ukraine, United Arab Emirates, Vietnam, and more!
 
 ---
 
@@ -326,7 +326,7 @@ Your contributions will be tracked and displayed on the [HistoryMap Dashboard](h
 
 ## 🔗 Related Repositories
 
-- [HistoryMap](https://github.com/AdamKmet1997/HistoryMap-repo) - Main application (private)
+- [HistoryMap](https://github.com/AdamKmet1997/HistoryMap-repo) - Main application repository
 
 ---
 
@@ -372,7 +372,7 @@ No! You can use our [interactive contributor tool](https://htmlpreview.github.io
 ## 📈 Roadmap
 
 ### Completed ✅
-- [x] Reach 100 events (139!)
+- [x] Reach 100 events (198!)
 - [x] Add events from all continents
 - [x] Create interactive contributor tool
 - [x] Add contributor attribution system
@@ -380,6 +380,7 @@ No! You can use our [interactive contributor tool](https://htmlpreview.github.io
 - [x] Add voting system with engagement tracking
 - [x] Implement "Suggest Edit" feature
 - [x] Add interactive timeline with histogram visualization
+- [x] Expand to 55+ countries
 
 ### In Progress 🚧
 - [ ] Reach 250 events

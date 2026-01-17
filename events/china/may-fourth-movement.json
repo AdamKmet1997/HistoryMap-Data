@@ -4,8 +4,8 @@
   "description": "The May Fourth Movement began on May 4, 1919, as a student-led protest in Beijing against the Treaty of Versailles decision to transfer German concessions in Shandong to Japan rather than return them to China. The movement evolved into a broader cultural and political awakening, challenging traditional Chinese values and promoting science, democracy, and nationalism. It sparked widespread intellectual debates about modernization, influenced the founding of the Chinese Communist Party in 1921, and profoundly shaped modern Chinese history and identity.",
   "startDate": "1919-05-04",
   "location": {
-    "latitude": 39.9042,
-    "longitude": 116.4074,
+    "latitude": 39.903089,
+    "longitude": 116.406131,
     "country": "China",
     "city": "Beijing",
     "region": "Beijing"

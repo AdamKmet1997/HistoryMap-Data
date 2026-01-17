@@ -4,8 +4,8 @@
   "description": "The **United Nations** was officially established on October 24, 1945, after World War II to prevent future conflicts.\n\nThe UN Charter was signed by 51 countries. The organization aims to maintain international peace and security, develop friendly relations among nations, and promote social progress.\n\nToday, the UN has 193 member states.",
   "startDate": "1945-10-24",
   "location": {
-    "latitude": 37.7749,
-    "longitude": -122.4194,
+    "latitude": 37.773464,
+    "longitude": -122.421196,
     "country": "United States",
     "city": "San Francisco",
     "region": "California"

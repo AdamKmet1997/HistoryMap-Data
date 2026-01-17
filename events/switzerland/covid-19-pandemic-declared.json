@@ -4,8 +4,8 @@
   "description": "The **COVID-19 pandemic** was declared by WHO on March 11, 2020, after the novel coronavirus spread globally from Wuhan, China.\n\nThe pandemic has killed millions worldwide and caused unprecedented disruption to daily life, economies, and healthcare systems.\n\nVaccines were developed in record time, but the pandemic's effects continue to reshape society.",
   "startDate": "2020-03-11",
   "location": {
-    "latitude": 46.2044,
-    "longitude": 6.1432,
+    "latitude": 46.202923,
+    "longitude": 6.141706,
     "country": "Switzerland",
     "city": "Geneva"
   },

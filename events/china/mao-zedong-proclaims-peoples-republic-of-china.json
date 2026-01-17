@@ -4,8 +4,8 @@
   "description": "**Mao Zedong** proclaimed the **People's Republic of China** on October 1, 1949, from Tiananmen Square after the Communist victory in the Chinese Civil War.\n\nThe proclamation established communist rule in mainland China. The Nationalist government fled to Taiwan.\n\nMao's rule would transform China and influence global communism.",
   "startDate": "1949-10-01",
   "location": {
-    "latitude": 39.9042,
-    "longitude": 116.4074,
+    "latitude": 39.903058,
+    "longitude": 116.408901,
     "country": "China",
     "city": "Beijing"
   },

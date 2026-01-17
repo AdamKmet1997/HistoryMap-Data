@@ -4,8 +4,8 @@
   "description": "The **September 11 terrorist attacks** in 2001 killed 2,977 people when al-Qaeda terrorists hijacked four planes, crashing two into the World Trade Center, one into the Pentagon, and one in Pennsylvania.\n\nThe Twin Towers collapsed, fundamentally changing American foreign policy and security. The attacks triggered the War on Terror.\n\nThe event reshaped global politics and led to wars in Afghanistan and Iraq.",
   "startDate": "2001-09-11",
   "location": {
-    "latitude": 40.7128,
-    "longitude": -74.006,
+    "latitude": 40.71154,
+    "longitude": -74.004568,
     "country": "United States",
     "city": "New York",
     "region": "New York"

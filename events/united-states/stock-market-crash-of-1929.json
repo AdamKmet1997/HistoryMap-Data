@@ -4,8 +4,8 @@
   "description": "The **stock market crash** began on October 24, 1929 (Black Thursday), with the most devastating drop on October 29 (Black Tuesday).\n\nThe crash marked the beginning of the Great Depression, the worst economic downturn in modern history. Millions lost their savings and jobs.\n\nThe depression lasted throughout the 1930s and only ended with World War II.",
   "startDate": "1929-10-29",
   "location": {
-    "latitude": 40.7128,
-    "longitude": -74.006,
+    "latitude": 40.711882,
+    "longitude": -74.004787,
     "country": "United States",
     "city": "New York",
     "region": "New York"

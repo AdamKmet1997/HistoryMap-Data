@@ -4,8 +4,8 @@
   "description": "The **Vietnam War** ended on April 30, 1975, when North Vietnamese forces captured Saigon, reunifying Vietnam under communist rule.\n\nThe war lasted nearly 20 years and killed over 58,000 Americans and millions of Vietnamese. The US withdrawal is considered its first major military defeat.\n\nThe war deeply divided American society and influenced foreign policy for decades.",
   "startDate": "1975-04-30",
   "location": {
-    "latitude": 10.8231,
-    "longitude": 106.6297,
+    "latitude": 10.824641,
+    "longitude": 106.630777,
     "country": "Vietnam",
     "city": "Ho Chi Minh City"
   },

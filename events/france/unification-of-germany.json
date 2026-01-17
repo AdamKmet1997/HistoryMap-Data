@@ -4,8 +4,8 @@
   "description": "The **German Empire** was proclaimed on January 18, 1871, in the Hall of Mirrors at Versailles, unifying German states under Prussian leadership.\n\nOtto von Bismarck orchestrated the unification through diplomacy and war. King Wilhelm I of Prussia became the German Emperor.\n\nGerman unification created a new European power that would dominate continental politics.",
   "startDate": "1871-01-18",
   "location": {
-    "latitude": 48.8049,
-    "longitude": 2.1204,
+    "latitude": 48.803472,
+    "longitude": 2.121371,
     "country": "France",
     "city": "Versailles"
   },

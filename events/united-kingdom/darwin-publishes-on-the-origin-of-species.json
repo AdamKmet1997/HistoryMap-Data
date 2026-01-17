@@ -4,8 +4,8 @@
   "description": "Charles Darwin published **On the Origin of Species** on November 24, 1859, introducing the scientific theory of evolution through natural selection.\n\nThe book provided extensive evidence that species evolved over time from common ancestors. It revolutionized biology and our understanding of life on Earth.\n\nThe first edition sold out on its first day.",
   "startDate": "1859-11-24",
   "location": {
-    "latitude": 51.5074,
-    "longitude": -0.1278,
+    "latitude": 51.508901,
+    "longitude": -0.126817,
     "country": "United Kingdom",
     "city": "London"
   },
