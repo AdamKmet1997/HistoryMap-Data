@@ -60,7 +60,7 @@ jobs:
 
       - name: Add category labels
         if: steps.analyze.outputs.categories != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const categories = '${{ steps.analyze.outputs.categories }}'.split(',').filter(c => c);
@@ -80,7 +80,7 @@ jobs:
             }
 
       - name: Add region label
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const countries = '${{ steps.analyze.outputs.countries }}'.split(',').filter(c => c);
@@ -102,7 +102,7 @@ jobs:
             }
 
       - name: Add new event label
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             await github.rest.issues.addLabels({
